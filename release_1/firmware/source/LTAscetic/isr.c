@@ -1,0 +1,398 @@
+#include "ltag_ascetic.h"
+#include "milshot_snd.h"
+/**************************************************************************************
+* Обработчик прерываний таймера
+***************************************************************************************/
+
+ISR(TIMER2_COMP_vect){
+timer1++;
+volatile uint8_t prt;
+
+
+prt = TSOP_IN&TSOP_PIN; 
+if (prt==0) //На ножке ИК-приемника низкий уровень сигнала (пойман сигнал несущей)
+	{
+	//	PORTA &= ~(1 << 0); //включаем вспомогательный светодиод
+		low_level_counter++;//Увеличиваем счетчик длительности низкоуровнего сигнала на ножке ИК-приемника
+	}
+else  //На ножке ИК-приемника высокий уровень сигнала (пойман сигнал несущей)
+	{
+	//	PORTA |=(1<<0);	//выключаем вспомогательный светодиод
+		high_level_counter++;///Увеличиваем счетчик длительности высокоуровнего сигнала на ножке ИК-приемника
+		if((start_bit_received)&&(high_level_counter > IR_ZERO*8))
+		{//Фиксируем окончание приема по таймауту
+			start_bit_received	= false; 	//отменяем прием
+			rx_event = RX_COMPLETE;			//Генерим событие "принят пакет"		
+		}
+	
+	
+	}
+if (ir_transmitter_on==true)
+	{//Если передача разрешена
+
+		if (ir_pulse_counter > 0)		//необходимая длительность пачки импульсов 
+		{								//ещё не достигнута, "мигаем" дальше
+			IR_LED_INVERT;  			//необходимая длительность пачки 
+			ir_pulse_counter--;
+		}
+		else							//пачка импульсов была отправлена, 
+		{
+			IR_LED_OFF;			//тушим ИК-диод 
+			if ( ir_space_counter > 0)	//проверим, выдержан ли промежуток между импульсами
+			{							//нет, промежуток не выдержан
+			
+					IR_LED_OFF;	//тушим ИК-диод
+					ir_space_counter--;	//уменьшаем обратный счетчик паузы на один "тик"		
+			}
+			else //Пакет импульсов и промежуток между битами переданы
+			{	 //нужно формировать следующую пачку (передаваемый бит)
+				
+				
+				if (data_packet.data[cursor_position]!=0) //если указатель указывает не на пустую ячейку
+				{
+					ir_pulse_counter =data_packet.data[cursor_position++] ; //передадим импульс указанной длительностью
+					ir_space_counter = IR_SPACE;      //и про паузу не забудем
+				}
+				else //Все данные переданы (элемент, на который ссылается указатель, равен 0)
+				{
+					ir_transmitter_on=false; //выключаем передатчик
+				}	
+				
+				
+				
+				
+						
+			}				 
+		}
+
+
+
+
+	}
+else 	{//Если передача запрещена
+
+		}
+
+
+}
+
+
+
+/**************************************************************************************
+* Обработчик внещних прерываний вывода INT0
+***************************************************************************************/
+
+
+ISR(INT0_vect){
+//TIMSK |= _BV(OCIE2);          // Разрешаем прерывания по захвату/сравнению
+
+if(!(MCUCR&_BV(ISC00)))		 //если прерывание вызвано спадом 
+	{
+		MCUCR |=_BV(ISC00); //следующее прерывание будет сгенерировано фронтом
+		if (start_bit_received)//Если старт-бит принят, то идет прием пакета
+			{
+				if((high_level_counter < (IR_SPACE + ERROR_TOLERANCE))&&(high_level_counter > (IR_SPACE - ERROR_TOLERANCE)))//Проверим длительность паузы между битами
+				{
+					//длительность паузы между импульсами корректна
+				}
+				else //Длительность паузы между приемом битов не корректна
+				{//Фиксируем ошибку приёма
+						start_bit_received	= false; 	//отменяем прием
+						bit_in_rx_buff = 0;				//очищаем буфер
+						rx_event = RX_ERROR;			//генерируем событие - "ошибка приёма"
+//						TIMSK &= ~_BV(OCIE2);          // Запрещаем прерывания по захвату/сравнению
+				}
+			
+			
+			}		
+		low_level_counter = 0;//Обнуляем счетчик длительности низкоуровнего сигнала на ножке ИК-приёмника
+		high_level_counter = 0;//Обнуляем счетчик длительности высокоуровнего сигнала на ножке ИК-приёмника
+	}
+else 						//прерывание вызвано фронтом 
+	{
+		MCUCR &=~_BV(ISC00); //следующее прерывание будет сгенерировано спадом
+		
+		if (start_bit_received)//Если старт-бит принят, то идет прием пакета
+			{
+				if((low_level_counter < (IR_ZERO + ERROR_TOLERANCE))&&(low_level_counter > (IR_ZERO - ERROR_TOLERANCE)))//Проверим, соответствует ли длительность пакета нулевому биту
+				{
+					set_buffer_bit(bit_in_rx_buff++, false);//Длительность пачки соответствует биту со значением 0, заносим ноль в буфер приема
+				
+				}
+				else //Нет, это не бит со значением 0
+				{
+					if((low_level_counter < (IR_ONE + ERROR_TOLERANCE))&&(low_level_counter > (IR_ONE - ERROR_TOLERANCE)))//, может это бит со значением 1?
+					{
+							set_buffer_bit(bit_in_rx_buff++, true);//Длительность пачки соответствует биту со значением 1, заносим еденицу в буфер приема		
+					}
+					else //Это ни единица, ни ноль - это помеха 
+					{
+						start_bit_received	= false; 	//отменяем прием
+						bit_in_rx_buff = 0;				//очищаем буфер
+						rx_event = RX_ERROR;			//генерируем событие - "ошибка приёма"
+//						TIMSK &= ~_BV(OCIE2);          // Запрещаем прерывания по захвату/сравнению
+					}
+				}
+			}
+		else //Старт-бит ещё не принят
+		{
+			if ((low_level_counter < (IR_START + ERROR_TOLERANCE))&&(low_level_counter > (IR_START - ERROR_TOLERANCE))) //Может это старт-бит?	
+			{//Это старт-бит
+				bit_in_rx_buff = 0;				//очищаем буфер
+				start_bit_received	= true; 	//разрешаем прием пакетов (бит)
+				
+			}
+			else //это не старт-бит, это помеха 
+			{
+				//Игнорируем
+			}
+		}
+		
+		
+		low_level_counter = 0;//Обнуляем счетчик длительности низкоуровнего сигнала на ножке ИК-приёмника
+		high_level_counter = 0;//Обнуляем счетчик длительности высокоуровнего сигнала на ножке ИК-приёмника
+	
+	
+
+
+	}
+
+}
+
+
+
+
+
+/**************************************************************************************
+* Обработчик внещних прерываний timer1A
+***************************************************************************************/
+
+ISR(TIMER1_COMPA_vect){
+TIMSK &= ~_BV(OCIE1A);  //запрещаем прерывания timer1, чтобы не было рекурсии
+sei(); 
+
+if (bullets >0)//если патроны не кончились
+{
+	if (last_simple == 0) 
+	{
+		fire_led_status=ON; //включаем вспышку
+	//	if (fire_mode()==queues) fire_led_status=FQR_4HZ;
+	//	else fire_led_status=ON; //включаем вспышку
+	}
+	else;
+	if (last_simple < sizeof(pSnd))//3913
+			{
+				if (last_simple==(sizeof(pSnd)/100)*CUT_OFF_SOUNT)
+				{
+					if (fire_mode()==queues)
+					{
+						if ((get_keyboard_status()==key_pressed)&&(life>0)) //курок нажат, то отсекаем звук
+						{
+							bullets--;//уменьшаем на 1 количество патронов
+							send_ir_package();	//Производим "выстрел"
+							last_simple=0;		//воспроизводим звук сначала
+							fire_led_status=FQR_4HZ;
+						}
+						else 	fire_led_status=ON;						
+					}
+					else;
+				}
+				else;
+				
+				OCR0 = pgm_read_byte(&(pSnd[last_simple++]));
+			}
+	if (last_simple >= sizeof(pSnd)&&(last_simple)!=0xFFFF)//3913
+			{
+			//	last_simple = 0;
+			//	PORTA &= ~(1 << 2);
+				OCR0 = 128; //Скважность = 0,5
+				fire_led_status=OFF;
+				//FIRE_LED_OFF;
+			};
+
+
+}
+
+
+if (bullets <= 0) //патроны кончились
+	{
+		BULLETS_OUT_LED_ON; // включаем светодиод "Патроны кончились"
+		if (last_simple < sizeof(pSnd)) {OCR0 = pgm_read_byte(&(pSnd[last_simple++]));}//дадим выстрелу прозвучать до конца
+		else fire_led_status = OFF;
+	};
+
+
+
+
+
+
+static volatile uint16_t tmp_cntr=0;
+
+	if ((tmp_cntr - (tmp_cntr/100)*100)==0)
+	{
+		switch(keyboard_event)
+			{
+		  	case no_key_pressing: 
+		  		{
+					keyboard_event=test_keyboard(); 
+					break;
+				}
+		  	default:;         
+			}	
+
+	}
+
+
+
+//cli();
+
+if (++tmp_cntr > 1000) //пора обновить индикацию
+	{
+		  
+		
+		
+		
+		//test_keyboard();
+		//LIFE_LED1_INVERT;
+		tmp_cntr = 0;
+		static volatile uint8_t bit_mask = 0b00000001;
+	
+		if ((life_leds_status[0]&bit_mask)==0) 
+			{
+				LIFE_LED1_OFF;
+			}
+		else 
+			{
+				LIFE_LED1_ON;
+			};
+		if ((life_leds_status[1]&bit_mask)==0) 
+			{
+				LIFE_LED2_OFF;
+			}
+		else 
+			{
+				LIFE_LED2_ON;
+			};
+		if ((life_leds_status[2]&bit_mask)==0) 
+			{
+				LIFE_LED3_OFF;
+			}
+		else 
+			{
+				LIFE_LED3_ON;
+			};
+
+		if ((life_leds_status[3]&bit_mask)==0) 
+			{
+				LIFE_LED4_OFF;
+			}
+		else 
+			{
+				LIFE_LED4_ON;
+			};
+		if ((fire_led_status&bit_mask)==0)
+			{
+				FIRE_LED_OFF;
+			}
+		else
+			{
+				FIRE_LED_ON;
+			};
+
+
+		bit_mask = (bit_mask<<1);
+		if (bit_mask == 0)  bit_mask = 0b00000001;
+
+	
+	}
+
+
+cli();
+
+TIMSK |= _BV(OCIE1A);  //теперь вновь разрешаем прерывания timer1
+
+
+}
+
+
+
+
+
+inline  TKEYBOARD_STATUS get_keyboard_status(void) {
+
+volatile	TKEYBOARD_STATUS s_ret;
+	
+	switch (FIRE_KEY_IN&FIRE_KEY_PIN) //проверяем, нажат ли курок
+		{
+			case FIRE_KEY_PIN: s_ret=no_key_pressed  ; break;
+			default: s_ret=key_pressed ;	
+		}
+
+
+
+		return s_ret;
+}
+
+
+
+
+
+
+
+
+
+inline  TKEYBOARD_EVENT test_keyboard(void){
+	TKEYBOARD_STATUS key_status;
+	TKEYBOARD_EVENT ret_ev;
+	key_status=get_keyboard_status();
+	switch(key_status)  //проверяем, что нажато
+	{
+		case no_key_pressed: 
+		{
+			if (key_pressing_duration.key_1>= SHORT_DURATION)
+			{
+				ret_ev=key_pressing;
+                key_pressing_duration.key_1    =0;
+                key_pressing_duration.key_1_inc=0;
+				return ret_ev;
+			
+			}
+
+			else 
+			{
+				ret_ev=no_key_pressing;
+                key_pressing_duration.key_1    =0;
+                key_pressing_duration.key_1_inc=1;
+			
+			}
+		
+		} 
+		break;
+	 	case key_pressed  : //нажата кнопка 1
+		{ 
+			if(key_pressing_duration.key_1>= SHORT_DURATION)
+			{
+				ret_ev=key_pressing;
+             	key_pressing_duration.key_1    =0;
+                key_pressing_duration.key_1_inc=0;
+			} 
+			else 
+			{
+				key_pressing_duration.key_1 += key_pressing_duration.key_1_inc; 
+                ret_ev=keyboard_event;
+
+			}
+		}
+		break;
+		default: ret_ev=keyboard_event;
+	
+	}
+
+return   ret_ev;
+}
+
+
+
+
+
+
