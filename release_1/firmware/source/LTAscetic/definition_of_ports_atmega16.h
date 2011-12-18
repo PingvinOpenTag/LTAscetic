@@ -41,7 +41,7 @@
 
 #define FIRE_MODE_KEY_PIN (1<<7)
 
-#define SW_DAMAGE_PORT PORTB //Ïîðò, ê êîòîðîìó ïîäêëþ÷åí ïåðåêëþ÷àòåëü "DAMAGE" (óðîí)
+#define SW_DAMAGE_PORT PORTB //ÐŸÐ¾Ñ€Ñ‚, Ðº ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¼Ñƒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½ Ð¿ÐµÑ€ÐµÐºÐ»ÑŽÑ‡Ð°Ñ‚ÐµÐ»ÑŒ "DAMAGE" (ÑƒÑ€Ð¾Ð½)
 #define SW_DAMAGE_DDR DDRB 
 #define SW_DAMAGE_IN PINB
 #define SW_DAMAGE_MASK ((1<<0)|(1<<1))
@@ -49,7 +49,7 @@
 #define SW_DAMAGE_KEY2_PIN (1<<1)
 
 
-#define SW_TEAM_PORT PORTA //Ïîðò, ê êîòîðîìó ïîäêëþ÷åí ïåðåêëþ÷àòåëü "TEAM_ID" (öâåò êîìàíäû)
+#define SW_TEAM_PORT PORTA //ÐŸÐ¾Ñ€Ñ‚, Ðº ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¼Ñƒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½ Ð¿ÐµÑ€ÐµÐºÐ»ÑŽÑ‡Ð°Ñ‚ÐµÐ»ÑŒ "TEAM_ID" (Ñ†Ð²ÐµÑ‚ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹)
 #define SW_TEAM_DDR DDRA
 #define SW_TEAM_IN PINA
 #define SW_TEAM_MASK ((1<<0)|(1<<1))
@@ -58,7 +58,7 @@
 
 
 
-#define SW_BULLETS_LIMIT_PORT PORTD //Ïîðò, ê êîòîðîìó ïîäêëþ÷åí ïåðåêëþ÷àòåëü "BULLETS_LIMIT" (ëèìèò ïàòðîíîâ)
+#define SW_BULLETS_LIMIT_PORT PORTD //ÐŸÐ¾Ñ€Ñ‚, Ðº ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð¼Ñƒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½ Ð¿ÐµÑ€ÐµÐºÐ»ÑŽÑ‡Ð°Ñ‚ÐµÐ»ÑŒ "BULLETS_LIMIT" (Ð»Ð¸Ð¼Ð¸Ñ‚ Ð¿Ð°Ñ‚Ñ€Ð¾Ð½Ð¾Ð²)
 #define SW_BULLETS_LIMIT_DDR DDRD
 #define SW_BULLETS_LIMIT_IN PIND
 #define SW_BULLETS_LIMIT_MASK ((1<<5)|(1<<6))
