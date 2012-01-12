@@ -80,6 +80,7 @@ WOUND_LED_OFF;
 //life_led4_status = ON;
 
 display_life(life);
+beep(1000, 3, 128);
 
 while(1){
 switch(keyboard_event)
@@ -120,10 +121,13 @@ switch(keyboard_event)
 						case RX_COMPLETE: 	//получен пакет
 						{
 						//	cli();
+						/*********************************************************
 							WOUND_LED_ON; //включаем вспомогательный светодиод
 							timer1=0;
 							while(timer1 < 35000);
 							WOUND_LED_OFF;	//выключаем вспомогательный светодиод
+						************************************************************/
+							
 							rx_event = NOT_EVENT;	
 							if(!get_buffer_bit(0)) //если этот бит равен 0, то это пакет с данными (выстрел)
 							{
@@ -136,6 +140,7 @@ switch(keyboard_event)
 
 								if (rx_packet.team_id != team_id())//"пуля" прилетела от игрока другой, не нашей, команды
 								{
+									damage_beep();
 									uint8_t damage_tmp;
 									switch(rx_packet.damage)
 									{
@@ -833,4 +838,50 @@ else  result = queues;
 return result;
 
 }
+
+
+
+
+void beep(uint16_t fqr, uint16_t count, uint8_t value) //Воспроизводим звук (частота, длительность, громкость)
+{
+uint16_t last_simple_tmp;
+uint8_t devider; //делитель, будет иметь значение, указывающее, на сколько нужно поделить частоту 8 кГц чтобы получить нужную (fqr)
+uint16_t beep_counter; //длительность звука в циклах (один цикл равен периоду колибаний)
+
+if (fqr > 4000) return; //если запрашиваемая частота выше 4 кГц то мы её воспроизвести не сможем, выходим
+
+last_simple_tmp = last_simple; //сохраним значение последнего семпла звука выстрела (вдруг звук воспроизводится в это время)
+last_simple = 0xFFFF; //иначе будет звук выстрела
+
+
+devider = IR_F0/fqr; 
+if (count > 160) count = 160; //ограничим время воспроизведения 16 секундами
+beep_counter = (fqr/10)*count; //количество циклов (периодов колебаний)
+
+for (uint16_t i=0; i < beep_counter; i++)
+	{
+		OCR0 = value;
+		timer1=0;
+		while (timer1 < devider);
+		OCR0 = 0;
+		timer1=0;
+		while (timer1 < devider);
+
+	}
+
+
+last_simple = last_simple_tmp;
+}
+
+inline void damage_beep(void) // Воспроизводим звук при ранении
+{
+WOUND_LED_ON; //включаем вспомогательный светодиод
+
+beep(1000, 3, 128);
+beep(500, 3, 128);
+WOUND_LED_OFF;
+
+}
+
+
 

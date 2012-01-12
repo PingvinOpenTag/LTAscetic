@@ -36,8 +36,8 @@ inline  TKEYBOARD_STATUS get_keyboard_status(void); //Проверяем, нажат ли курок
 inline  TKEYBOARD_EVENT test_keyboard(void);//Проверяем события клавиатуры
 uint8_t bullets_limit(void);//Определяем лимит патронов
 TFIRE_MODE_STATUS fire_mode(void);//Определяем текущий режим огня (одиночный/очередями)
-
-
+void beep(uint16_t, uint16_t, uint8_t); //Воспроизводим звук (частота, длительность, громкость)
+void damage_beep(void); // Воспроизводим звук при ранении
 
 
 //inline trx_packet get_packet_value(void); //Считываем данные из полученного 
