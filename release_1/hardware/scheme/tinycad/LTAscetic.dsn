@@ -1533,7 +1533,7 @@ download a copy.-->
 			<FIELD type='1' description='Usage' value='Crystal for USB-enabled uCs' show='0' pos='-8.00000,9.20000'/>
 			<FIELD type='1' description='Datasheet' value='..' show='0' pos='-8.00000,11.60000'/>
 			<FIELD type='1' description='Picture' value='..' show='0' pos='-8.00000,14.00000'/>
-			<FIELD type='1' description='Freq.' value='8MHz' show='1' pos='-1.00000,-2.60000'/>
+			<FIELD type='1' description='Freq.' value='16MHz' show='1' pos='-1.00000,-2.60000'/>
 			<FIELD type='1' description='Tol.' value='..' show='0' pos='-8.00000,16.40000'/>
 			<FIELD type='1' description='Load Cap' value='..' show='0' pos='-8.00000,18.80000'/>
 			<FIELD type='1' description='Manufacturer' value='Citizen America Corporation' show='0' pos='-8.00000,21.20000'/>
