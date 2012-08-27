@@ -1,0 +1,72 @@
+name: "CAPCAF50P125X200X100-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,Chip Array,0.50mm pitch;8 pin,1.25mm L X 2.00mm W X 1.00mm H"
+  units: NM
+  sel_rect: -1300000 -1350000 1300000 1350000
+  ref_text: 1270000 0 2350000 0 177800
+  value_text: 1270000 0 -3620000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -625000 1125000
+    next_corner: 625000 1125000 0
+  outline_polyline: 177800 -625000 -1125000
+    next_corner: 625000 -1125000 0
+  outline_polyline: 125000 -1112500 1125000
+    next_corner: -1050000 1187500 1
+    next_corner: -987500 1125000 1
+    next_corner: -1050000 1062500 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -700000 750000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "2" 0 -700000 250000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "3" 0 -700000 -250000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "4" 0 -700000 -750000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "5" 0 700000 -750000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "6" 0 700000 -250000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "7" 0 700000 250000 0
+      top_pad: 3 250000 350000 350000 0
+    pin: "8" 0 700000 750000 0
+      top_pad: 3 250000 350000 350000 0
+
+name: "CAPCAF50P130X210X94-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,Chip Array,0.50mm pitch;8 pin,1.30mm L X 2.10mm W X 0.94mm H"
+  units: NM
+  sel_rect: -1350000 -1400000 1350000 1400000
+  ref_text: 1270000 0 2400000 0 177800
+  value_text: 1270000 0 -3670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -650000 1138900
+    next_corner: 650000 1138900 0
+  outline_polyline: 177800 -650000 -1138900
+    next_corner: 650000 -1138900 0
+  outline_polyline: 125000 -1137500 1125000
+    next_corner: -1075000 1187500 1
+    next_corner: -1012500 1125000 1
+    next_corner: -1075000 1062500 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -750000 750000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "2" 0 -750000 250000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "3" 0 -750000 -250000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "4" 0 -750000 -750000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "5" 0 750000 -750000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "6" 0 750000 -250000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "7" 0 750000 250000 0
+      top_pad: 3 250000 325000 325000 0
+    pin: "8" 0 750000 750000 0
+      top_pad: 3 250000 325000 325000 0
+

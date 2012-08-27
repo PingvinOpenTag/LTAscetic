@@ -1,0 +1,21 @@
+name: "RESMELF7028N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,MELF;7.00mm L X 2.80mm Dia"
+  units: NM
+  sel_rect: -4300000 -1800000 4300000 1800000
+  ref_text: 1270000 0 2800000 0 177800
+  value_text: 1270000 0 -4070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1521000 -1296000
+    next_corner: 1521000 -1296000 0
+    close_polyline: 0
+  outline_polyline: 177800 -1521000 1296000
+    next_corner: 1521000 1296000 0
+    close_polyline: 0
+  n_pins: 2
+    pin: "1" 0 -2900000 0 0
+      top_pad: 3 3100000 1125000 1125000 0
+    pin: "2" 0 2900000 0 0
+      top_pad: 3 3100000 1125000 1125000 0
+

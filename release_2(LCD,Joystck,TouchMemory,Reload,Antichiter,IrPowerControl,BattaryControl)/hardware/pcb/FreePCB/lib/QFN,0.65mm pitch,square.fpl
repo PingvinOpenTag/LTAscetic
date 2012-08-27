@@ -1,0 +1,4902 @@
+name: "QFN65P300X300X100-13V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;3 pin X 3 pin,3.00mm X 3.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 1079000
+    next_corner: -1627000 1627000 0
+    next_corner: -1079000 1627000 0
+  outline_polyline: 177800 1079000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 1079000 0
+  outline_polyline: 177800 -1627000 -1079000
+    next_corner: -1627000 -1627000 0
+    next_corner: -1079000 -1627000 0
+  outline_polyline: 177800 1079000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -1079000 0
+  outline_polyline: 254000 -2135000 1333000
+    next_corner: -2008000 1460000 1
+    next_corner: -1881000 1333000 1
+    next_corner: -2008000 1206000 1
+    close_polyline: 1
+  n_pins: 13
+    pin: "1" 0 -1500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -1500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -1500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -650000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 0 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 650000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 1500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 1500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 1500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 650000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 0 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -650000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 0 0 0
+      top_pad: 3 1800000 900000 900000 0
+
+name: "QFN65P300X300X100-9V2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;2 pin X 2 pin,3.00mm X 3.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 754000
+    next_corner: -1627000 1627000 0
+    next_corner: -754000 1627000 0
+  outline_polyline: 177800 754000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 754000 0
+  outline_polyline: 177800 -1627000 -754000
+    next_corner: -1627000 -1627000 0
+    next_corner: -754000 -1627000 0
+  outline_polyline: 177800 754000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -754000 0
+  outline_polyline: 254000 -2135000 1008000
+    next_corner: -2008000 1135000 1
+    next_corner: -1881000 1008000 1
+    next_corner: -2008000 881000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1800000 900000 900000 0
+
+name: "QFN65P300X300X100-9V3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;2 pin X 2 pin,3.00mm X 3.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 754000
+    next_corner: -1627000 1627000 0
+    next_corner: -754000 1627000 0
+  outline_polyline: 177800 754000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 754000 0
+  outline_polyline: 177800 -1627000 -754000
+    next_corner: -1627000 -1627000 0
+    next_corner: -754000 -1627000 0
+  outline_polyline: 177800 754000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -754000 0
+  outline_polyline: 254000 -2135000 1008000
+    next_corner: -2008000 1135000 1
+    next_corner: -1881000 1008000 1
+    next_corner: -2008000 881000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1800000 900000 900000 0
+
+name: "QFN65P300X300X100-9VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;2 pin X 2 pin,3.00mm X 3.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 754000
+    next_corner: -1627000 1627000 0
+    next_corner: -754000 1627000 0
+  outline_polyline: 177800 754000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 754000 0
+  outline_polyline: 177800 -1627000 -754000
+    next_corner: -1627000 -1627000 0
+    next_corner: -754000 -1627000 0
+  outline_polyline: 177800 754000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -754000 0
+  outline_polyline: 254000 -2135000 1008000
+    next_corner: -2008000 1135000 1
+    next_corner: -1881000 1008000 1
+    next_corner: -2008000 881000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -325000 -1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 325000 -1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 1350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 1350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -325000 1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1250000 625000 625000 0
+
+name: "QFN65P300X300X80-13W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;3 pin X 3 pin,3.00mm X 3.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 1079000
+    next_corner: -1627000 1627000 0
+    next_corner: -1079000 1627000 0
+  outline_polyline: 177800 1079000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 1079000 0
+  outline_polyline: 177800 -1627000 -1079000
+    next_corner: -1627000 -1627000 0
+    next_corner: -1079000 -1627000 0
+  outline_polyline: 177800 1079000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -1079000 0
+  outline_polyline: 254000 -2135000 1333000
+    next_corner: -2008000 1460000 1
+    next_corner: -1881000 1333000 1
+    next_corner: -2008000 1206000 1
+    close_polyline: 1
+  n_pins: 13
+    pin: "1" 0 -1500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -1500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -1500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -650000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 0 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 650000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 1500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 1500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 1500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 650000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 0 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -650000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 0 0 0
+      top_pad: 3 1800000 900000 900000 0
+
+name: "QFN65P300X300X80-9W2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;2 pin X 2 pin,3.00mm X 3.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 754000
+    next_corner: -1627000 1627000 0
+    next_corner: -754000 1627000 0
+  outline_polyline: 177800 754000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 754000 0
+  outline_polyline: 177800 -1627000 -754000
+    next_corner: -1627000 -1627000 0
+    next_corner: -754000 -1627000 0
+  outline_polyline: 177800 754000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -754000 0
+  outline_polyline: 254000 -2135000 1008000
+    next_corner: -2008000 1135000 1
+    next_corner: -1881000 1008000 1
+    next_corner: -2008000 881000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1800000 900000 900000 0
+
+name: "QFN65P300X300X80-9W3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;2 pin X 2 pin,3.00mm X 3.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 754000
+    next_corner: -1627000 1627000 0
+    next_corner: -754000 1627000 0
+  outline_polyline: 177800 754000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 754000 0
+  outline_polyline: 177800 -1627000 -754000
+    next_corner: -1627000 -1627000 0
+    next_corner: -754000 -1627000 0
+  outline_polyline: 177800 754000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -754000 0
+  outline_polyline: 254000 -2135000 1008000
+    next_corner: -2008000 1135000 1
+    next_corner: -1881000 1008000 1
+    next_corner: -2008000 881000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 325000 -1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 1500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 1500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -325000 1500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1800000 900000 900000 0
+
+name: "QFN65P300X300X80-9WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;2 pin X 2 pin,3.00mm X 3.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2150000 2150000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1627000 754000
+    next_corner: -1627000 1627000 0
+    next_corner: -754000 1627000 0
+  outline_polyline: 177800 754000 1627000
+    next_corner: 1627000 1627000 0
+    next_corner: 1627000 754000 0
+  outline_polyline: 177800 -1627000 -754000
+    next_corner: -1627000 -1627000 0
+    next_corner: -754000 -1627000 0
+  outline_polyline: 177800 754000 -1627000
+    next_corner: 1627000 -1627000 0
+    next_corner: 1627000 -754000 0
+  outline_polyline: 254000 -2135000 1008000
+    next_corner: -2008000 1135000 1
+    next_corner: -1881000 1008000 1
+    next_corner: -2008000 881000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -325000 -1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 325000 -1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 1350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 1350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -325000 1350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1250000 625000 625000 0
+
+name: "QFN65P400X400X100-13V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;3 pin X 3 pin,4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1079000
+    next_corner: -2127000 2127000 0
+    next_corner: -1079000 2127000 0
+  outline_polyline: 177800 1079000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1079000 0
+  outline_polyline: 177800 -2127000 -1079000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1079000 -2127000 0
+  outline_polyline: 177800 1079000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1079000 0
+  outline_polyline: 254000 -2635000 1333000
+    next_corner: -2508000 1460000 1
+    next_corner: -2381000 1333000 1
+    next_corner: -2508000 1206000 1
+    close_polyline: 1
+  n_pins: 13
+    pin: "1" 0 -2000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -650000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 0 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 650000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 2000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 2000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 2000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 650000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 0 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -650000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 0 0 0
+      top_pad: 3 2800000 1400000 1400000 0
+
+name: "QFN65P400X400X100-17AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin, 4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1950000 975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "2" 0 -1950000 325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "3" 0 -1950000 -325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "4" 0 -1950000 -975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "5" 0 -975000 -1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "6" 0 -325000 -1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "7" 0 325000 -1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "8" 0 975000 -1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "9" 0 1950000 -975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "10" 0 1950000 -325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "11" 0 1950000 325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "12" 0 1950000 975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "13" 0 975000 1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "14" 0 325000 1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "15" 0 -325000 1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "16" 0 -975000 1950000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "17" 0 0 0 0
+      top_pad: 3 2400000 1200000 1200000 0
+
+name: "QFN65P400X400X100-17BN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin, 4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 -975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2250000 1125000 1125000 0
+
+name: "QFN65P400X400X100-17CN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin, 4.15mm X 4.15mm X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2202000 1404000
+    next_corner: -2202000 2202000 0
+    next_corner: -1404000 2202000 0
+  outline_polyline: 177800 1404000 2202000
+    next_corner: 2202000 2202000 0
+    next_corner: 2202000 1404000 0
+  outline_polyline: 177800 -2202000 -1404000
+    next_corner: -2202000 -2202000 0
+    next_corner: -1404000 -2202000 0
+  outline_polyline: 177800 1404000 -2202000
+    next_corner: 2202000 -2202000 0
+    next_corner: 2202000 -1404000 0
+  outline_polyline: 254000 -2710000 1658000
+    next_corner: -2583000 1785000 1
+    next_corner: -2456000 1658000 1
+    next_corner: -2583000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 -975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2250000 1125000 1125000 0
+
+name: "QFN65P400X400X100-17N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin, 4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1900000 975000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "2" 0 -1900000 325000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "3" 0 -1900000 -325000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "4" 0 -1900000 -975000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "5" 0 -975000 -1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "6" 0 -325000 -1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "7" 0 325000 -1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "8" 0 975000 -1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "9" 0 1900000 -975000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "10" 0 1900000 -325000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "11" 0 1900000 325000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "12" 0 1900000 975000 0
+      top_pad: 3 350000 500000 500000 0
+    pin: "13" 0 975000 1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "14" 0 325000 1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "15" 0 -325000 1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "16" 0 -975000 1900000 90
+      top_pad: 3 350000 500000 500000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2400000 1200000 1200000 0
+
+name: "QFN65P400X400X100-17V2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin,4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2800000 1400000 1400000 0
+
+name: "QFN65P400X400X100-17V3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin,4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2800000 1400000 1400000 0
+
+name: "QFN65P400X400X100-17VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin,4.00mm X 4.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 -975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2250000 1125000 1125000 0
+
+name: "QFN65P400X400X80-13W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;3 pin X 3 pin,4.00mm X 4.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1079000
+    next_corner: -2127000 2127000 0
+    next_corner: -1079000 2127000 0
+  outline_polyline: 177800 1079000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1079000 0
+  outline_polyline: 177800 -2127000 -1079000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1079000 -2127000 0
+  outline_polyline: 177800 1079000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1079000 0
+  outline_polyline: 254000 -2635000 1333000
+    next_corner: -2508000 1460000 1
+    next_corner: -2381000 1333000 1
+    next_corner: -2508000 1206000 1
+    close_polyline: 1
+  n_pins: 13
+    pin: "1" 0 -2000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -650000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 0 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 650000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 2000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 2000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 2000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 650000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 0 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -650000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 0 0 0
+      top_pad: 3 2800000 1400000 1400000 0
+
+name: "QFN65P400X400X80-17BN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin, 4.00mm X 4.00mm X 0.75mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 -975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2250000 1125000 1125000 0
+
+name: "QFN65P400X400X80-17N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin, 4.00mm X 4.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2600000 -2600000 2600000 2600000
+  ref_text: 1270000 0 3600000 0 177800
+  value_text: 1270000 0 -4870000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1850000 975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "2" 0 -1850000 325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "3" 0 -1850000 -325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "4" 0 -1850000 -975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "5" 0 -975000 -1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "6" 0 -325000 -1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "7" 0 325000 -1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "8" 0 975000 -1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "9" 0 1850000 -975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "10" 0 1850000 -325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "11" 0 1850000 325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "12" 0 1850000 975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "13" 0 975000 1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "14" 0 325000 1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "15" 0 -325000 1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "16" 0 -975000 1850000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "17" 0 0 0 0
+      top_pad: 3 2250000 1125000 1125000 0
+
+name: "QFN65P400X400X80-17W2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin,4.00mm X 4.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2800000 1400000 1400000 0
+
+name: "QFN65P400X400X80-17W3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin,4.00mm X 4.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 325000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 975000 -2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 2000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 2000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 2000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 2000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -325000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -975000 2000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2800000 1400000 1400000 0
+
+name: "QFN65P400X400X80-17WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;4 pin X 4 pin,4.00mm X 4.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2650000 2650000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1404000
+    next_corner: -2127000 2127000 0
+    next_corner: -1404000 2127000 0
+  outline_polyline: 177800 1404000 2127000
+    next_corner: 2127000 2127000 0
+    next_corner: 2127000 1404000 0
+  outline_polyline: 177800 -2127000 -1404000
+    next_corner: -2127000 -2127000 0
+    next_corner: -1404000 -2127000 0
+  outline_polyline: 177800 1404000 -2127000
+    next_corner: 2127000 -2127000 0
+    next_corner: 2127000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 325000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 975000 -1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 1850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 1850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 1850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 -975000 1850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 2250000 1125000 1125000 0
+
+name: "QFN65P500X500X100-21AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin, 5.00mm X 5.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2350000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -2350000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -2350000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -2350000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -2350000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -1300000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -650000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 0 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 650000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1300000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 2350000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 2350000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 2350000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 2350000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 2350000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 1300000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 650000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 0 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 -650000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 -1300000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 0 0 0
+      top_pad: 3 3250000 1625000 1625000 0
+
+name: "QFN65P500X500X100-21N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin, 5.00mm X 5.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2350000 1300000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "2" 0 -2350000 650000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "3" 0 -2350000 0 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "4" 0 -2350000 -650000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "5" 0 -2350000 -1300000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "6" 0 -1300000 -2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "7" 0 -650000 -2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "8" 0 0 -2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "9" 0 650000 -2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "10" 0 1300000 -2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "11" 0 2350000 -1300000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "12" 0 2350000 -650000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "13" 0 2350000 0 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "14" 0 2350000 650000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "15" 0 2350000 1300000 0
+      top_pad: 4 350000 525000 525000 175000
+    pin: "16" 0 1300000 2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "17" 0 650000 2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "18" 0 0 2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "19" 0 -650000 2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "20" 0 -1300000 2350000 90
+      top_pad: 4 350000 525000 525000 175000
+    pin: "21" 0 0 0 0
+      top_pad: 3 3000000 1500000 1500000 0
+
+name: "QFN65P500X500X100-21V2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin,5.00mm X 5.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -2500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -1300000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -650000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 0 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 650000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 1300000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 2500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 2500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 2500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 2500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 2500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 1300000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 650000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 0 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 -650000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 -1300000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 0 0 0
+      top_pad: 3 3800000 1900000 1900000 0
+
+name: "QFN65P500X500X100-21VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin,5.00mm X 5.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2350000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -2350000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -2350000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -2350000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -2350000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -1300000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -650000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 0 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 650000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1300000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 2350000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 2350000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 2350000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 2350000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 2350000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 1300000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 650000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 0 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 -650000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 -1300000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 0 0 0
+      top_pad: 3 3250000 1625000 1625000 0
+
+name: "QFN65P500X500X100-25V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;6 pin X 6 pin,5.00mm X 5.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 2054000
+    next_corner: -2627000 2627000 0
+    next_corner: -2054000 2627000 0
+  outline_polyline: 177800 2054000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 2054000 0
+  outline_polyline: 177800 -2627000 -2054000
+    next_corner: -2627000 -2627000 0
+    next_corner: -2054000 -2627000 0
+  outline_polyline: 177800 2054000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -2054000 0
+  outline_polyline: 254000 -3135000 2308000
+    next_corner: -3008000 2435000 1
+    next_corner: -2881000 2308000 1
+    next_corner: -3008000 2181000 1
+    close_polyline: 1
+  n_pins: 25
+    pin: "1" 0 -2500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -2500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -2500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -1625000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -975000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -325000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 325000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 975000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 1625000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 2500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 2500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 2500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 2500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 2500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 2500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1625000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 975000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 325000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 -325000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 -975000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 -1625000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 0 0 0
+      top_pad: 3 3800000 1900000 1900000 0
+
+name: "QFN65P500X500X80-21N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin, 5.00mm X 5.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3100000 -3100000 3100000 3100000
+  ref_text: 1270000 0 4100000 0 177800
+  value_text: 1270000 0 -5370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2350000 1300000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "2" 0 -2350000 650000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "3" 0 -2350000 0 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "4" 0 -2350000 -650000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "5" 0 -2350000 -1300000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "6" 0 -1300000 -2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "7" 0 -650000 -2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "8" 0 0 -2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "9" 0 650000 -2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "10" 0 1300000 -2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "11" 0 2350000 -1300000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "12" 0 2350000 -650000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "13" 0 2350000 0 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "14" 0 2350000 650000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "15" 0 2350000 1300000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "16" 0 1300000 2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "17" 0 650000 2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "18" 0 0 2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "19" 0 -650000 2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "20" 0 -1300000 2350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "21" 0 0 0 0
+      top_pad: 3 3200000 1600000 1600000 0
+
+name: "QFN65P500X500X80-21W2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin,5.00mm X 5.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -2500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -1300000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -650000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 0 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 650000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 1300000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 2500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 2500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 2500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 2500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 2500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 1300000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 650000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 0 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 -650000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 -1300000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 0 0 0
+      top_pad: 3 3800000 1900000 1900000 0
+
+name: "QFN65P500X500X80-21WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;5 pin X 5 pin,5.00mm X 5.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 1729000
+    next_corner: -2627000 2627000 0
+    next_corner: -1729000 2627000 0
+  outline_polyline: 177800 1729000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 1729000 0
+  outline_polyline: 177800 -2627000 -1729000
+    next_corner: -2627000 -2627000 0
+    next_corner: -1729000 -2627000 0
+  outline_polyline: 177800 1729000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -1729000 0
+  outline_polyline: 254000 -3135000 1983000
+    next_corner: -3008000 2110000 1
+    next_corner: -2881000 1983000 1
+    next_corner: -3008000 1856000 1
+    close_polyline: 1
+  n_pins: 21
+    pin: "1" 0 -2350000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -2350000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -2350000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -2350000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -2350000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -1300000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -650000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 0 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 650000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 1300000 -2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 2350000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 2350000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 2350000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 2350000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 2350000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 1300000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 650000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 0 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 -650000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 -1300000 2350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 0 0 0
+      top_pad: 3 3250000 1625000 1625000 0
+
+name: "QFN65P500X500X80-25N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;6 pin X 6 pin, 5.15mm X 5.15mm X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2702000 2054000
+    next_corner: -2702000 2702000 0
+    next_corner: -2054000 2702000 0
+  outline_polyline: 177800 2054000 2702000
+    next_corner: 2702000 2702000 0
+    next_corner: 2702000 2054000 0
+  outline_polyline: 177800 -2702000 -2054000
+    next_corner: -2702000 -2702000 0
+    next_corner: -2054000 -2702000 0
+  outline_polyline: 177800 2054000 -2702000
+    next_corner: 2702000 -2702000 0
+    next_corner: 2702000 -2054000 0
+  outline_polyline: 254000 -3210000 2308000
+    next_corner: -3083000 2435000 1
+    next_corner: -2956000 2308000 1
+    next_corner: -3083000 2181000 1
+    close_polyline: 1
+  n_pins: 25
+    pin: "1" 0 -2450000 1625000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "2" 0 -2450000 975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "3" 0 -2450000 325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "4" 0 -2450000 -325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "5" 0 -2450000 -975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "6" 0 -2450000 -1625000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "7" 0 -1625000 -2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "8" 0 -975000 -2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "9" 0 -325000 -2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "10" 0 325000 -2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "11" 0 975000 -2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "12" 0 1625000 -2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "13" 0 2450000 -1625000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "14" 0 2450000 -975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "15" 0 2450000 -325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "16" 0 2450000 325000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "17" 0 2450000 975000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "18" 0 2450000 1625000 0
+      top_pad: 4 350000 450000 450000 175000
+    pin: "19" 0 1625000 2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "20" 0 975000 2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "21" 0 325000 2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "22" 0 -325000 2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "23" 0 -975000 2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "24" 0 -1625000 2450000 90
+      top_pad: 4 350000 450000 450000 175000
+    pin: "25" 0 0 0 0
+      top_pad: 3 3250000 1625000 1625000 0
+
+name: "QFN65P500X500X80-25W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;6 pin X 6 pin,5.00mm X 5.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2627000 2054000
+    next_corner: -2627000 2627000 0
+    next_corner: -2054000 2627000 0
+  outline_polyline: 177800 2054000 2627000
+    next_corner: 2627000 2627000 0
+    next_corner: 2627000 2054000 0
+  outline_polyline: 177800 -2627000 -2054000
+    next_corner: -2627000 -2627000 0
+    next_corner: -2054000 -2627000 0
+  outline_polyline: 177800 2054000 -2627000
+    next_corner: 2627000 -2627000 0
+    next_corner: 2627000 -2054000 0
+  outline_polyline: 254000 -3135000 2308000
+    next_corner: -3008000 2435000 1
+    next_corner: -2881000 2308000 1
+    next_corner: -3008000 2181000 1
+    close_polyline: 1
+  n_pins: 25
+    pin: "1" 0 -2500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -2500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -2500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -2500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -2500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -2500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -1625000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -975000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -325000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 325000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 975000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 1625000 -2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 2500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 2500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 2500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 2500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 2500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 2500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1625000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 975000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 325000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 -325000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 -975000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 -1625000 2500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 0 0 0
+      top_pad: 3 3800000 1900000 1900000 0
+
+name: "QFN65P600X600X100-25V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;6 pin X 6 pin,6.00mm X 6.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2054000
+    next_corner: -3127000 3127000 0
+    next_corner: -2054000 3127000 0
+  outline_polyline: 177800 2054000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2054000 0
+  outline_polyline: 177800 -3127000 -2054000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2054000 -3127000 0
+  outline_polyline: 177800 2054000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2054000 0
+  outline_polyline: 254000 -3635000 2308000
+    next_corner: -3508000 2435000 1
+    next_corner: -3381000 2308000 1
+    next_corner: -3508000 2181000 1
+    close_polyline: 1
+  n_pins: 25
+    pin: "1" 0 -3000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -1625000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -975000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -325000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 325000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 975000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 1625000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 3000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 3000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 3000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 3000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 3000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 3000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1625000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 975000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 325000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 -325000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 -975000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 -1625000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 0 0 0
+      top_pad: 3 4800000 2400000 2400000 0
+
+name: "QFN65P600X600X100-29V3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;7 pin X 7 pin,6.00mm X 6.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2379000
+    next_corner: -3127000 3127000 0
+    next_corner: -2379000 3127000 0
+  outline_polyline: 177800 2379000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2379000 0
+  outline_polyline: 177800 -3127000 -2379000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2379000 -3127000 0
+  outline_polyline: 177800 2379000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2379000 0
+  outline_polyline: 254000 -3635000 2633000
+    next_corner: -3508000 2760000 1
+    next_corner: -3381000 2633000 1
+    next_corner: -3508000 2506000 1
+    close_polyline: 1
+  n_pins: 29
+    pin: "1" 0 -3000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -3000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -1950000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -1300000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -650000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 0 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 650000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 1300000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 1950000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 3000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 3000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 3000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 3000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 3000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 3000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 3000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 1950000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 1300000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 650000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 0 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 -650000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 -1300000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 -1950000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 0 0 0
+      top_pad: 3 4800000 2400000 2400000 0
+
+name: "QFN65P600X600X100-29VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;7 pin X 7 pin,6.00mm X 6.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2379000
+    next_corner: -3127000 3127000 0
+    next_corner: -2379000 3127000 0
+  outline_polyline: 177800 2379000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2379000 0
+  outline_polyline: 177800 -3127000 -2379000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2379000 -3127000 0
+  outline_polyline: 177800 2379000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2379000 0
+  outline_polyline: 254000 -3635000 2633000
+    next_corner: -3508000 2760000 1
+    next_corner: -3381000 2633000 1
+    next_corner: -3508000 2506000 1
+    close_polyline: 1
+  n_pins: 29
+    pin: "1" 0 -2850000 1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -2850000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -2850000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -2850000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -2850000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -2850000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -2850000 -1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -1950000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 -1300000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 -650000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 0 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 650000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 1300000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 1950000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 2850000 -1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 2850000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 2850000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 2850000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 2850000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 2850000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 2850000 1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "22" 0 1950000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "23" 0 1300000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "24" 0 650000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "25" 0 0 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "26" 0 -650000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "27" 0 -1300000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "28" 0 -1950000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "29" 0 0 0 0
+      top_pad: 3 4250000 2125000 2125000 0
+
+name: "QFN65P600X600X100-33V2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin,6.00mm X 6.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2704000
+    next_corner: -3127000 3127000 0
+    next_corner: -2704000 3127000 0
+  outline_polyline: 177800 2704000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2704000 0
+  outline_polyline: 177800 -3127000 -2704000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2704000 -3127000 0
+  outline_polyline: 177800 2704000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2704000 0
+  outline_polyline: 254000 -3635000 2958000
+    next_corner: -3508000 3085000 1
+    next_corner: -3381000 2958000 1
+    next_corner: -3508000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3000000 2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "2" 0 -3000000 1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "3" 0 -3000000 975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "4" 0 -3000000 325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "5" 0 -3000000 -325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "6" 0 -3000000 -975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "7" 0 -3000000 -1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "8" 0 -3000000 -2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "9" 0 -2275000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "10" 0 -1625000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "11" 0 -975000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "12" 0 -325000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "13" 0 325000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "14" 0 975000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "15" 0 1625000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "16" 0 2275000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "17" 0 3000000 -2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "18" 0 3000000 -1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "19" 0 3000000 -975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "20" 0 3000000 -325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "21" 0 3000000 325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "22" 0 3000000 975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "23" 0 3000000 1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "24" 0 3000000 2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "25" 0 2275000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "26" 0 1625000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "27" 0 975000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "28" 0 325000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "29" 0 -325000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "30" 0 -975000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "31" 0 -1625000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "32" 0 -2275000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "33" 0 0 0 0
+      top_pad: 3 4800000 2400000 2400000 0
+
+name: "QFN65P600X600X80-25W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;6 pin X 6 pin,6.00mm X 6.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2054000
+    next_corner: -3127000 3127000 0
+    next_corner: -2054000 3127000 0
+  outline_polyline: 177800 2054000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2054000 0
+  outline_polyline: 177800 -3127000 -2054000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2054000 -3127000 0
+  outline_polyline: 177800 2054000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2054000 0
+  outline_polyline: 254000 -3635000 2308000
+    next_corner: -3508000 2435000 1
+    next_corner: -3381000 2308000 1
+    next_corner: -3508000 2181000 1
+    close_polyline: 1
+  n_pins: 25
+    pin: "1" 0 -3000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -1625000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -975000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -325000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 325000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 975000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 1625000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 3000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 3000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 3000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 3000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 3000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 3000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1625000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 975000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 325000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 -325000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 -975000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 -1625000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 0 0 0
+      top_pad: 3 4800000 2400000 2400000 0
+
+name: "QFN65P600X600X80-29W3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;7 pin X 7 pin,6.00mm X 6.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2379000
+    next_corner: -3127000 3127000 0
+    next_corner: -2379000 3127000 0
+  outline_polyline: 177800 2379000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2379000 0
+  outline_polyline: 177800 -3127000 -2379000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2379000 -3127000 0
+  outline_polyline: 177800 2379000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2379000 0
+  outline_polyline: 254000 -3635000 2633000
+    next_corner: -3508000 2760000 1
+    next_corner: -3381000 2633000 1
+    next_corner: -3508000 2506000 1
+    close_polyline: 1
+  n_pins: 29
+    pin: "1" 0 -3000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -3000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -1950000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -1300000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -650000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 0 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 650000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 1300000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 1950000 -3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 3000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 3000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 3000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 3000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 3000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 3000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 3000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 1950000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 1300000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 650000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 0 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 -650000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 -1300000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 -1950000 3000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 0 0 0
+      top_pad: 3 4800000 2400000 2400000 0
+
+name: "QFN65P600X600X80-29WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;7 pin X 7 pin,6.00mm X 6.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2379000
+    next_corner: -3127000 3127000 0
+    next_corner: -2379000 3127000 0
+  outline_polyline: 177800 2379000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2379000 0
+  outline_polyline: 177800 -3127000 -2379000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2379000 -3127000 0
+  outline_polyline: 177800 2379000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2379000 0
+  outline_polyline: 254000 -3635000 2633000
+    next_corner: -3508000 2760000 1
+    next_corner: -3381000 2633000 1
+    next_corner: -3508000 2506000 1
+    close_polyline: 1
+  n_pins: 29
+    pin: "1" 0 -2850000 1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -2850000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -2850000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -2850000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -2850000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -2850000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -2850000 -1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -1950000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 -1300000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 -650000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 0 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 650000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 1300000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 1950000 -2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 2850000 -1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 2850000 -1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 2850000 -650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 2850000 0 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 2850000 650000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 2850000 1300000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 2850000 1950000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "22" 0 1950000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "23" 0 1300000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "24" 0 650000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "25" 0 0 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "26" 0 -650000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "27" 0 -1300000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "28" 0 -1950000 2850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "29" 0 0 0 0
+      top_pad: 3 4250000 2125000 2125000 0
+
+name: "QFN65P600X600X80-33W2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin,6.00mm X 6.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -3650000 -3650000 3650000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 2704000
+    next_corner: -3127000 3127000 0
+    next_corner: -2704000 3127000 0
+  outline_polyline: 177800 2704000 3127000
+    next_corner: 3127000 3127000 0
+    next_corner: 3127000 2704000 0
+  outline_polyline: 177800 -3127000 -2704000
+    next_corner: -3127000 -3127000 0
+    next_corner: -2704000 -3127000 0
+  outline_polyline: 177800 2704000 -3127000
+    next_corner: 3127000 -3127000 0
+    next_corner: 3127000 -2704000 0
+  outline_polyline: 254000 -3635000 2958000
+    next_corner: -3508000 3085000 1
+    next_corner: -3381000 2958000 1
+    next_corner: -3508000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3000000 2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "2" 0 -3000000 1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "3" 0 -3000000 975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "4" 0 -3000000 325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "5" 0 -3000000 -325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "6" 0 -3000000 -975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "7" 0 -3000000 -1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "8" 0 -3000000 -2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "9" 0 -2275000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "10" 0 -1625000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "11" 0 -975000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "12" 0 -325000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "13" 0 325000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "14" 0 975000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "15" 0 1625000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "16" 0 2275000 -3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "17" 0 3000000 -2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "18" 0 3000000 -1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "19" 0 3000000 -975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "20" 0 3000000 -325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "21" 0 3000000 325000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "22" 0 3000000 975000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "23" 0 3000000 1625000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "24" 0 3000000 2275000 0
+      top_pad: 4 350000 400000 400000 175000
+    pin: "25" 0 2275000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "26" 0 1625000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "27" 0 975000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "28" 0 325000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "29" 0 -325000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "30" 0 -975000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "31" 0 -1625000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "32" 0 -2275000 3000000 90
+      top_pad: 4 350000 400000 400000 175000
+    pin: "33" 0 0 0 0
+      top_pad: 3 4800000 2400000 2400000 0
+
+name: "QFN65P700X700X100-33N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin, 7.00mm X 7.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 2704000
+    next_corner: -3627000 3627000 0
+    next_corner: -2704000 3627000 0
+  outline_polyline: 177800 2704000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 2704000 0
+  outline_polyline: 177800 -3627000 -2704000
+    next_corner: -3627000 -3627000 0
+    next_corner: -2704000 -3627000 0
+  outline_polyline: 177800 2704000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -2704000 0
+  outline_polyline: 254000 -4135000 2958000
+    next_corner: -4008000 3085000 1
+    next_corner: -3881000 2958000 1
+    next_corner: -4008000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3350000 2275000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "2" 0 -3350000 1625000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "3" 0 -3350000 975000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "4" 0 -3350000 325000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "5" 0 -3350000 -325000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "6" 0 -3350000 -975000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "7" 0 -3350000 -1625000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "8" 0 -3350000 -2275000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "9" 0 -2275000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "10" 0 -1625000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "11" 0 -975000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "12" 0 -325000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "13" 0 325000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "14" 0 975000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "15" 0 1625000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "16" 0 2275000 -3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "17" 0 3350000 -2275000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "18" 0 3350000 -1625000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "19" 0 3350000 -975000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "20" 0 3350000 -325000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "21" 0 3350000 325000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "22" 0 3350000 975000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "23" 0 3350000 1625000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "24" 0 3350000 2275000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "25" 0 2275000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "26" 0 1625000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "27" 0 975000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "28" 0 325000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "29" 0 -325000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "30" 0 -975000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "31" 0 -1625000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "32" 0 -2275000 3350000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "33" 0 0 0 0
+      top_pad: 3 4850000 2425000 2425000 0
+
+name: "QFN65P700X700X100-33V2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin,7.00mm X 7.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 2704000
+    next_corner: -3627000 3627000 0
+    next_corner: -2704000 3627000 0
+  outline_polyline: 177800 2704000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 2704000 0
+  outline_polyline: 177800 -3627000 -2704000
+    next_corner: -3627000 -3627000 0
+    next_corner: -2704000 -3627000 0
+  outline_polyline: 177800 2704000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -2704000 0
+  outline_polyline: 254000 -4135000 2958000
+    next_corner: -4008000 3085000 1
+    next_corner: -3881000 2958000 1
+    next_corner: -4008000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -3500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -3500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -2275000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -1625000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -975000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -325000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 325000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 975000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 1625000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 2275000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 3500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 3500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 3500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 3500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 3500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 3500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 3500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 2275000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 1625000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 975000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 325000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 -325000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 -975000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 -1625000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 -2275000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 0 0 0
+      top_pad: 3 5800000 2900000 2900000 0
+
+name: "QFN65P700X700X100-33VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin,7.00mm X 7.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 2704000
+    next_corner: -3627000 3627000 0
+    next_corner: -2704000 3627000 0
+  outline_polyline: 177800 2704000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 2704000 0
+  outline_polyline: 177800 -3627000 -2704000
+    next_corner: -3627000 -3627000 0
+    next_corner: -2704000 -3627000 0
+  outline_polyline: 177800 2704000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -2704000 0
+  outline_polyline: 254000 -4135000 2958000
+    next_corner: -4008000 3085000 1
+    next_corner: -3881000 2958000 1
+    next_corner: -4008000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3350000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -3350000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -3350000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -3350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -3350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -3350000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -3350000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -3350000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 -2275000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 -1625000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 -975000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 -325000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 325000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 975000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 1625000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 2275000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 3350000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 3350000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 3350000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 3350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 3350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "22" 0 3350000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "23" 0 3350000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "24" 0 3350000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "25" 0 2275000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "26" 0 1625000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "27" 0 975000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "28" 0 325000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "29" 0 -325000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "30" 0 -975000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "31" 0 -1625000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "32" 0 -2275000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "33" 0 0 0 0
+      top_pad: 3 5250000 2625000 2625000 0
+
+name: "QFN65P700X700X100-37V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;9 pin X 9 pin,7.00mm X 7.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 3029000
+    next_corner: -3627000 3627000 0
+    next_corner: -3029000 3627000 0
+  outline_polyline: 177800 3029000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 3029000 0
+  outline_polyline: 177800 -3627000 -3029000
+    next_corner: -3627000 -3627000 0
+    next_corner: -3029000 -3627000 0
+  outline_polyline: 177800 3029000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -3029000 0
+  outline_polyline: 254000 -4135000 3283000
+    next_corner: -4008000 3410000 1
+    next_corner: -3881000 3283000 1
+    next_corner: -4008000 3156000 1
+    close_polyline: 1
+  n_pins: 37
+    pin: "1" 0 -3500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -3500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -3500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -3500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -2600000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -1950000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -1300000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -650000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 0 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 650000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 1300000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 1950000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 2600000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 3500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 3500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 3500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 3500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 3500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 3500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 3500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 3500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 2600000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 1950000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 1300000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 650000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 0 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 -650000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 -1300000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 -1950000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 -2600000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 0 0 0
+      top_pad: 3 5800000 2900000 2900000 0
+
+name: "QFN65P700X700X80-33N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin, 7.00mm X 7.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4100000 -4100000 4100000 4100000
+  ref_text: 1270000 0 5100000 0 177800
+  value_text: 1270000 0 -6370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 2704000
+    next_corner: -3627000 3627000 0
+    next_corner: -2704000 3627000 0
+  outline_polyline: 177800 2704000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 2704000 0
+  outline_polyline: 177800 -3627000 -2704000
+    next_corner: -3627000 -3627000 0
+    next_corner: -2704000 -3627000 0
+  outline_polyline: 177800 2704000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -2704000 0
+  outline_polyline: 254000 -4135000 2958000
+    next_corner: -4008000 3085000 1
+    next_corner: -3881000 2958000 1
+    next_corner: -4008000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3350000 2275000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "2" 0 -3350000 1625000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "3" 0 -3350000 975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "4" 0 -3350000 325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "5" 0 -3350000 -325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "6" 0 -3350000 -975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "7" 0 -3350000 -1625000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "8" 0 -3350000 -2275000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "9" 0 -2275000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "10" 0 -1625000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "11" 0 -975000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "12" 0 -325000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "13" 0 325000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "14" 0 975000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "15" 0 1625000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "16" 0 2275000 -3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "17" 0 3350000 -2275000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "18" 0 3350000 -1625000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "19" 0 3350000 -975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "20" 0 3350000 -325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "21" 0 3350000 325000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "22" 0 3350000 975000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "23" 0 3350000 1625000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "24" 0 3350000 2275000 0
+      top_pad: 4 350000 500000 500000 175000
+    pin: "25" 0 2275000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "26" 0 1625000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "27" 0 975000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "28" 0 325000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "29" 0 -325000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "30" 0 -975000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "31" 0 -1625000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "32" 0 -2275000 3350000 90
+      top_pad: 4 350000 500000 500000 175000
+    pin: "33" 0 0 0 0
+      top_pad: 3 4850000 2425000 2425000 0
+
+name: "QFN65P700X700X80-33W2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin,7.00mm X 7.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 2704000
+    next_corner: -3627000 3627000 0
+    next_corner: -2704000 3627000 0
+  outline_polyline: 177800 2704000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 2704000 0
+  outline_polyline: 177800 -3627000 -2704000
+    next_corner: -3627000 -3627000 0
+    next_corner: -2704000 -3627000 0
+  outline_polyline: 177800 2704000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -2704000 0
+  outline_polyline: 254000 -4135000 2958000
+    next_corner: -4008000 3085000 1
+    next_corner: -3881000 2958000 1
+    next_corner: -4008000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -3500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -3500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -2275000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -1625000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -975000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -325000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 325000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 975000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 1625000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 2275000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 3500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 3500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 3500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 3500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 3500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 3500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 3500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 2275000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 1625000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 975000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 325000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 -325000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 -975000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 -1625000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 -2275000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 0 0 0
+      top_pad: 3 5800000 2900000 2900000 0
+
+name: "QFN65P700X700X80-33WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;8 pin X 8 pin,7.00mm X 7.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 2704000
+    next_corner: -3627000 3627000 0
+    next_corner: -2704000 3627000 0
+  outline_polyline: 177800 2704000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 2704000 0
+  outline_polyline: 177800 -3627000 -2704000
+    next_corner: -3627000 -3627000 0
+    next_corner: -2704000 -3627000 0
+  outline_polyline: 177800 2704000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -2704000 0
+  outline_polyline: 254000 -4135000 2958000
+    next_corner: -4008000 3085000 1
+    next_corner: -3881000 2958000 1
+    next_corner: -4008000 2831000 1
+    close_polyline: 1
+  n_pins: 33
+    pin: "1" 0 -3350000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -3350000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -3350000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -3350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -3350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -3350000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -3350000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -3350000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 -2275000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 -1625000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 -975000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 -325000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 325000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 975000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 1625000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 2275000 -3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 3350000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 3350000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 3350000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 3350000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 3350000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "22" 0 3350000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "23" 0 3350000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "24" 0 3350000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "25" 0 2275000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "26" 0 1625000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "27" 0 975000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "28" 0 325000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "29" 0 -325000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "30" 0 -975000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "31" 0 -1625000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "32" 0 -2275000 3350000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "33" 0 0 0 0
+      top_pad: 3 5250000 2625000 2625000 0
+
+name: "QFN65P700X700X80-37W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;9 pin X 9 pin,7.00mm X 7.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4150000 -4150000 4150000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3627000 3029000
+    next_corner: -3627000 3627000 0
+    next_corner: -3029000 3627000 0
+  outline_polyline: 177800 3029000 3627000
+    next_corner: 3627000 3627000 0
+    next_corner: 3627000 3029000 0
+  outline_polyline: 177800 -3627000 -3029000
+    next_corner: -3627000 -3627000 0
+    next_corner: -3029000 -3627000 0
+  outline_polyline: 177800 3029000 -3627000
+    next_corner: 3627000 -3627000 0
+    next_corner: 3627000 -3029000 0
+  outline_polyline: 254000 -4135000 3283000
+    next_corner: -4008000 3410000 1
+    next_corner: -3881000 3283000 1
+    next_corner: -4008000 3156000 1
+    close_polyline: 1
+  n_pins: 37
+    pin: "1" 0 -3500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -3500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -3500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -3500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -3500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -3500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -3500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -3500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -3500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -2600000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -1950000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -1300000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -650000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 0 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 650000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 1300000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 1950000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 2600000 -3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 3500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 3500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 3500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 3500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 3500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 3500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 3500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 3500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 2600000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 1950000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 1300000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 650000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 0 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 -650000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 -1300000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 -1950000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 -2600000 3500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 0 0 0
+      top_pad: 3 5800000 2900000 2900000 0
+
+name: "QFN65P800X800X100-37V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;9 pin X 9 pin,8.00mm X 8.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3029000
+    next_corner: -4127000 4127000 0
+    next_corner: -3029000 4127000 0
+  outline_polyline: 177800 3029000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3029000 0
+  outline_polyline: 177800 -4127000 -3029000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3029000 -4127000 0
+  outline_polyline: 177800 3029000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3029000 0
+  outline_polyline: 254000 -4635000 3283000
+    next_corner: -4508000 3410000 1
+    next_corner: -4381000 3283000 1
+    next_corner: -4508000 3156000 1
+    close_polyline: 1
+  n_pins: 37
+    pin: "1" 0 -4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 0 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 0 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 -650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 -1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 -1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 -2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 0 0 0
+      top_pad: 3 6800000 3400000 3400000 0
+
+name: "QFN65P800X800X100-41V3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;10 pin X 10 pin,8.00mm X 8.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3354000
+    next_corner: -4127000 4127000 0
+    next_corner: -3354000 4127000 0
+  outline_polyline: 177800 3354000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3354000 0
+  outline_polyline: 177800 -4127000 -3354000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3354000 -4127000 0
+  outline_polyline: 177800 3354000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3354000 0
+  outline_polyline: 254000 -4635000 3608000
+    next_corner: -4508000 3735000 1
+    next_corner: -4381000 3608000 1
+    next_corner: -4508000 3481000 1
+    close_polyline: 1
+  n_pins: 41
+    pin: "1" 0 -4000000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4000000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4000000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4000000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -2925000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -2275000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -1625000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -975000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -325000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 325000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 975000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 1625000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 2275000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 2925000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 4000000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 4000000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4000000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4000000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 2925000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 2275000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 1625000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 975000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 325000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 -325000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 -975000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 -1625000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 -2275000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 -2925000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 0 0 0
+      top_pad: 3 6800000 3400000 3400000 0
+
+name: "QFN65P800X800X100-41VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;10 pin X 10 pin,8.00mm X 8.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3354000
+    next_corner: -4127000 4127000 0
+    next_corner: -3354000 4127000 0
+  outline_polyline: 177800 3354000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3354000 0
+  outline_polyline: 177800 -4127000 -3354000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3354000 -4127000 0
+  outline_polyline: 177800 3354000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3354000 0
+  outline_polyline: 254000 -4635000 3608000
+    next_corner: -4508000 3735000 1
+    next_corner: -4381000 3608000 1
+    next_corner: -4508000 3481000 1
+    close_polyline: 1
+  n_pins: 41
+    pin: "1" 0 -3850000 2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -3850000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -3850000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -3850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -3850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -3850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -3850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -3850000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 -3850000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 -3850000 -2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 -2925000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 -2275000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 -1625000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 -975000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 325000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 975000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 1625000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 2275000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 2925000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 3850000 -2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "22" 0 3850000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "23" 0 3850000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "24" 0 3850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "25" 0 3850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "26" 0 3850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "27" 0 3850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "28" 0 3850000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "29" 0 3850000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "30" 0 3850000 2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "31" 0 2925000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "32" 0 2275000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "33" 0 1625000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "34" 0 975000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "35" 0 325000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "36" 0 -325000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "37" 0 -975000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "38" 0 -1625000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "39" 0 -2275000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "40" 0 -2925000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "41" 0 0 0 0
+      top_pad: 3 6250000 3125000 3125000 0
+
+name: "QFN65P800X800X100-45V2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;11 pin X 11 pin,8.00mm X 8.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3679000
+    next_corner: -4127000 4127000 0
+    next_corner: -3679000 4127000 0
+  outline_polyline: 177800 3679000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3679000 0
+  outline_polyline: 177800 -4127000 -3679000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3679000 -4127000 0
+  outline_polyline: 177800 3679000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3679000 0
+  outline_polyline: 254000 -4635000 3933000
+    next_corner: -4508000 4060000 1
+    next_corner: -4381000 3933000 1
+    next_corner: -4508000 3806000 1
+    close_polyline: 1
+  n_pins: 45
+    pin: "1" 0 -4000000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -4000000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -3250000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3250000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4000000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 4000000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 3250000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 0 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 -650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 -1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "42" 0 -1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "43" 0 -2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "44" 0 -3250000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "45" 0 0 0 0
+      top_pad: 3 6800000 3400000 3400000 0
+
+name: "QFN65P800X800X80-37W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;9 pin X 9 pin,8.00mm X 8.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3029000
+    next_corner: -4127000 4127000 0
+    next_corner: -3029000 4127000 0
+  outline_polyline: 177800 3029000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3029000 0
+  outline_polyline: 177800 -4127000 -3029000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3029000 -4127000 0
+  outline_polyline: 177800 3029000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3029000 0
+  outline_polyline: 254000 -4635000 3283000
+    next_corner: -4508000 3410000 1
+    next_corner: -4381000 3283000 1
+    next_corner: -4508000 3156000 1
+    close_polyline: 1
+  n_pins: 37
+    pin: "1" 0 -4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 0 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 0 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 -650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 -1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 -1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 -2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 0 0 0
+      top_pad: 3 6800000 3400000 3400000 0
+
+name: "QFN65P800X800X80-41W3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;10 pin X 10 pin,8.00mm X 8.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3354000
+    next_corner: -4127000 4127000 0
+    next_corner: -3354000 4127000 0
+  outline_polyline: 177800 3354000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3354000 0
+  outline_polyline: 177800 -4127000 -3354000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3354000 -4127000 0
+  outline_polyline: 177800 3354000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3354000 0
+  outline_polyline: 254000 -4635000 3608000
+    next_corner: -4508000 3735000 1
+    next_corner: -4381000 3608000 1
+    next_corner: -4508000 3481000 1
+    close_polyline: 1
+  n_pins: 41
+    pin: "1" 0 -4000000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4000000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4000000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4000000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -2925000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -2275000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -1625000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -975000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -325000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 325000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 975000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 1625000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 2275000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 2925000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 4000000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 4000000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4000000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4000000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4000000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4000000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4000000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4000000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4000000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4000000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 2925000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 2275000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 1625000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 975000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 325000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 -325000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 -975000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 -1625000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 -2275000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 -2925000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 0 0 0
+      top_pad: 3 6800000 3400000 3400000 0
+
+name: "QFN65P800X800X80-41WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;10 pin X 10 pin,8.00mm X 8.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3354000
+    next_corner: -4127000 4127000 0
+    next_corner: -3354000 4127000 0
+  outline_polyline: 177800 3354000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3354000 0
+  outline_polyline: 177800 -4127000 -3354000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3354000 -4127000 0
+  outline_polyline: 177800 3354000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3354000 0
+  outline_polyline: 254000 -4635000 3608000
+    next_corner: -4508000 3735000 1
+    next_corner: -4381000 3608000 1
+    next_corner: -4508000 3481000 1
+    close_polyline: 1
+  n_pins: 41
+    pin: "1" 0 -3850000 2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "2" 0 -3850000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "3" 0 -3850000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "4" 0 -3850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "5" 0 -3850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "6" 0 -3850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "7" 0 -3850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "8" 0 -3850000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "9" 0 -3850000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "10" 0 -3850000 -2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "11" 0 -2925000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "12" 0 -2275000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "13" 0 -1625000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "14" 0 -975000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "15" 0 -325000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "16" 0 325000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "17" 0 975000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "18" 0 1625000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "19" 0 2275000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "20" 0 2925000 -3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "21" 0 3850000 -2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "22" 0 3850000 -2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "23" 0 3850000 -1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "24" 0 3850000 -975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "25" 0 3850000 -325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "26" 0 3850000 325000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "27" 0 3850000 975000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "28" 0 3850000 1625000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "29" 0 3850000 2275000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "30" 0 3850000 2925000 0
+      top_pad: 3 350000 525000 525000 0
+    pin: "31" 0 2925000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "32" 0 2275000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "33" 0 1625000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "34" 0 975000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "35" 0 325000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "36" 0 -325000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "37" 0 -975000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "38" 0 -1625000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "39" 0 -2275000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "40" 0 -2925000 3850000 90
+      top_pad: 3 350000 525000 525000 0
+    pin: "41" 0 0 0 0
+      top_pad: 3 6250000 3125000 3125000 0
+
+name: "QFN65P800X800X80-45W2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;11 pin X 11 pin,8.00mm X 8.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -4650000 -4650000 4650000 4650000
+  ref_text: 1270000 0 5650000 0 177800
+  value_text: 1270000 0 -6920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4127000 3679000
+    next_corner: -4127000 4127000 0
+    next_corner: -3679000 4127000 0
+  outline_polyline: 177800 3679000 4127000
+    next_corner: 4127000 4127000 0
+    next_corner: 4127000 3679000 0
+  outline_polyline: 177800 -4127000 -3679000
+    next_corner: -4127000 -4127000 0
+    next_corner: -3679000 -4127000 0
+  outline_polyline: 177800 3679000 -4127000
+    next_corner: 4127000 -4127000 0
+    next_corner: 4127000 -3679000 0
+  outline_polyline: 254000 -4635000 3933000
+    next_corner: -4508000 4060000 1
+    next_corner: -4381000 3933000 1
+    next_corner: -4508000 3806000 1
+    close_polyline: 1
+  n_pins: 45
+    pin: "1" 0 -4000000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -4000000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -3250000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 650000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1300000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 1950000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 2600000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3250000 -4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4000000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4000000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4000000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4000000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4000000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4000000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4000000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4000000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 4000000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 4000000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 4000000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 3250000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 0 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 -650000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 -1300000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "42" 0 -1950000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "43" 0 -2600000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "44" 0 -3250000 4000000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "45" 0 0 0 0
+      top_pad: 3 6800000 3400000 3400000 0
+
+name: "QFN65P900X900X100-45V1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;11 pin X 11 pin,9.00mm X 9.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -5150000 -5150000 5150000 5150000
+  ref_text: 1270000 0 6150000 0 177800
+  value_text: 1270000 0 -7420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4627000 3679000
+    next_corner: -4627000 4627000 0
+    next_corner: -3679000 4627000 0
+  outline_polyline: 177800 3679000 4627000
+    next_corner: 4627000 4627000 0
+    next_corner: 4627000 3679000 0
+  outline_polyline: 177800 -4627000 -3679000
+    next_corner: -4627000 -4627000 0
+    next_corner: -3679000 -4627000 0
+  outline_polyline: 177800 3679000 -4627000
+    next_corner: 4627000 -4627000 0
+    next_corner: 4627000 -3679000 0
+  outline_polyline: 254000 -5135000 3933000
+    next_corner: -5008000 4060000 1
+    next_corner: -4881000 3933000 1
+    next_corner: -5008000 3806000 1
+    close_polyline: 1
+  n_pins: 45
+    pin: "1" 0 -4500000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -4500000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -3250000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -2600000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -1950000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -1300000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -650000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 650000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1300000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 1950000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 2600000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3250000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4500000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 4500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 4500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 4500000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 3250000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 2600000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 1950000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 1300000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 650000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 0 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 -650000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 -1300000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "42" 0 -1950000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "43" 0 -2600000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "44" 0 -3250000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "45" 0 0 0 0
+      top_pad: 3 7800000 3900000 3900000 0
+
+name: "QFN65P900X900X100-49VN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;12 pin X 12 pin,9.00mm X 9.00mm X 1.00mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -5150000 -5150000 5150000 5150000
+  ref_text: 1270000 0 6150000 0 177800
+  value_text: 1270000 0 -7420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4627000 4004000
+    next_corner: -4627000 4627000 0
+    next_corner: -4004000 4627000 0
+  outline_polyline: 177800 4004000 4627000
+    next_corner: 4627000 4627000 0
+    next_corner: 4627000 4004000 0
+  outline_polyline: 177800 -4627000 -4004000
+    next_corner: -4627000 -4627000 0
+    next_corner: -4004000 -4627000 0
+  outline_polyline: 177800 4004000 -4627000
+    next_corner: 4627000 -4627000 0
+    next_corner: 4627000 -4004000 0
+  outline_polyline: 254000 -5135000 4258000
+    next_corner: -5008000 4385000 1
+    next_corner: -4881000 4258000 1
+    next_corner: -5008000 4131000 1
+    close_polyline: 1
+  n_pins: 49
+    pin: "1" 0 -4500000 3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4500000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -4500000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -4500000 -3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -3575000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -2925000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -2275000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -1625000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 -975000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 -325000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 325000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 975000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 1625000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 2275000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 2925000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 3575000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4500000 -3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4500000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 4500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 4500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 4500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 4500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 4500000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 4500000 3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 3575000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 2925000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 2275000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 1625000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 975000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "42" 0 325000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "43" 0 -325000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "44" 0 -975000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "45" 0 -1625000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "46" 0 -2275000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "47" 0 -2925000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "48" 0 -3575000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "49" 0 0 0 0
+      top_pad: 3 7800000 3900000 3900000 0
+
+name: "QFN65P900X900X80-45W1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;11 pin X 11 pin,9.00mm X 9.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -5150000 -5150000 5150000 5150000
+  ref_text: 1270000 0 6150000 0 177800
+  value_text: 1270000 0 -7420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4627000 3679000
+    next_corner: -4627000 4627000 0
+    next_corner: -3679000 4627000 0
+  outline_polyline: 177800 3679000 4627000
+    next_corner: 4627000 4627000 0
+    next_corner: 4627000 3679000 0
+  outline_polyline: 177800 -4627000 -3679000
+    next_corner: -4627000 -4627000 0
+    next_corner: -3679000 -4627000 0
+  outline_polyline: 177800 3679000 -4627000
+    next_corner: 4627000 -4627000 0
+    next_corner: 4627000 -3679000 0
+  outline_polyline: 254000 -5135000 3933000
+    next_corner: -5008000 4060000 1
+    next_corner: -4881000 3933000 1
+    next_corner: -5008000 3806000 1
+    close_polyline: 1
+  n_pins: 45
+    pin: "1" 0 -4500000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -4500000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -3250000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -2600000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -1950000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -1300000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -650000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 0 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 650000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 1300000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 1950000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 2600000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 3250000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 4500000 -3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 4500000 -2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4500000 -1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4500000 -1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4500000 -650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4500000 0 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4500000 650000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4500000 1300000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 4500000 1950000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 4500000 2600000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 4500000 3250000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 3250000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 2600000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 1950000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 1300000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 650000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 0 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 -650000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 -1300000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "42" 0 -1950000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "43" 0 -2600000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "44" 0 -3250000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "45" 0 0 0 0
+      top_pad: 3 7800000 3900000 3900000 0
+
+name: "QFN65P900X900X80-49WN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;12 pin X 12 pin,9.00mm X 9.00mm X 0.80mm H (w/thermal tab)"
+  units: NM
+  sel_rect: -5150000 -5150000 5150000 5150000
+  ref_text: 1270000 0 6150000 0 177800
+  value_text: 1270000 0 -7420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4627000 4004000
+    next_corner: -4627000 4627000 0
+    next_corner: -4004000 4627000 0
+  outline_polyline: 177800 4004000 4627000
+    next_corner: 4627000 4627000 0
+    next_corner: 4627000 4004000 0
+  outline_polyline: 177800 -4627000 -4004000
+    next_corner: -4627000 -4627000 0
+    next_corner: -4004000 -4627000 0
+  outline_polyline: 177800 4004000 -4627000
+    next_corner: 4627000 -4627000 0
+    next_corner: 4627000 -4004000 0
+  outline_polyline: 254000 -5135000 4258000
+    next_corner: -5008000 4385000 1
+    next_corner: -4881000 4258000 1
+    next_corner: -5008000 4131000 1
+    close_polyline: 1
+  n_pins: 49
+    pin: "1" 0 -4500000 3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "2" 0 -4500000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "3" 0 -4500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "4" 0 -4500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "5" 0 -4500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "6" 0 -4500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "7" 0 -4500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "8" 0 -4500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "9" 0 -4500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "10" 0 -4500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "11" 0 -4500000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "12" 0 -4500000 -3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "13" 0 -3575000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "14" 0 -2925000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "15" 0 -2275000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "16" 0 -1625000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "17" 0 -975000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "18" 0 -325000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "19" 0 325000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "20" 0 975000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "21" 0 1625000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "22" 0 2275000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "23" 0 2925000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "24" 0 3575000 -4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "25" 0 4500000 -3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "26" 0 4500000 -2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "27" 0 4500000 -2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "28" 0 4500000 -1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "29" 0 4500000 -975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "30" 0 4500000 -325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "31" 0 4500000 325000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "32" 0 4500000 975000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "33" 0 4500000 1625000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "34" 0 4500000 2275000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "35" 0 4500000 2925000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "36" 0 4500000 3575000 0
+      top_pad: 3 350000 400000 400000 0
+    pin: "37" 0 3575000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "38" 0 2925000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "39" 0 2275000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "40" 0 1625000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "41" 0 975000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "42" 0 325000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "43" 0 -325000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "44" 0 -975000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "45" 0 -1625000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "46" 0 -2275000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "47" 0 -2925000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "48" 0 -3575000 4500000 90
+      top_pad: 3 350000 400000 400000 0
+    pin: "49" 0 0 0 0
+      top_pad: 3 7800000 3900000 3900000 0
+
+name: "QFN65P900X900X90-45N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,0.65mm pitch,square;11 pin X 11 pin, 9.10mm X 9.10mm X 0.90mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -5100000 -5100000 5100000 5100000
+  ref_text: 1270000 0 6100000 0 177800
+  value_text: 1270000 0 -7370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4677000 3679000
+    next_corner: -4677000 4677000 0
+    next_corner: -3679000 4677000 0
+  outline_polyline: 177800 3679000 4677000
+    next_corner: 4677000 4677000 0
+    next_corner: 4677000 3679000 0
+  outline_polyline: 177800 -4677000 -3679000
+    next_corner: -4677000 -4677000 0
+    next_corner: -3679000 -4677000 0
+  outline_polyline: 177800 3679000 -4677000
+    next_corner: 4677000 -4677000 0
+    next_corner: 4677000 -3679000 0
+  outline_polyline: 254000 -5185000 3933000
+    next_corner: -5058000 4060000 1
+    next_corner: -4931000 3933000 1
+    next_corner: -5058000 3806000 1
+    close_polyline: 1
+  n_pins: 45
+    pin: "1" 0 -4300000 3250000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "2" 0 -4300000 2600000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "3" 0 -4300000 1950000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "4" 0 -4300000 1300000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "5" 0 -4300000 650000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "6" 0 -4300000 0 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "7" 0 -4300000 -650000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "8" 0 -4300000 -1300000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "9" 0 -4300000 -1950000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "10" 0 -4300000 -2600000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "11" 0 -4300000 -3250000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "12" 0 -3250000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "13" 0 -2600000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "14" 0 -1950000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "15" 0 -1300000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "16" 0 -650000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "17" 0 0 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "18" 0 650000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "19" 0 1300000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "20" 0 1950000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "21" 0 2600000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "22" 0 3250000 -4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "23" 0 4300000 -3250000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "24" 0 4300000 -2600000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "25" 0 4300000 -1950000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "26" 0 4300000 -1300000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "27" 0 4300000 -650000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "28" 0 4300000 0 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "29" 0 4300000 650000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "30" 0 4300000 1300000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "31" 0 4300000 1950000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "32" 0 4300000 2600000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "33" 0 4300000 3250000 0
+      top_pad: 4 350000 550000 550000 175000
+    pin: "34" 0 3250000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "35" 0 2600000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "36" 0 1950000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "37" 0 1300000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "38" 0 650000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "39" 0 0 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "40" 0 -650000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "41" 0 -1300000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "42" 0 -1950000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "43" 0 -2600000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "44" 0 -3250000 4300000 90
+      top_pad: 4 350000 550000 550000 175000
+    pin: "45" 0 0 0 0
+      top_pad: 3 6850000 3425000 3425000 0
+

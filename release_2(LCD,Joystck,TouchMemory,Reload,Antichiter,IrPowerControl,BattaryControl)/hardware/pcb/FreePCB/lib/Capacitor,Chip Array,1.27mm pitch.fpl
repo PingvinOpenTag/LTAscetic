@@ -1,0 +1,88 @@
+name: "CAPCAV127P310X640X85-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,Chip Array,1.27mm pitch;10 pin,3.10mm L X 6.40mm W X 0.85mm H"
+  units: NM
+  sel_rect: -2400000 -3550000 2400000 3550000
+  ref_text: 1270000 0 4550000 0 177800
+  value_text: 1270000 0 -5820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 3394000
+    next_corner: 1550000 3394000 0
+  outline_polyline: 177800 -1550000 -3394000
+    next_corner: 1550000 -3394000 0
+  outline_polyline: 254000 -2252000 3394000
+    next_corner: -2125000 3521000 1
+    next_corner: -1998000 3394000 1
+    next_corner: -2125000 3267000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -1550000 2540000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "2" 0 -1550000 1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "3" 0 -1550000 0 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "4" 0 -1550000 -1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "5" 0 -1550000 -2540000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "6" 0 1550000 -2540000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "7" 0 1550000 -1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "8" 0 1550000 0 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "9" 0 1550000 1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "10" 0 1550000 2540000 0
+      top_pad: 3 600000 575000 575000 0
+
+name: "CAPCAV127P310X640X95-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,Chip Array,1.27mm pitch;10 pin,1 pin X 4 pin,3.10mm L X 6.40mm W X 0.95mm H"
+  units: NM
+  sel_rect: -2400000 -4050000 2400000 4050000
+  ref_text: 1270000 0 5050000 0 177800
+  value_text: 1270000 0 -6320000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 2738000
+    next_corner: -1550000 3200000 0
+    next_corner: -833000 3200000 0
+  outline_polyline: 177800 1550000 2738000
+    next_corner: 1550000 3200000 0
+    next_corner: 833000 3200000 0
+  outline_polyline: 177800 -1550000 -2738000
+    next_corner: -1550000 -3200000 0
+    next_corner: -833000 -3200000 0
+  outline_polyline: 177800 1550000 -2738000
+    next_corner: 1550000 -3200000 0
+    next_corner: 833000 -3200000 0
+  outline_polyline: 254000 -127000 4283000
+    next_corner: 0 4410000 1
+    next_corner: 127000 4283000 1
+    next_corner: 0 4156000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "2" 0 -1600000 1905000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "3" 0 -1600000 635000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "4" 0 -1600000 -635000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "5" 0 -1600000 -1905000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "6" 0 0 -3300000 90
+      top_pad: 3 900000 475000 475000 0
+    pin: "7" 0 1600000 -1905000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "8" 0 1600000 -635000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "9" 0 1600000 635000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "10" 0 1600000 1905000 0
+      top_pad: 3 650000 525000 525000 0
+    pin: "1" 0 0 3300000 90
+      top_pad: 3 900000 475000 475000 0
+

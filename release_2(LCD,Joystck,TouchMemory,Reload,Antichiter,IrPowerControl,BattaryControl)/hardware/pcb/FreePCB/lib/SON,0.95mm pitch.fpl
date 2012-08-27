@@ -1,0 +1,152 @@
+name: "SON95P300X300X100-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.95mm pitch;6 pin,3.15mm W X 3.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1575000 1429000
+    next_corner: -1575000 1627000 0
+    next_corner: 1575000 1627000 0
+    next_corner: 1575000 1429000 0
+  outline_polyline: 177800 -1575000 -1429000
+    next_corner: -1575000 -1627000 0
+    next_corner: 1575000 -1627000 0
+    next_corner: 1575000 -1429000 0
+  outline_polyline: 254000 -2210000 1683000
+    next_corner: -2083000 1810000 1
+    next_corner: -1956000 1683000 1
+    next_corner: -2083000 1556000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1450000 950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "2" 0 -1450000 0 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "3" 0 -1450000 -950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "4" 0 1450000 -950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "5" 0 1450000 0 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "6" 0 1450000 950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 2250000 825000 825000 0
+
+name: "SON95P300X300X80-7AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.95mm pitch;6 pin,3.15mm W X 3.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1575000 1429000
+    next_corner: -1575000 1627000 0
+    next_corner: 1575000 1627000 0
+    next_corner: 1575000 1429000 0
+  outline_polyline: 177800 -1575000 -1429000
+    next_corner: -1575000 -1627000 0
+    next_corner: 1575000 -1627000 0
+    next_corner: 1575000 -1429000 0
+  outline_polyline: 254000 -2210000 1683000
+    next_corner: -2083000 1810000 1
+    next_corner: -1956000 1683000 1
+    next_corner: -2083000 1556000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1450000 950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "2" 0 -1450000 0 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "3" 0 -1450000 -950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "4" 0 1450000 -950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "5" 0 1450000 0 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "6" 0 1450000 950000 0
+      top_pad: 3 450000 425000 425000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 2250000 825000 825000 0
+
+name: "SON95P300X300X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.95mm pitch;6 pin,3.10mm W X 3.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1404000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1404000 0
+  outline_polyline: 177800 -1550000 -1404000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1404000 0
+  outline_polyline: 254000 -2185000 1658000
+    next_corner: -2058000 1785000 1
+    next_corner: -1931000 1658000 1
+    next_corner: -2058000 1531000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1450000 950000 0
+      top_pad: 4 400000 425000 425000 200000
+    pin: "2" 0 -1450000 0 0
+      top_pad: 4 400000 425000 425000 200000
+    pin: "3" 0 -1450000 -950000 0
+      top_pad: 4 400000 425000 425000 200000
+    pin: "4" 0 1450000 -950000 0
+      top_pad: 4 400000 425000 425000 200000
+    pin: "5" 0 1450000 0 0
+      top_pad: 4 400000 425000 425000 200000
+    pin: "6" 0 1450000 950000 0
+      top_pad: 4 400000 425000 425000 200000
+    pin: "7" 0 0 0 0
+      top_pad: 3 2200000 800000 800000 0
+
+name: "SON95P300X310X80-7WEEAN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.95mm pitch;6 pin,3.00mm W X 3.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1429000
+    next_corner: -1500000 1627000 0
+    next_corner: 1500000 1627000 0
+    next_corner: 1500000 1429000 0
+  outline_polyline: 177800 -1500000 -1429000
+    next_corner: -1500000 -1627000 0
+    next_corner: 1500000 -1627000 0
+    next_corner: 1500000 -1429000 0
+  outline_polyline: 254000 -2135000 1683000
+    next_corner: -2008000 1810000 1
+    next_corner: -1881000 1683000 1
+    next_corner: -2008000 1556000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1500000 950000 0
+      top_pad: 4 450000 375000 375000 225000
+    pin: "2" 0 -1500000 0 0
+      top_pad: 4 450000 375000 375000 225000
+    pin: "3" 0 -1500000 -950000 0
+      top_pad: 4 450000 375000 375000 225000
+    pin: "4" 0 1500000 -950000 0
+      top_pad: 4 450000 375000 375000 225000
+    pin: "5" 0 1500000 0 0
+      top_pad: 4 450000 375000 375000 225000
+    pin: "6" 0 1500000 950000 0
+      top_pad: 4 450000 375000 375000 225000
+    pin: "7" 0 0 0 0
+      top_pad: 3 2400000 800000 800000 0
+

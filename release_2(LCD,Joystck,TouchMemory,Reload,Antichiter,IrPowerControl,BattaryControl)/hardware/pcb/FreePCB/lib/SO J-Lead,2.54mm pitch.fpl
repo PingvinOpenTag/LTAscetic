@@ -1,0 +1,34 @@
+name: "SOJ254P500X420-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SO J-Lead,2.54mm pitch;4 pin,4.70mm W X 5.00mm L X 4.20mm H Body"
+  units: NM
+  sel_rect: -3250000 -2750000 3250000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 817000 2500000
+    next_corner: -817000 2500000 0
+    next_corner: -817000 -2500000 0
+    next_corner: 817000 -2500000 0
+    close_polyline: 0
+  outline_polyline: 254000 -2848000 2574000
+    next_corner: -2721000 2701000 1
+    next_corner: -2594000 2574000 1
+    next_corner: -2721000 2447000 1
+    close_polyline: 1
+  outline_polyline: 177800 -690000 1992000
+    next_corner: -309000 2373000 1
+    next_corner: 72000 1992000 1
+    next_corner: -309000 1611000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2150000 1270000 0
+      top_pad: 4 1050000 825000 825000 525000
+    pin: "2" 0 -2150000 -1270000 0
+      top_pad: 4 1050000 825000 825000 525000
+    pin: "3" 0 2150000 -1270000 0
+      top_pad: 4 1050000 825000 825000 525000
+    pin: "4" 0 2150000 1270000 0
+      top_pad: 4 1050000 825000 825000 525000
+

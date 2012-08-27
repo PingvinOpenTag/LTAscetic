@@ -1,0 +1,153 @@
+name: "INDM2116X140N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;2.10mm L X 1.60mm W X 1.40mm H"
+  units: NM
+  sel_rect: -1950000 -1150000 1950000 1150000
+  ref_text: 1270000 0 2150000 0 177800
+  value_text: 1270000 0 -3420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1177000 831000
+    next_corner: -1177000 927000 0
+    next_corner: 1177000 927000 0
+    next_corner: 1177000 831000 0
+  outline_polyline: 177800 -1177000 -831000
+    next_corner: -1177000 -927000 0
+    next_corner: 1177000 -927000 0
+    next_corner: 1177000 -831000 0
+  n_pins: 2
+    pin: "1" 0 -1050000 0 0
+      top_pad: 3 900000 625000 625000 0
+    pin: "2" 0 1050000 0 0
+      top_pad: 3 900000 625000 625000 0
+
+name: "INDM2520X160N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;2.50mm L X 2.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -2100000 -1350000 2100000 1350000
+  ref_text: 1270000 0 2350000 0 177800
+  value_text: 1270000 0 -3620000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1377000 1031000
+    next_corner: -1377000 1127000 0
+    next_corner: 1377000 1127000 0
+    next_corner: 1377000 1031000 0
+  outline_polyline: 177800 -1377000 -1031000
+    next_corner: -1377000 -1127000 0
+    next_corner: 1377000 -1127000 0
+    next_corner: 1377000 -1031000 0
+  n_pins: 2
+    pin: "1" 0 -1250000 0 0
+      top_pad: 3 1300000 600000 600000 0
+    pin: "2" 0 1250000 0 0
+      top_pad: 3 1300000 600000 600000 0
+
+name: "INDM3230X240N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;3.20mm L X 3.05mm W X 2.40mm H"
+  units: NM
+  sel_rect: -2500000 -1900000 2500000 1900000
+  ref_text: 1270000 0 2900000 0 177800
+  value_text: 1270000 0 -4170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1727000 1381000
+    next_corner: -1727000 1652000 0
+    next_corner: 1727000 1652000 0
+    next_corner: 1727000 1381000 0
+  outline_polyline: 177800 -1727000 -1381000
+    next_corner: -1727000 -1652000 0
+    next_corner: 1727000 -1652000 0
+    next_corner: 1727000 -1381000 0
+  n_pins: 2
+    pin: "1" 0 -1550000 0 0
+      top_pad: 3 2000000 675000 675000 0
+    pin: "2" 0 1550000 0 0
+      top_pad: 3 2000000 675000 675000 0
+
+name: "INDM4030X250N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;4.00mm L X 3.00mm W X 2.50mm H"
+  units: NM
+  sel_rect: -2900000 -1850000 2900000 1850000
+  ref_text: 1270000 0 2850000 0 177800
+  value_text: 1270000 0 -4120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2127000 1031000
+    next_corner: -2127000 1627000 0
+    next_corner: 2127000 1627000 0
+    next_corner: 2127000 1031000 0
+  outline_polyline: 177800 -2127000 -1031000
+    next_corner: -2127000 -1627000 0
+    next_corner: 2127000 -1627000 0
+    next_corner: 2127000 -1031000 0
+  n_pins: 2
+    pin: "1" 0 -1600000 0 0
+      top_pad: 3 1300000 1025000 1025000 0
+    pin: "2" 0 1600000 0 0
+      top_pad: 3 1300000 1025000 1025000 0
+
+name: "INDM5134X407N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;5.08mm L X 3.43mm W X 4.07mm H"
+  units: NM
+  sel_rect: -3400000 -2100000 3400000 2100000
+  ref_text: 1270000 0 3100000 0 177800
+  value_text: 1270000 0 -4370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2667000 1842000
+    next_corner: 2667000 1842000 0
+  outline_polyline: 177800 -2667000 -1842000
+    next_corner: 2667000 -1842000 0
+  n_pins: 2
+    pin: "1" 0 -2000000 0 0
+      top_pad: 3 3600000 1125000 1125000 0
+    pin: "2" 0 2000000 0 0
+      top_pad: 3 3600000 1125000 1125000 0
+
+name: "INDM5650X530N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;5.60mm L X 5.00mm W X 5.30mm H"
+  units: NM
+  sel_rect: -3700000 -2900000 3700000 2900000
+  ref_text: 1270000 0 3900000 0 177800
+  value_text: 1270000 0 -5170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2927000 2627000
+    next_corner: 2927000 2627000 0
+  outline_polyline: 177800 -2927000 -2627000
+    next_corner: 2927000 -2627000 0
+  n_pins: 2
+    pin: "1" 0 -2300000 0 0
+      top_pad: 3 4500000 1150000 1150000 0
+    pin: "2" 0 2300000 0 0
+      top_pad: 3 4500000 1150000 1150000 0
+
+name: "INDM8531X267N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Inductor,Molded Body;8.51mm L X 3.05mm W X 2.67mm H"
+  units: NM
+  sel_rect: -5150000 -1850000 5150000 1850000
+  ref_text: 1270000 0 2850000 0 177800
+  value_text: 1270000 0 -4120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4382000 1106000
+    next_corner: -4382000 1652000 0
+    next_corner: 4382000 1652000 0
+    next_corner: 4382000 1106000 0
+  outline_polyline: 177800 -4382000 -1106000
+    next_corner: -4382000 -1652000 0
+    next_corner: 4382000 -1652000 0
+    next_corner: 4382000 -1106000 0
+  n_pins: 2
+    pin: "1" 0 -3750000 0 0
+      top_pad: 3 1450000 1150000 1150000 0
+    pin: "2" 0 3750000 0 0
+      top_pad: 3 1450000 1150000 1150000 0
+

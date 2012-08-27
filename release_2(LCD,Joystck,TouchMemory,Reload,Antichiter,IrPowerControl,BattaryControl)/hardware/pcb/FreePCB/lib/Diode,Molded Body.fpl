@@ -1,0 +1,612 @@
+name: "DIOM2012X160N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;2.00mm L X 1.25mm W X 1.60mm H"
+  units: NM
+  sel_rect: -1850000 -950000 1850000 950000
+  ref_text: 1270000 0 1950000 0 177800
+  value_text: 1270000 0 -3220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1127000 752000
+    next_corner: 1127000 752000 0
+  outline_polyline: 177800 -1127000 -752000
+    next_corner: 1127000 -752000 0
+  outline_polyline: 254000 -1889000 1071100
+    next_corner: -1762000 1198100 1
+    next_corner: -1635000 1071100 1
+    next_corner: -1762000 944100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -900000 0 0
+      top_pad: 3 1050000 675000 675000 0
+    pin: "2" 0 900000 0 0
+      top_pad: 3 1050000 675000 675000 0
+
+name: "DIOM5025X231N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.01mm L X 2.49mm W X 2.31mm H"
+  units: NM
+  sel_rect: -3450000 -1650000 3450000 1650000
+  ref_text: 1270000 0 2650000 0 177800
+  value_text: 1270000 0 -3920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2632000 1181000
+    next_corner: -2632000 1372000 0
+    next_corner: 2632000 1372000 0
+    next_corner: 2632000 1181000 0
+  outline_polyline: 177800 -2632000 -1181000
+    next_corner: -2632000 -1372000 0
+    next_corner: 2632000 -1372000 0
+    next_corner: 2632000 -1181000 0
+  outline_polyline: 254000 -3394000 1346100
+    next_corner: -3267000 1473100 1
+    next_corner: -3140000 1346100 1
+    next_corner: -3267000 1219100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2050000 0 0
+      top_pad: 3 1600000 1125000 1125000 0
+    pin: "2" 0 2050000 0 0
+      top_pad: 3 1600000 1125000 1125000 0
+
+name: "DIOM5027X244N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.04mm L X 2.70mm W X 2.44mm H"
+  units: NM
+  sel_rect: -3400000 -1700000 3400000 1700000
+  ref_text: 1270000 0 2700000 0 177800
+  value_text: 1270000 0 -3970000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2647000 1156000
+    next_corner: -2647000 1477000 0
+    next_corner: 2647000 1477000 0
+    next_corner: 2647000 1156000 0
+  outline_polyline: 177800 -2647000 -1156000
+    next_corner: -2647000 -1477000 0
+    next_corner: 2647000 -1477000 0
+    next_corner: 2647000 -1156000 0
+  outline_polyline: 254000 -3409000 1321100
+    next_corner: -3282000 1448100 1
+    next_corner: -3155000 1321100 1
+    next_corner: -3282000 1194100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2050000 0 0
+      top_pad: 3 1550000 1100000 1100000 0
+    pin: "2" 0 2050000 0 0
+      top_pad: 3 1550000 1100000 1100000 0
+
+name: "DIOM5127X229N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.11mm L X 2.67mm W X 2.29mm H"
+  units: NM
+  sel_rect: -3400000 -1650000 3400000 1650000
+  ref_text: 1270000 0 2650000 0 177800
+  value_text: 1270000 0 -3920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2682000 1156000
+    next_corner: -2682000 1462000 0
+    next_corner: 2682000 1462000 0
+    next_corner: 2682000 1156000 0
+  outline_polyline: 177800 -2682000 -1156000
+    next_corner: -2682000 -1462000 0
+    next_corner: 2682000 -1462000 0
+    next_corner: 2682000 -1156000 0
+  outline_polyline: 254000 -3444000 1321100
+    next_corner: -3317000 1448100 1
+    next_corner: -3190000 1321100 1
+    next_corner: -3317000 1194100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2050000 0 0
+      top_pad: 3 1550000 1100000 1100000 0
+    pin: "2" 0 2050000 0 0
+      top_pad: 3 1550000 1100000 1100000 0
+
+name: "DIOM5226X203N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.20mm L X 2.60mm W X 2.03mm H"
+  units: NM
+  sel_rect: -3550000 -1750000 3550000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2727000 1156000
+    next_corner: -2727000 1427000 0
+    next_corner: 2727000 1427000 0
+    next_corner: 2727000 1156000 0
+  outline_polyline: 177800 -2727000 -1156000
+    next_corner: -2727000 -1427000 0
+    next_corner: 2727000 -1427000 0
+    next_corner: 2727000 -1156000 0
+  outline_polyline: 254000 -3489000 1321100
+    next_corner: -3362000 1448100 1
+    next_corner: -3235000 1321100 1
+    next_corner: -3362000 1194100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2100000 0 0
+      top_pad: 3 1550000 1200000 1200000 0
+    pin: "2" 0 2100000 0 0
+      top_pad: 3 1550000 1200000 1200000 0
+
+name: "DIOM5226X262N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.20mm L X 2.61mm W X 2.62mm H"
+  units: NM
+  sel_rect: -3600000 -1750000 3600000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2727000 1156000
+    next_corner: -2727000 1432000 0
+    next_corner: 2727000 1432000 0
+    next_corner: 2727000 1156000 0
+  outline_polyline: 177800 -2727000 -1156000
+    next_corner: -2727000 -1432000 0
+    next_corner: 2727000 -1432000 0
+    next_corner: 2727000 -1156000 0
+  outline_polyline: 254000 -3489000 1321100
+    next_corner: -3362000 1448100 1
+    next_corner: -3235000 1321100 1
+    next_corner: -3362000 1194100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2150000 0 0
+      top_pad: 3 1550000 1175000 1175000 0
+    pin: "2" 0 2150000 0 0
+      top_pad: 3 1550000 1175000 1175000 0
+
+name: "DIOM5326X230N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.30mm L X 2.60mm W X 2.30mm H"
+  units: NM
+  sel_rect: -3500000 -1650000 3500000 1650000
+  ref_text: 1270000 0 2650000 0 177800
+  value_text: 1270000 0 -3920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2777000 1156000
+    next_corner: -2777000 1427000 0
+    next_corner: 2777000 1427000 0
+    next_corner: 2777000 1156000 0
+  outline_polyline: 177800 -2777000 -1156000
+    next_corner: -2777000 -1427000 0
+    next_corner: 2777000 -1427000 0
+    next_corner: 2777000 -1156000 0
+  outline_polyline: 254000 -3539000 1321100
+    next_corner: -3412000 1448100 1
+    next_corner: -3285000 1321100 1
+    next_corner: -3412000 1194100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2200000 0 0
+      top_pad: 3 1550000 1050000 1050000 0
+    pin: "2" 0 2200000 0 0
+      top_pad: 3 1550000 1050000 1050000 0
+
+name: "DIOM5326X292N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H"
+  units: NM
+  sel_rect: -3550000 -1700000 3550000 1700000
+  ref_text: 1270000 0 2700000 0 177800
+  value_text: 1270000 0 -3970000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2762000 1131000
+    next_corner: -2762000 1427000 0
+    next_corner: 2762000 1427000 0
+    next_corner: 2762000 1131000 0
+  outline_polyline: 177800 -2762000 -1131000
+    next_corner: -2762000 -1427000 0
+    next_corner: 2762000 -1427000 0
+    next_corner: 2762000 -1131000 0
+  outline_polyline: 254000 -3524000 1296100
+    next_corner: -3397000 1423100 1
+    next_corner: -3270000 1296100 1
+    next_corner: -3397000 1169100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2150000 0 0
+      top_pad: 3 1500000 1150000 1150000 0
+    pin: "2" 0 2150000 0 0
+      top_pad: 3 1500000 1150000 1150000 0
+
+name: "DIOM5336X240N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.30mm L X 3.55mm W X 2.40mm H"
+  units: NM
+  sel_rect: -3550000 -2150000 3550000 2150000
+  ref_text: 1270000 0 3150000 0 177800
+  value_text: 1270000 0 -4420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2777000 1431000
+    next_corner: -2777000 1902000 0
+    next_corner: 2777000 1902000 0
+    next_corner: 2777000 1431000 0
+  outline_polyline: 177800 -2777000 -1431000
+    next_corner: -2777000 -1902000 0
+    next_corner: 2777000 -1902000 0
+    next_corner: 2777000 -1431000 0
+  outline_polyline: 254000 -3539000 1596100
+    next_corner: -3412000 1723100 1
+    next_corner: -3285000 1596100 1
+    next_corner: -3412000 1469100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2250000 0 0
+      top_pad: 3 2100000 1050000 1050000 0
+    pin: "2" 0 2250000 0 0
+      top_pad: 3 2100000 1050000 1050000 0
+
+name: "DIOM5336X244N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.34mm L X 3.62mm W X 2.44mm H"
+  units: NM
+  sel_rect: -3600000 -2250000 3600000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2797000 1406000
+    next_corner: -2797000 1937000 0
+    next_corner: 2797000 1937000 0
+    next_corner: 2797000 1406000 0
+  outline_polyline: 177800 -2797000 -1406000
+    next_corner: -2797000 -1937000 0
+    next_corner: 2797000 -1937000 0
+    next_corner: 2797000 -1406000 0
+  outline_polyline: 254000 -3559000 1571100
+    next_corner: -3432000 1698100 1
+    next_corner: -3305000 1571100 1
+    next_corner: -3432000 1444100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2300000 0 0
+      top_pad: 3 2050000 1025000 1025000 0
+    pin: "2" 0 2300000 0 0
+      top_pad: 3 2050000 1025000 1025000 0
+
+name: "DIOM5336X262N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.30mm L X 3.62mm W X 2.62mm H"
+  units: NM
+  sel_rect: -3550000 -2250000 3550000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2777000 1456000
+    next_corner: -2777000 1937000 0
+    next_corner: 2777000 1937000 0
+    next_corner: 2777000 1456000 0
+  outline_polyline: 177800 -2777000 -1456000
+    next_corner: -2777000 -1937000 0
+    next_corner: 2777000 -1937000 0
+    next_corner: 2777000 -1456000 0
+  outline_polyline: 254000 -3539000 1621100
+    next_corner: -3412000 1748100 1
+    next_corner: -3285000 1621100 1
+    next_corner: -3412000 1494100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2150000 0 0
+      top_pad: 3 2150000 1125000 1125000 0
+    pin: "2" 0 2150000 0 0
+      top_pad: 3 2150000 1125000 1125000 0
+
+name: "DIOM5426X300N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.36mm L X 2.65mm W X 3.00mm H"
+  units: NM
+  sel_rect: -3600000 -1700000 3600000 1700000
+  ref_text: 1270000 0 2700000 0 177800
+  value_text: 1270000 0 -3970000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2807000 1181000
+    next_corner: -2807000 1452000 0
+    next_corner: 2807000 1452000 0
+    next_corner: 2807000 1181000 0
+  outline_polyline: 177800 -2807000 -1181000
+    next_corner: -2807000 -1452000 0
+    next_corner: 2807000 -1452000 0
+    next_corner: 2807000 -1181000 0
+  outline_polyline: 254000 -3569000 1346100
+    next_corner: -3442000 1473100 1
+    next_corner: -3315000 1346100 1
+    next_corner: -3442000 1219100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2200000 0 0
+      top_pad: 3 1600000 1150000 1150000 0
+    pin: "2" 0 2200000 0 0
+      top_pad: 3 1600000 1150000 1150000 0
+
+name: "DIOM5427X295N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.45mm L X 2.71mm W X 2.95mm H"
+  units: NM
+  sel_rect: -3650000 -1700000 3650000 1700000
+  ref_text: 1270000 0 2700000 0 177800
+  value_text: 1270000 0 -3970000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2852000 1456000
+    next_corner: -2852000 1482000 0
+    next_corner: 2852000 1482000 0
+    next_corner: 2852000 1456000 0
+  outline_polyline: 177800 -2852000 -1456000
+    next_corner: -2852000 -1482000 0
+    next_corner: 2852000 -1482000 0
+    next_corner: 2852000 -1456000 0
+  outline_polyline: 254000 -3614000 1621100
+    next_corner: -3487000 1748100 1
+    next_corner: -3360000 1621100 1
+    next_corner: -3487000 1494100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2300000 0 0
+      top_pad: 3 2150000 1075000 1075000 0
+    pin: "2" 0 2300000 0 0
+      top_pad: 3 2150000 1075000 1075000 0
+
+name: "DIOM5436X241N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.40mm L X 3.62mm W X 2.41mm H"
+  units: NM
+  sel_rect: -3650000 -2250000 3650000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2827000 1481000
+    next_corner: -2827000 1937000 0
+    next_corner: 2827000 1937000 0
+    next_corner: 2827000 1481000 0
+  outline_polyline: 177800 -2827000 -1481000
+    next_corner: -2827000 -1937000 0
+    next_corner: 2827000 -1937000 0
+    next_corner: 2827000 -1481000 0
+  outline_polyline: 254000 -3589000 1646100
+    next_corner: -3462000 1773100 1
+    next_corner: -3335000 1646100 1
+    next_corner: -3462000 1519100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2250000 0 0
+      top_pad: 3 2200000 1150000 1150000 0
+    pin: "2" 0 2250000 0 0
+      top_pad: 3 2200000 1150000 1150000 0
+
+name: "DIOM5436X244N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.40mm L X 3.62mm W X 2.44mm H"
+  units: NM
+  sel_rect: -3550000 -2250000 3550000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2827000 1456000
+    next_corner: -2827000 1937000 0
+    next_corner: 2827000 1937000 0
+    next_corner: 2827000 1456000 0
+  outline_polyline: 177800 -2827000 -1456000
+    next_corner: -2827000 -1937000 0
+    next_corner: 2827000 -1937000 0
+    next_corner: 2827000 -1456000 0
+  outline_polyline: 254000 -3589000 1621100
+    next_corner: -3462000 1748100 1
+    next_corner: -3335000 1621100 1
+    next_corner: -3462000 1494100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2200000 0 0
+      top_pad: 3 2150000 1100000 1100000 0
+    pin: "2" 0 2200000 0 0
+      top_pad: 3 2150000 1100000 1100000 0
+
+name: "DIOM5436X265N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.40mm L X 3.60mm W X 2.65mm H"
+  units: NM
+  sel_rect: -3550000 -2200000 3550000 2200000
+  ref_text: 1270000 0 3200000 0 177800
+  value_text: 1270000 0 -4470000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2827000 1406000
+    next_corner: -2827000 1927000 0
+    next_corner: 2827000 1927000 0
+    next_corner: 2827000 1406000 0
+  outline_polyline: 177800 -2827000 -1406000
+    next_corner: -2827000 -1927000 0
+    next_corner: 2827000 -1927000 0
+    next_corner: 2827000 -1406000 0
+  outline_polyline: 254000 -3589000 1571100
+    next_corner: -3462000 1698100 1
+    next_corner: -3335000 1571100 1
+    next_corner: -3462000 1444100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2200000 0 0
+      top_pad: 3 2050000 1100000 1100000 0
+    pin: "2" 0 2200000 0 0
+      top_pad: 3 2050000 1100000 1100000 0
+
+name: "DIOM5436X295N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.45mm L X 3.62mm W X 2.95mm H"
+  units: NM
+  sel_rect: -3650000 -2250000 3650000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2852000 1481000
+    next_corner: -2852000 1937000 0
+    next_corner: 2852000 1937000 0
+    next_corner: 2852000 1481000 0
+  outline_polyline: 177800 -2852000 -1481000
+    next_corner: -2852000 -1937000 0
+    next_corner: 2852000 -1937000 0
+    next_corner: 2852000 -1481000 0
+  outline_polyline: 254000 -3614000 1646100
+    next_corner: -3487000 1773100 1
+    next_corner: -3360000 1646100 1
+    next_corner: -3487000 1519100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2300000 0 0
+      top_pad: 3 2200000 1075000 1075000 0
+    pin: "2" 0 2300000 0 0
+      top_pad: 3 2200000 1075000 1075000 0
+
+name: "DIOM5538X262N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;5.49mm L X 3.79mm W X 2.62mm H"
+  units: NM
+  sel_rect: -3600000 -2250000 3600000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2872000 1406000
+    next_corner: -2872000 2022000 0
+    next_corner: 2872000 2022000 0
+    next_corner: 2872000 1406000 0
+  outline_polyline: 177800 -2872000 -1406000
+    next_corner: -2872000 -2022000 0
+    next_corner: 2872000 -2022000 0
+    next_corner: 2872000 -1406000 0
+  outline_polyline: 254000 -3634000 1571100
+    next_corner: -3507000 1698100 1
+    next_corner: -3380000 1571100 1
+    next_corner: -3507000 1444100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2350000 0 0
+      top_pad: 3 2050000 1000000 1000000 0
+    pin: "2" 0 2350000 0 0
+      top_pad: 3 2050000 1000000 1000000 0
+
+name: "DIOM7959X241N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;7.94mm L X 5.91mm W X 2.41mm H"
+  units: NM
+  sel_rect: -4850000 -3400000 4850000 3400000
+  ref_text: 1270000 0 4400000 0 177800
+  value_text: 1270000 0 -5670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4097000 1906000
+    next_corner: -4097000 3082000 0
+    next_corner: 4097000 3082000 0
+    next_corner: 4097000 1906000 0
+  outline_polyline: 177800 -4097000 -1906000
+    next_corner: -4097000 -3082000 0
+    next_corner: 4097000 -3082000 0
+    next_corner: 4097000 -1906000 0
+  outline_polyline: 254000 -4859000 2071100
+    next_corner: -4732000 2198100 1
+    next_corner: -4605000 2071100 1
+    next_corner: -4732000 1944100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3500000 0 0
+      top_pad: 3 3050000 1100000 1100000 0
+    pin: "2" 0 3500000 0 0
+      top_pad: 3 3050000 1100000 1100000 0
+
+name: "DIOM7959X262N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;7.94mm L X 5.91mm W X 2.62mm H"
+  units: NM
+  sel_rect: -4850000 -3400000 4850000 3400000
+  ref_text: 1270000 0 4400000 0 177800
+  value_text: 1270000 0 -5670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4097000 1956000
+    next_corner: -4097000 3082000 0
+    next_corner: 4097000 3082000 0
+    next_corner: 4097000 1956000 0
+  outline_polyline: 177800 -4097000 -1956000
+    next_corner: -4097000 -3082000 0
+    next_corner: 4097000 -3082000 0
+    next_corner: 4097000 -1956000 0
+  outline_polyline: 254000 -4859000 2121100
+    next_corner: -4732000 2248100 1
+    next_corner: -4605000 2121100 1
+    next_corner: -4732000 1994100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3500000 0 0
+      top_pad: 3 3150000 1100000 1100000 0
+    pin: "2" 0 3500000 0 0
+      top_pad: 3 3150000 1100000 1100000 0
+
+name: "DIOM7959X265N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;7.94mm L X 5.95mm W X 2.65mm H"
+  units: NM
+  sel_rect: -4850000 -3400000 4850000 3400000
+  ref_text: 1270000 0 4400000 0 177800
+  value_text: 1270000 0 -5670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4097000 1956000
+    next_corner: -4097000 3102000 0
+    next_corner: 4097000 3102000 0
+    next_corner: 4097000 1956000 0
+  outline_polyline: 177800 -4097000 -1956000
+    next_corner: -4097000 -3102000 0
+    next_corner: 4097000 -3102000 0
+    next_corner: 4097000 -1956000 0
+  outline_polyline: 254000 -4859000 2121100
+    next_corner: -4732000 2248100 1
+    next_corner: -4605000 2121100 1
+    next_corner: -4732000 1994100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3500000 0 0
+      top_pad: 3 3150000 1100000 1100000 0
+    pin: "2" 0 3500000 0 0
+      top_pad: 3 3150000 1100000 1100000 0
+
+name: "DIOM7960X216N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Diode,Molded Body;7.87mm L X 5.97mm W X 2.16mm H"
+  units: NM
+  sel_rect: -4800000 -3350000 4800000 3350000
+  ref_text: 1270000 0 4350000 0 177800
+  value_text: 1270000 0 -5620000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4062000 1906000
+    next_corner: -4062000 3112000 0
+    next_corner: 4062000 3112000 0
+    next_corner: 4062000 1906000 0
+  outline_polyline: 177800 -4062000 -1906000
+    next_corner: -4062000 -3112000 0
+    next_corner: 4062000 -3112000 0
+    next_corner: 4062000 -1906000 0
+  outline_polyline: 254000 -4824000 2071100
+    next_corner: -4697000 2198100 1
+    next_corner: -4570000 2071100 1
+    next_corner: -4697000 1944100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3450000 0 0
+      top_pad: 3 3050000 1100000 1100000 0
+    pin: "2" 0 3450000 0 0
+      top_pad: 3 3050000 1100000 1100000 0
+

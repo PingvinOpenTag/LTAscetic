@@ -1,0 +1,23 @@
+name: "INDP145128X550N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Precision inductor,Molded Body;14.50mm L X 12.80mm W X 5.50mm H"
+  units: NM
+  sel_rect: -8250000 -6750000 8250000 6750000
+  ref_text: 1270000 0 7750000 0 177800
+  value_text: 1270000 0 -9020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -7377000 4131000
+    next_corner: -7377000 6527000 0
+    next_corner: 7377000 6527000 0
+    next_corner: 7377000 4131000 0
+  outline_polyline: 177800 -7377000 -4131000
+    next_corner: -7377000 -6527000 0
+    next_corner: 7377000 -6527000 0
+    next_corner: 7377000 -4131000 0
+  n_pins: 2
+    pin: "1" 0 -5500000 0 0
+      top_pad: 3 7500000 2500000 2500000 0
+    pin: "2" 0 5500000 0 0
+      top_pad: 3 7500000 2500000 2500000 0
+

@@ -1,0 +1,530 @@
+name: "PSON80P250X200X80-5N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;4 pin,2.60mm W X 2.00mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -1550000 -1250000 1550000 1250000
+  ref_text: 1270000 0 2250000 0 177800
+  value_text: 1270000 0 -3520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1300000 854000
+    next_corner: -1300000 1127000 0
+    next_corner: 1300000 1127000 0
+    next_corner: 1300000 854000 0
+  outline_polyline: 177800 -1300000 -854000
+    next_corner: -1300000 -1127000 0
+    next_corner: 1300000 -1127000 0
+    next_corner: 1300000 -854000 0
+  outline_polyline: 254000 -1935000 1108000
+    next_corner: -1808000 1235000 1
+    next_corner: -1681000 1108000 1
+    next_corner: -1808000 981000 1
+    close_polyline: 1
+  n_pins: 5
+    pin: "1" 0 -950000 400000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "2" 0 -950000 -400000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "3" 0 950000 -400000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "4" 0 950000 400000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "5" 0 0 0 0
+      top_pad: 3 1100000 400000 400000 0
+
+name: "PSON80P250X250X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;6 pin,2.60mm W X 2.50mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -1550000 -1500000 1550000 1500000
+  ref_text: 1270000 0 2500000 0 177800
+  value_text: 1270000 0 -3770000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1300000 1254000
+    next_corner: -1300000 1377000 0
+    next_corner: 1300000 1377000 0
+    next_corner: 1300000 1254000 0
+  outline_polyline: 177800 -1300000 -1254000
+    next_corner: -1300000 -1377000 0
+    next_corner: 1300000 -1377000 0
+    next_corner: 1300000 -1254000 0
+  outline_polyline: 254000 -1935000 1508000
+    next_corner: -1808000 1635000 1
+    next_corner: -1681000 1508000 1
+    next_corner: -1808000 1381000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -950000 800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "2" 0 -950000 0 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "3" 0 -950000 -800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "4" 0 950000 -800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "5" 0 950000 0 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "6" 0 950000 800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 1600000 400000 400000 0
+
+name: "PSON80P300X250X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;6 pin,3.10mm W X 2.50mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -1800000 -1500000 1800000 1500000
+  ref_text: 1270000 0 2500000 0 177800
+  value_text: 1270000 0 -3770000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1254000
+    next_corner: -1550000 1377000 0
+    next_corner: 1550000 1377000 0
+    next_corner: 1550000 1254000 0
+  outline_polyline: 177800 -1550000 -1254000
+    next_corner: -1550000 -1377000 0
+    next_corner: 1550000 -1377000 0
+    next_corner: 1550000 -1254000 0
+  outline_polyline: 254000 -2185000 1508000
+    next_corner: -2058000 1635000 1
+    next_corner: -1931000 1508000 1
+    next_corner: -2058000 1381000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1200000 800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "2" 0 -1200000 0 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "3" 0 -1200000 -800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "4" 0 1200000 -800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "5" 0 1200000 0 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "6" 0 1200000 800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 1600000 650000 650000 0
+
+name: "PSON80P300X300X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;6 pin,3.10mm W X 3.00mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -1800000 -1750000 1800000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1254000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1254000 0
+  outline_polyline: 177800 -1550000 -1254000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1254000 0
+  outline_polyline: 254000 -2185000 1508000
+    next_corner: -2058000 1635000 1
+    next_corner: -1931000 1508000 1
+    next_corner: -2058000 1381000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1200000 800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "2" 0 -1200000 0 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "3" 0 -1200000 -800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "4" 0 1200000 -800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "5" 0 1200000 0 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "6" 0 1200000 800000 0
+      top_pad: 3 400000 300000 300000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 2100000 650000 650000 0
+
+name: "PSON80P303X310X110-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;8 pin,3.10mm W X 3.10mm L X 1.10mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -1800000 -1800000 1800000 1800000
+  ref_text: 1270000 0 2800000 0 177800
+  value_text: 1270000 0 -4070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1729000
+    next_corner: 1550000 1729000 0
+  outline_polyline: 177800 -1550000 -1729000
+    next_corner: 1550000 -1729000 0
+  outline_polyline: 254000 -2185000 1983000
+    next_corner: -2058000 2110000 1
+    next_corner: -1931000 1983000 1
+    next_corner: -2058000 1856000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1200000 1200000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "2" 0 -1200000 400000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "3" 0 -1200000 -400000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "4" 0 -1200000 -1200000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "5" 0 1200000 -1200000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "6" 0 1200000 -400000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "7" 0 1200000 400000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "8" 0 1200000 1200000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 2600000 500000 500000 0
+
+name: "PSON80P400X300X80-7AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;6 pin,4.10mm W X 3.10mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2300000 -1750000 2300000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1304000
+    next_corner: -2049999 1677000 0
+    next_corner: 2049999 1677000 0
+    next_corner: 2049999 1304000 0
+  outline_polyline: 177800 -2049999 -1304000
+    next_corner: -2049999 -1677000 0
+    next_corner: 2049999 -1677000 0
+    next_corner: 2049999 -1304000 0
+  outline_polyline: 254000 -2684999 1558000
+    next_corner: -2557999 1685000 1
+    next_corner: -2430999 1558000 1
+    next_corner: -2557999 1431000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1700000 800000 0
+      top_pad: 3 500000 300000 300000 0
+    pin: "2" 0 -1700000 0 0
+      top_pad: 3 500000 300000 300000 0
+    pin: "3" 0 -1700000 -800000 0
+      top_pad: 3 500000 300000 300000 0
+    pin: "4" 0 1700000 -800000 0
+      top_pad: 3 500000 300000 300000 0
+    pin: "5" 0 1700000 0 0
+      top_pad: 3 500000 300000 300000 0
+    pin: "6" 0 1700000 800000 0
+      top_pad: 3 500000 300000 300000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 2150000 1175000 1175000 0
+
+name: "PSON80P400X300X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;6 pin,4.10mm W X 3.10mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2300000 -1750000 2300000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1254000
+    next_corner: -2049999 1677000 0
+    next_corner: 2049999 1677000 0
+    next_corner: 2049999 1254000 0
+  outline_polyline: 177800 -2049999 -1254000
+    next_corner: -2049999 -1677000 0
+    next_corner: 2049999 -1677000 0
+    next_corner: 2049999 -1254000 0
+  outline_polyline: 254000 -2684999 1550000
+    next_corner: -2557999 1677000 1
+    next_corner: -2430999 1550000 1
+    next_corner: -2557999 1423000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1700000 800000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "2" 0 -1700000 0 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "3" 0 -1700000 -800000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "4" 0 1700000 -800000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "5" 0 1700000 0 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "6" 0 1700000 800000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 2050000 1125000 1125000 0
+
+name: "PSON80P400X400X100-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;8 pin,4.10mm W X 4.00mm L X 1.00mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2300000 -2250000 2300000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1654000
+    next_corner: -2049999 2127000 0
+    next_corner: 2049999 2127000 0
+    next_corner: 2049999 1654000 0
+  outline_polyline: 177800 -2049999 -1654000
+    next_corner: -2049999 -2127000 0
+    next_corner: 2049999 -2127000 0
+    next_corner: 2049999 -1654000 0
+  outline_polyline: 254000 -2684999 2000000
+    next_corner: -2557999 2127000 1
+    next_corner: -2430999 2000000 1
+    next_corner: -2557999 1873000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1750000 1200000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "2" 0 -1750000 400000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "3" 0 -1750000 -400000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "4" 0 -1750000 -1200000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "5" 0 1750000 -1200000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "6" 0 1750000 -400000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "7" 0 1750000 400000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "8" 0 1750000 1200000 0
+      top_pad: 3 400000 275000 275000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 3500000 1275000 1275000 0
+
+name: "PSON80P400X400X80-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;10 pin,4.10mm W X 4.10mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2300000 -2250000 2300000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 2029000
+    next_corner: -2049999 2176999 0
+    next_corner: 2049999 2176999 0
+    next_corner: 2049999 2029000 0
+  outline_polyline: 177800 -2049999 -2029000
+    next_corner: -2049999 -2176999 0
+    next_corner: 2049999 -2176999 0
+    next_corner: 2049999 -2029000 0
+  outline_polyline: 254000 -2684999 2283000
+    next_corner: -2557999 2410000 1
+    next_corner: -2430999 2283000 1
+    next_corner: -2557999 2156000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1700000 1600000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "2" 0 -1700000 800000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "3" 0 -1700000 0 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "4" 0 -1700000 -800000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "5" 0 -1700000 -1600000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "6" 0 1700000 -1600000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "7" 0 1700000 -800000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "8" 0 1700000 0 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "9" 0 1700000 800000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "10" 0 1700000 1600000 0
+      top_pad: 3 350000 325000 325000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 3100000 1150000 1150000 0
+
+name: "PSON80P400X400X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;8 pin,4.10mm W X 4.10mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2300000 -2250000 2300000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1654000
+    next_corner: -2049999 2176999 0
+    next_corner: 2049999 2176999 0
+    next_corner: 2049999 1654000 0
+  outline_polyline: 177800 -2049999 -1654000
+    next_corner: -2049999 -2176999 0
+    next_corner: 2049999 -2176999 0
+    next_corner: 2049999 -1654000 0
+  outline_polyline: 254000 -2684999 2049999
+    next_corner: -2557999 2176999 1
+    next_corner: -2430999 2049999 1
+    next_corner: -2557999 1922999 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1700000 1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "2" 0 -1700000 400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "3" 0 -1700000 -400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "4" 0 -1700000 -1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "5" 0 1700000 -1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "6" 0 1700000 -400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "7" 0 1700000 400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "8" 0 1700000 1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 3100000 1150000 1150000 0
+
+name: "PSON80P500X400X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;8 pin,5.10mm W X 4.10mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2800000 -2250000 2800000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 1654000
+    next_corner: -2550000 2176999 0
+    next_corner: 2550000 2176999 0
+    next_corner: 2550000 1654000 0
+  outline_polyline: 177800 -2550000 -1654000
+    next_corner: -2550000 -2176999 0
+    next_corner: 2550000 -2176999 0
+    next_corner: 2550000 -1654000 0
+  outline_polyline: 254000 -3185000 2049999
+    next_corner: -3058000 2176999 1
+    next_corner: -2931000 2049999 1
+    next_corner: -3058000 1922999 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -2200000 1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "2" 0 -2200000 400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "3" 0 -2200000 -400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "4" 0 -2200000 -1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "5" 0 2200000 -1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "6" 0 2200000 -400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "7" 0 2200000 400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "8" 0 2200000 1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 3100000 1650000 1650000 0
+
+name: "PSON80P500X500X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;8 pin,5.10mm W X 5.10mm L X 0.80mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2800000 -2750000 2800000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 1654000
+    next_corner: -2550000 2677000 0
+    next_corner: 2550000 2677000 0
+    next_corner: 2550000 1654000 0
+  outline_polyline: 177800 -2550000 -1654000
+    next_corner: -2550000 -2677000 0
+    next_corner: 2550000 -2677000 0
+    next_corner: 2550000 -1654000 0
+  outline_polyline: 254000 -3185000 2550000
+    next_corner: -3058000 2677000 1
+    next_corner: -2931000 2550000 1
+    next_corner: -3058000 2423000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -2200000 1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "2" 0 -2200000 400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "3" 0 -2200000 -400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "4" 0 -2200000 -1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "5" 0 2200000 -1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "6" 0 2200000 -400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "7" 0 2200000 400000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "8" 0 2200000 1200000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 4100000 1650000 1650000 0
+
+name: "PSON80P500X600X100-15N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.80mm pitch;14 pin,5.10mm W X 6.10mm L X 1.00mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2800000 -3250000 2800000 3250000
+  ref_text: 1270000 0 4250000 0 177800
+  value_text: 1270000 0 -5520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 2904000
+    next_corner: -2550000 3177000 0
+    next_corner: 2550000 3177000 0
+    next_corner: 2550000 2904000 0
+  outline_polyline: 177800 -2550000 -2904000
+    next_corner: -2550000 -3177000 0
+    next_corner: 2550000 -3177000 0
+    next_corner: 2550000 -2904000 0
+  outline_polyline: 254000 -3185000 3158000
+    next_corner: -3058000 3285000 1
+    next_corner: -2931000 3158000 1
+    next_corner: -3058000 3031000 1
+    close_polyline: 1
+  n_pins: 15
+    pin: "1" 0 -2150000 2400000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "2" 0 -2150000 1600000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "3" 0 -2150000 800000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "4" 0 -2150000 0 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "5" 0 -2150000 -800000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "6" 0 -2150000 -1600000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "7" 0 -2150000 -2400000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "8" 0 2150000 -2400000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "9" 0 2150000 -1600000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "10" 0 2150000 -800000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "11" 0 2150000 0 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "12" 0 2150000 800000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "13" 0 2150000 1600000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "14" 0 2150000 2400000 0
+      top_pad: 3 500000 325000 325000 0
+    pin: "15" 0 0 0 0
+      top_pad: 3 4450000 1550000 1550000 0
+

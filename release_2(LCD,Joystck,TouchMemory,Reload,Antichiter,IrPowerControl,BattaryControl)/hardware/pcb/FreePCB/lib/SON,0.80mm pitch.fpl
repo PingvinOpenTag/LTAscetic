@@ -1,0 +1,238 @@
+name: "SON80P400X400X100-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.80mm pitch;8 pin,4.10mm W X 4.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2250000 2650000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1654000
+    next_corner: -2049999 2127000 0
+    next_corner: 2049999 2127000 0
+    next_corner: 2049999 1654000 0
+  outline_polyline: 177800 -2049999 -1654000
+    next_corner: -2049999 -2127000 0
+    next_corner: 2049999 -2127000 0
+    next_corner: 2049999 -1654000 0
+  outline_polyline: 254000 -2684999 2000000
+    next_corner: -2557999 2127000 1
+    next_corner: -2430999 2000000 1
+    next_corner: -2557999 1873000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1900000 1200000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "2" 0 -1900000 400000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "3" 0 -1900000 -400000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "4" 0 -1900000 -1200000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "5" 0 1900000 -1200000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "6" 0 1900000 -400000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "7" 0 1900000 400000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "8" 0 1900000 1200000 0
+      top_pad: 3 400000 475000 475000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 3250000 1175000 1175000 0
+
+name: "SON80P400X400X80-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.80mm pitch;10 pin,4.10mm W X 4.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2250000 2650000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 2029000
+    next_corner: -2049999 2127000 0
+    next_corner: 2049999 2127000 0
+    next_corner: 2049999 2029000 0
+  outline_polyline: 177800 -2049999 -2029000
+    next_corner: -2049999 -2127000 0
+    next_corner: 2049999 -2127000 0
+    next_corner: 2049999 -2029000 0
+  outline_polyline: 254000 -2684999 2283000
+    next_corner: -2557999 2410000 1
+    next_corner: -2430999 2283000 1
+    next_corner: -2557999 2156000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1950000 1600000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "2" 0 -1950000 800000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "3" 0 -1950000 0 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "4" 0 -1950000 -800000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "5" 0 -1950000 -1600000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "6" 0 1950000 -1600000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "7" 0 1950000 -800000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "8" 0 1950000 0 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "9" 0 1950000 800000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "10" 0 1950000 1600000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "11" 0 0 0 0
+      top_pad: 3 3100000 1300000 1300000 0
+
+name: "SON80P400X400X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.80mm pitch;8 pin,4.10mm W X 4.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2250000 2650000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1629000
+    next_corner: -2049999 2127000 0
+    next_corner: 2049999 2127000 0
+    next_corner: 2049999 1629000 0
+  outline_polyline: 177800 -2049999 -1629000
+    next_corner: -2049999 -2127000 0
+    next_corner: 2049999 -2127000 0
+    next_corner: 2049999 -1629000 0
+  outline_polyline: 254000 -2684999 2000000
+    next_corner: -2557999 2127000 1
+    next_corner: -2430999 2000000 1
+    next_corner: -2557999 1873000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1950000 1200000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "2" 0 -1950000 400000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "3" 0 -1950000 -400000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "4" 0 -1950000 -1200000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "5" 0 1950000 -1200000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "6" 0 1950000 -400000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "7" 0 1950000 400000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "8" 0 1950000 1200000 0
+      top_pad: 4 350000 425000 425000 175000
+    pin: "9" 0 0 0 0
+      top_pad: 3 3100000 1300000 1300000 0
+
+name: "SON80P500X600X100-15AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.80mm pitch;14 pin,5.10mm W X 6.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3250000 3150000 3250000
+  ref_text: 1270000 0 4250000 0 177800
+  value_text: 1270000 0 -5520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 2879000
+    next_corner: -2550000 3127000 0
+    next_corner: 2550000 3127000 0
+    next_corner: 2550000 2879000 0
+  outline_polyline: 177800 -2550000 -2879000
+    next_corner: -2550000 -3127000 0
+    next_corner: 2550000 -3127000 0
+    next_corner: 2550000 -2879000 0
+  outline_polyline: 254000 -3185000 3133000
+    next_corner: -3058000 3260000 1
+    next_corner: -2931000 3133000 1
+    next_corner: -3058000 3006000 1
+    close_polyline: 1
+  n_pins: 15
+    pin: "1" 0 -2300000 2400000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "2" 0 -2300000 1600000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "3" 0 -2300000 800000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "4" 0 -2300000 0 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "5" 0 -2300000 -800000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "6" 0 -2300000 -1600000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "7" 0 -2300000 -2400000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "8" 0 2300000 -2400000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "9" 0 2300000 -1600000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "10" 0 2300000 -800000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "11" 0 2300000 0 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "12" 0 2300000 800000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "13" 0 2300000 1600000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "14" 0 2300000 2400000 0
+      top_pad: 4 450000 575000 575000 225000
+    pin: "15" 0 0 0 0
+      top_pad: 3 4450000 1500000 1500000 0
+
+name: "SON80P500X600X100-15N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.80mm pitch;14 pin,5.10mm W X 6.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -3250000 3150000 3250000
+  ref_text: 1270000 0 4250000 0 177800
+  value_text: 1270000 0 -5520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 2879000
+    next_corner: -2550000 3127000 0
+    next_corner: 2550000 3127000 0
+    next_corner: 2550000 2879000 0
+  outline_polyline: 177800 -2550000 -2879000
+    next_corner: -2550000 -3127000 0
+    next_corner: 2550000 -3127000 0
+    next_corner: 2550000 -2879000 0
+  outline_polyline: 254000 -3185000 3133000
+    next_corner: -3058000 3260000 1
+    next_corner: -2931000 3133000 1
+    next_corner: -3058000 3006000 1
+    close_polyline: 1
+  n_pins: 15
+    pin: "1" 0 -2350000 2400000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "2" 0 -2350000 1600000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "3" 0 -2350000 800000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "4" 0 -2350000 0 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "5" 0 -2350000 -800000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "6" 0 -2350000 -1600000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "7" 0 -2350000 -2400000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "8" 0 2350000 -2400000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "9" 0 2350000 -1600000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "10" 0 2350000 -800000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "11" 0 2350000 0 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "12" 0 2350000 800000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "13" 0 2350000 1600000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "14" 0 2350000 2400000 0
+      top_pad: 4 450000 525000 525000 225000
+    pin: "15" 0 0 0 0
+      top_pad: 3 5100000 1600000 1600000 0
+

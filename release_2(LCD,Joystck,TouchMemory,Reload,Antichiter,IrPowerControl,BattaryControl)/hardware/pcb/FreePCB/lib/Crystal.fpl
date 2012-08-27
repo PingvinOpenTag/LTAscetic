@@ -1,0 +1,230 @@
+name: "XTAL1150X480X320N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;11.50mm L X 4.80mm W X 3.20mm H"
+  units: NM
+  sel_rect: -7350000 -2650000 7350000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -5877000 1181000
+    next_corner: -5877000 2527000 0
+    next_corner: 5877000 2527000 0
+    next_corner: 5877000 1181000 0
+  outline_polyline: 177800 -5877000 -1181000
+    next_corner: -5877000 -2527000 0
+    next_corner: 5877000 -2527000 0
+    next_corner: 5877000 -1181000 0
+  n_pins: 2
+    pin: "1" 0 -4650000 0 0
+      top_pad: 3 1600000 2450000 2450000 0
+    pin: "2" 0 4650000 0 0
+      top_pad: 3 1600000 2450000 2450000 0
+
+name: "XTAL1150X480X430N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;11.50mm L X 4.80mm W X 4.30mm H"
+  units: NM
+  sel_rect: -7350000 -2650000 7350000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -5877000 1181000
+    next_corner: -5877000 2527000 0
+    next_corner: 5877000 2527000 0
+    next_corner: 5877000 1181000 0
+  outline_polyline: 177800 -5877000 -1181000
+    next_corner: -5877000 -2527000 0
+    next_corner: 5877000 -2527000 0
+    next_corner: 5877000 -1181000 0
+  n_pins: 2
+    pin: "1" 0 -4650000 0 0
+      top_pad: 3 1600000 2450000 2450000 0
+    pin: "2" 0 4650000 0 0
+      top_pad: 3 1600000 2450000 2450000 0
+
+name: "XTAL1160X480X320N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;11.60mm L X 4.80mm W X 3.20mm H"
+  units: NM
+  sel_rect: -7450000 -2650000 7450000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -5927000 1181000
+    next_corner: -5927000 2527000 0
+    next_corner: 5927000 2527000 0
+    next_corner: 5927000 1181000 0
+  outline_polyline: 177800 -5927000 -1181000
+    next_corner: -5927000 -2527000 0
+    next_corner: 5927000 -2527000 0
+    next_corner: 5927000 -1181000 0
+  n_pins: 2
+    pin: "1" 0 -5000000 0 0
+      top_pad: 3 1600000 2200000 2200000 0
+    pin: "2" 0 5000000 0 0
+      top_pad: 3 1600000 2200000 2200000 0
+
+name: "XTAL1160X480X440N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;11.60mm L X 4.80mm W X 4.40mm H"
+  units: NM
+  sel_rect: -7450000 -2650000 7450000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -5927000 1181000
+    next_corner: -5927000 2527000 0
+    next_corner: 5927000 2527000 0
+    next_corner: 5927000 1181000 0
+  outline_polyline: 177800 -5927000 -1181000
+    next_corner: -5927000 -2527000 0
+    next_corner: 5927000 -2527000 0
+    next_corner: 5927000 -1181000 0
+  n_pins: 2
+    pin: "1" 0 -5000000 0 0
+      top_pad: 3 1600000 2200000 2200000 0
+    pin: "2" 0 5000000 0 0
+      top_pad: 3 1600000 2200000 2200000 0
+
+name: "XTAL1170X500X350N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;11.70mm L X 5.00mm W X 3.50mm H"
+  units: NM
+  sel_rect: -7350000 -2750000 7350000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -5977000 1181000
+    next_corner: -5977000 2627000 0
+    next_corner: 5977000 2627000 0
+    next_corner: 5977000 1181000 0
+  outline_polyline: 177800 -5977000 -1181000
+    next_corner: -5977000 -2627000 0
+    next_corner: 5977000 -2627000 0
+    next_corner: 5977000 -1181000 0
+  n_pins: 2
+    pin: "1" 0 -4700000 0 0
+      top_pad: 3 1600000 2400000 2400000 0
+    pin: "2" 0 4700000 0 0
+      top_pad: 3 1600000 2400000 2400000 0
+
+name: "XTAL1170X500X450N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;11.70mm L X 5.00mm W X 4.50mm H"
+  units: NM
+  sel_rect: -7350000 -2750000 7350000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -5977000 1181000
+    next_corner: -5977000 2627000 0
+    next_corner: 5977000 2627000 0
+    next_corner: 5977000 1181000 0
+  outline_polyline: 177800 -5977000 -1181000
+    next_corner: -5977000 -2627000 0
+    next_corner: 5977000 -2627000 0
+    next_corner: 5977000 -1181000 0
+  n_pins: 2
+    pin: "1" 0 -4700000 0 0
+      top_pad: 3 1600000 2400000 2400000 0
+    pin: "2" 0 4700000 0 0
+      top_pad: 3 1600000 2400000 2400000 0
+
+name: "XTAL1200X480X250N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;12.00mm L X 4.80mm W X 2.50mm H"
+  units: NM
+  sel_rect: -7500000 -2650000 7500000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -6127000 1281000
+    next_corner: -6127000 2527000 0
+    next_corner: 6127000 2527000 0
+    next_corner: 6127000 1281000 0
+  outline_polyline: 177800 -6127000 -1281000
+    next_corner: -6127000 -2527000 0
+    next_corner: 6127000 -2527000 0
+    next_corner: 6127000 -1281000 0
+  n_pins: 2
+    pin: "1" 0 -4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+    pin: "2" 0 4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+
+name: "XTAL1200X480X300N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;12.00mm L X 4.80mm W X 3.00mm H"
+  units: NM
+  sel_rect: -7500000 -2650000 7500000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -6127000 1281000
+    next_corner: -6127000 2527000 0
+    next_corner: 6127000 2527000 0
+    next_corner: 6127000 1281000 0
+  outline_polyline: 177800 -6127000 -1281000
+    next_corner: -6127000 -2527000 0
+    next_corner: 6127000 -2527000 0
+    next_corner: 6127000 -1281000 0
+  n_pins: 2
+    pin: "1" 0 -4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+    pin: "2" 0 4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+
+name: "XTAL1200X480X320N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;12.00mm L X 4.80mm W X 3.20mm H"
+  units: NM
+  sel_rect: -7500000 -2650000 7500000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -6127000 1281000
+    next_corner: -6127000 2527000 0
+    next_corner: 6127000 2527000 0
+    next_corner: 6127000 1281000 0
+  outline_polyline: 177800 -6127000 -1281000
+    next_corner: -6127000 -2527000 0
+    next_corner: 6127000 -2527000 0
+    next_corner: 6127000 -1281000 0
+  n_pins: 2
+    pin: "1" 0 -4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+    pin: "2" 0 4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+
+name: "XTAL1200X480X460N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Crystal;12.00mm L X 4.80mm W X 4.60mm H"
+  units: NM
+  sel_rect: -7500000 -2650000 7500000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -6127000 1281000
+    next_corner: -6127000 2527000 0
+    next_corner: 6127000 2527000 0
+    next_corner: 6127000 1281000 0
+  outline_polyline: 177800 -6127000 -1281000
+    next_corner: -6127000 -2527000 0
+    next_corner: 6127000 -2527000 0
+    next_corner: 6127000 -1281000 0
+  n_pins: 2
+    pin: "1" 0 -4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+    pin: "2" 0 4600000 0 0
+      top_pad: 3 1800000 2650000 2650000 0
+

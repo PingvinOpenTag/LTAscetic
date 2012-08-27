@@ -1,0 +1,968 @@
+name: "OSCSC190P250X320X100-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,2.50mm L X 3.20mm W X 1.00mm H"
+  units: NM
+  sel_rect: -2050000 -1900000 2050000 1900000
+  ref_text: 1270000 0 2900000 0 177800
+  value_text: 1270000 0 -4170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -246000 1727000
+    next_corner: 246000 1727000 0
+  outline_polyline: 177800 -246000 -1727000
+    next_corner: 246000 -1727000 0
+  outline_polyline: 254000 -2435000 950000
+    next_corner: -2308000 1077000 1
+    next_corner: -2181000 950000 1
+    next_corner: -2308000 823000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1150000 950000 0
+      top_pad: 3 1100000 650000 650000 0
+    pin: "2" 0 -1150000 -950000 0
+      top_pad: 3 1100000 650000 650000 0
+    pin: "3" 0 1150000 -950000 0
+      top_pad: 3 1100000 650000 650000 0
+    pin: "4" 0 1150000 950000 0
+      top_pad: 3 1100000 650000 650000 0
+
+name: "OSCSC210P250X320X110-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,2.50mm L X 3.20mm W X 1.10mm H"
+  units: NM
+  sel_rect: -2050000 -1950000 2050000 1950000
+  ref_text: 1270000 0 2950000 0 177800
+  value_text: 1270000 0 -4220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -271000 1727000
+    next_corner: 271000 1727000 0
+  outline_polyline: 177800 -271000 -1727000
+    next_corner: 271000 -1727000 0
+  outline_polyline: 254000 -2410000 1050000
+    next_corner: -2283000 1177000 1
+    next_corner: -2156000 1050000 1
+    next_corner: -2283000 923000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1150000 1050000 0
+      top_pad: 3 1100000 625000 625000 0
+    pin: "2" 0 -1150000 -1050000 0
+      top_pad: 3 1100000 625000 625000 0
+    pin: "3" 0 1150000 -1050000 0
+      top_pad: 3 1100000 625000 625000 0
+    pin: "4" 0 1150000 1050000 0
+      top_pad: 3 1100000 625000 625000 0
+
+name: "OSCSC250P320X500X100-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,3.20mm L X 5.00mm W X 1.00mm H"
+  units: NM
+  sel_rect: -2400000 -2850000 2400000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2204000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2204000 0
+  outline_polyline: 177800 -1600000 -2204000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2204000 0
+  outline_polyline: 254000 -2785000 1250000
+    next_corner: -2658000 1377000 1
+    next_corner: -2531000 1250000 1
+    next_corner: -2658000 1123000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1250000 1250000 0
+      top_pad: 3 1400000 900000 900000 0
+    pin: "2" 0 -1250000 -1250000 0
+      top_pad: 3 1400000 900000 900000 0
+    pin: "3" 0 1250000 -1250000 0
+      top_pad: 3 1400000 900000 900000 0
+    pin: "4" 0 1250000 1250000 0
+      top_pad: 3 1400000 900000 900000 0
+
+name: "OSCSC250P320X500X110-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.10mm H"
+  units: NM
+  sel_rect: -2450000 -2850000 2450000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2104000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2104000 0
+  outline_polyline: 177800 -1600000 -2104000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2104000 0
+  outline_polyline: 254000 -2810000 1250000
+    next_corner: -2683000 1377000 1
+    next_corner: -2556000 1250000 1
+    next_corner: -2683000 1123000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1350000 1250000 0
+      top_pad: 3 1200000 825000 825000 0
+    pin: "2" 0 -1350000 -1250000 0
+      top_pad: 3 1200000 825000 825000 0
+    pin: "3" 0 1350000 -1250000 0
+      top_pad: 3 1200000 825000 825000 0
+    pin: "4" 0 1350000 1250000 0
+      top_pad: 3 1200000 825000 825000 0
+
+name: "OSCSC250P320X500X120-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.20mm H"
+  units: NM
+  sel_rect: -2400000 -2800000 2400000 2800000
+  ref_text: 1270000 0 3800000 0 177800
+  value_text: 1270000 0 -5070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2204000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2204000 0
+  outline_polyline: 177800 -1600000 -2204000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2204000 0
+  outline_polyline: 254000 -2785000 1250000
+    next_corner: -2658000 1377000 1
+    next_corner: -2531000 1250000 1
+    next_corner: -2658000 1123000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1300000 1250000 0
+      top_pad: 3 1400000 850000 850000 0
+    pin: "2" 0 -1300000 -1250000 0
+      top_pad: 3 1400000 850000 850000 0
+    pin: "3" 0 1300000 -1250000 0
+      top_pad: 3 1400000 850000 850000 0
+    pin: "4" 0 1300000 1250000 0
+      top_pad: 3 1400000 850000 850000 0
+
+name: "OSCSC250P320X500X160-4AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -2450000 -2850000 2450000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2204000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2204000 0
+  outline_polyline: 177800 -1600000 -2204000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2204000 0
+  outline_polyline: 254000 -2810000 1250000
+    next_corner: -2683000 1377000 1
+    next_corner: -2556000 1250000 1
+    next_corner: -2683000 1123000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1300000 1250000 0
+      top_pad: 3 1400000 875000 875000 0
+    pin: "2" 0 -1300000 -1250000 0
+      top_pad: 3 1400000 875000 875000 0
+    pin: "3" 0 1300000 -1250000 0
+      top_pad: 3 1400000 875000 875000 0
+    pin: "4" 0 1300000 1250000 0
+      top_pad: 3 1400000 875000 875000 0
+
+name: "OSCSC250P320X500X160-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -2400000 -2850000 2400000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2204000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2204000 0
+  outline_polyline: 177800 -1600000 -2204000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2204000 0
+  outline_polyline: 254000 -2785000 1250000
+    next_corner: -2658000 1377000 1
+    next_corner: -2531000 1250000 1
+    next_corner: -2658000 1123000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1300000 1250000 0
+      top_pad: 3 1400000 850000 850000 0
+    pin: "2" 0 -1300000 -1250000 0
+      top_pad: 3 1400000 850000 850000 0
+    pin: "3" 0 1300000 -1250000 0
+      top_pad: 3 1400000 850000 850000 0
+    pin: "4" 0 1300000 1250000 0
+      top_pad: 3 1400000 850000 850000 0
+
+name: "OSCSC254P320X500X110-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.10mm H"
+  units: NM
+  sel_rect: -2350000 -2800000 2350000 2800000
+  ref_text: 1270000 0 3800000 0 177800
+  value_text: 1270000 0 -5070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2199000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2199000 0
+  outline_polyline: 177800 -1600000 -2199000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2199000 0
+  outline_polyline: 254000 -2735000 1270000
+    next_corner: -2608000 1397000 1
+    next_corner: -2481000 1270000 1
+    next_corner: -2608000 1143000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1300000 1270000 0
+      top_pad: 3 1350000 800000 800000 0
+    pin: "2" 0 -1300000 -1270000 0
+      top_pad: 3 1350000 800000 800000 0
+    pin: "3" 0 1300000 -1270000 0
+      top_pad: 3 1350000 800000 800000 0
+    pin: "4" 0 1300000 1270000 0
+      top_pad: 3 1350000 800000 800000 0
+
+name: "OSCSC254P320X500X120-4AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,3.20mm L X 5.00mm W X 1.20mm H"
+  units: NM
+  sel_rect: -2350000 -2850000 2350000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2224000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2224000 0
+  outline_polyline: 177800 -1600000 -2224000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2224000 0
+  outline_polyline: 254000 -2735000 1270000
+    next_corner: -2608000 1397000 1
+    next_corner: -2481000 1270000 1
+    next_corner: -2608000 1143000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1300000 1270000 0
+      top_pad: 3 1400000 800000 800000 0
+    pin: "2" 0 -1300000 -1270000 0
+      top_pad: 3 1400000 800000 800000 0
+    pin: "3" 0 1300000 -1270000 0
+      top_pad: 3 1400000 800000 800000 0
+    pin: "4" 0 1300000 1270000 0
+      top_pad: 3 1400000 800000 800000 0
+
+name: "OSCSC254P320X500X120-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.20mm H"
+  units: NM
+  sel_rect: -2400000 -2850000 2400000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 2199000
+    next_corner: -1600000 2627000 0
+    next_corner: 1600000 2627000 0
+    next_corner: 1600000 2199000 0
+  outline_polyline: 177800 -1600000 -2199000
+    next_corner: -1600000 -2627000 0
+    next_corner: 1600000 -2627000 0
+    next_corner: 1600000 -2199000 0
+  outline_polyline: 254000 -2785000 1270000
+    next_corner: -2658000 1397000 1
+    next_corner: -2531000 1270000 1
+    next_corner: -2658000 1143000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1300000 1270000 0
+      top_pad: 3 1350000 850000 850000 0
+    pin: "2" 0 -1300000 -1270000 0
+      top_pad: 3 1350000 850000 850000 0
+    pin: "3" 0 1300000 -1270000 0
+      top_pad: 3 1350000 850000 850000 0
+    pin: "4" 0 1300000 1270000 0
+      top_pad: 3 1350000 850000 850000 0
+
+name: "OSCSC254P350X600X140-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.50mm L X 6.00mm W X 1.40mm H"
+  units: NM
+  sel_rect: -2550000 -3350000 2550000 3350000
+  ref_text: 1270000 0 4350000 0 177800
+  value_text: 1270000 0 -5620000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1750000 2124000
+    next_corner: -1750000 3127000 0
+    next_corner: 1750000 3127000 0
+    next_corner: 1750000 2124000 0
+  outline_polyline: 177800 -1750000 -2124000
+    next_corner: -1750000 -3127000 0
+    next_corner: 1750000 -3127000 0
+    next_corner: 1750000 -2124000 0
+  outline_polyline: 254000 -2935000 1270000
+    next_corner: -2808000 1397000 1
+    next_corner: -2681000 1270000 1
+    next_corner: -2808000 1143000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1400000 1270000 0
+      top_pad: 3 1200000 900000 900000 0
+    pin: "2" 0 -1400000 -1270000 0
+      top_pad: 3 1200000 900000 900000 0
+    pin: "3" 0 1400000 -1270000 0
+      top_pad: 3 1200000 900000 900000 0
+    pin: "4" 0 1400000 1270000 0
+      top_pad: 3 1200000 900000 900000 0
+
+name: "OSCSC254P500X700X160-4AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 Pin,5.00mm L X 7.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -3350000 -3850000 3350000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 2324000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 2324000 0
+  outline_polyline: 177800 -2500000 -2324000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -2324000 0
+  outline_polyline: 254000 -3710000 1270000
+    next_corner: -3583000 1397000 1
+    next_corner: -3456000 1270000 1
+    next_corner: -3583000 1143000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2150000 1270000 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "2" 0 -2150000 -1270000 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "3" 0 2150000 -1270000 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "4" 0 2150000 1270000 0
+      top_pad: 3 1600000 925000 925000 0
+
+name: "OSCSC254P500X700X160-6N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 pin,5.00mm L X 7.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3660000 2540000
+    next_corner: -3533000 2667000 1
+    next_corner: -3406000 2540000 1
+    next_corner: -3533000 2413000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -2100000 2540000 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "2" 0 -2100000 0 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "3" 0 -2100000 -2540000 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "4" 0 2100000 -2540000 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "5" 0 2100000 0 0
+      top_pad: 3 1600000 925000 925000 0
+    pin: "6" 0 2100000 2540000 0
+      top_pad: 3 1600000 925000 925000 0
+
+name: "OSCSC254P500X700X170-6N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 pin,5.00mm L X 7.00mm W X 1.70mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -2150000 2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "2" 0 -2150000 0 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "3" 0 -2150000 -2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "4" 0 2150000 -2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "5" 0 2150000 0 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "6" 0 2150000 2540000 0
+      top_pad: 3 1600000 900000 900000 0
+
+name: "OSCSC254P500X700X200-6AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 Pin,5.00mm L X 7.00mm W X 2.00mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -2150000 2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "2" 0 -2150000 0 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "3" 0 -2150000 -2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "4" 0 2150000 -2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "5" 0 2150000 0 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "6" 0 2150000 2540000 0
+      top_pad: 3 1600000 900000 900000 0
+
+name: "OSCSC254P500X700X200-6BN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 pin,5.00mm L X 7.00mm W X 2.00mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "2" 0 -2050000 0 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "3" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "4" 0 2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "5" 0 2050000 0 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "6" 0 2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+
+name: "OSCSC254P500X700X200-6N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 pin,5.00mm L X 7.00mm W X 2.00mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3660000 2540000
+    next_corner: -3533000 2667000 1
+    next_corner: -3406000 2540000 1
+    next_corner: -3533000 2413000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "2" 0 -2050000 0 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "3" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "4" 0 2050000 -2540000 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "5" 0 2050000 0 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "6" 0 2050000 2540000 0
+      top_pad: 3 1600000 975000 975000 0
+
+name: "OSCSC254P500X750X140-6N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;6 pin,5.00mm L X 7.50mm W X 1.40mm H"
+  units: NM
+  sel_rect: -3300000 -4100000 3300000 4100000
+  ref_text: 1270000 0 5100000 0 177800
+  value_text: 1270000 0 -6370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3877000 0
+    next_corner: 2500000 3877000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3877000 0
+    next_corner: 2500000 -3877000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "2" 0 -2050000 0 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "3" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "4" 0 2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "5" 0 2050000 0 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "6" 0 2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+
+name: "OSCSC374P320X500X120-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,3.20mm L X 5.00mm W X 1.20mm H"
+  units: NM
+  sel_rect: -2400000 -2850000 2400000 2850000
+  ref_text: 1270000 0 3850000 0 177800
+  value_text: 1270000 0 -5120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -421000 2627000
+    next_corner: 421000 2627000 0
+  outline_polyline: 177800 -421000 -2627000
+    next_corner: 421000 -2627000 0
+  outline_polyline: 254000 -2760000 1870000
+    next_corner: -2633000 1997000 1
+    next_corner: -2506000 1870000 1
+    next_corner: -2633000 1743000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1400000 1870000 0
+      top_pad: 3 1100000 725000 725000 0
+    pin: "2" 0 -1400000 -1870000 0
+      top_pad: 3 1100000 725000 725000 0
+    pin: "3" 0 1400000 -1870000 0
+      top_pad: 3 1100000 725000 725000 0
+    pin: "4" 0 1400000 1870000 0
+      top_pad: 3 1100000 725000 725000 0
+
+name: "OSCSC388P320X500X145-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,3.20mm L X 5.00mm W X 1.45mm H"
+  units: NM
+  sel_rect: -2350000 -2800000 2350000 2800000
+  ref_text: 1270000 0 3800000 0 177800
+  value_text: 1270000 0 -5070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -446000 2627000
+    next_corner: 446000 2627000 0
+  outline_polyline: 177800 -446000 -2627000
+    next_corner: 446000 -2627000 0
+  outline_polyline: 254000 -2735000 1940000
+    next_corner: -2608000 2067000 1
+    next_corner: -2481000 1940000 1
+    next_corner: -2608000 1813000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1400000 1940000 0
+      top_pad: 3 1150000 700000 700000 0
+    pin: "2" 0 -1400000 -1940000 0
+      top_pad: 3 1150000 700000 700000 0
+    pin: "3" 0 1400000 -1940000 0
+      top_pad: 3 1150000 700000 700000 0
+    pin: "4" 0 1400000 1940000 0
+      top_pad: 3 1150000 700000 700000 0
+
+name: "OSCSC508P480X730X175-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,4.80mm L X 7.30mm W X 1.75mm H"
+  units: NM
+  sel_rect: -3200000 -4000000 3200000 4000000
+  ref_text: 1270000 0 5000000 0 177800
+  value_text: 1270000 0 -6270000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2400000 3594000
+    next_corner: -2400000 3777000 0
+    next_corner: 2400000 3777000 0
+    next_corner: 2400000 3594000 0
+  outline_polyline: 177800 -2400000 -3594000
+    next_corner: -2400000 -3777000 0
+    next_corner: 2400000 -3777000 0
+    next_corner: 2400000 -3594000 0
+  outline_polyline: 254000 -3585000 2540000
+    next_corner: -3458000 2667000 1
+    next_corner: -3331000 2540000 1
+    next_corner: -3458000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "2" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "3" 0 2050000 -2540000 0
+      top_pad: 3 1600000 900000 900000 0
+    pin: "4" 0 2050000 2540000 0
+      top_pad: 3 1600000 900000 900000 0
+
+name: "OSCSC508P500X700X160-4AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,5.00mm L X 7.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3660000 2540000
+    next_corner: -3533000 2667000 1
+    next_corner: -3406000 2540000 1
+    next_corner: -3533000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "2" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "3" 0 2050000 -2540000 0
+      top_pad: 3 1600000 975000 975000 0
+    pin: "4" 0 2050000 2540000 0
+      top_pad: 3 1600000 975000 975000 0
+
+name: "OSCSC508P500X700X160-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,5.00mm L X 7.00mm W X 1.60mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "2" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "3" 0 2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "4" 0 2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+
+name: "OSCSC508P500X700X180-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,5.00mm L X 7.00mm W X 1.80mm H"
+  units: NM
+  sel_rect: -3300000 -3850000 3300000 3850000
+  ref_text: 1270000 0 4850000 0 177800
+  value_text: 1270000 0 -6120000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3627000 0
+    next_corner: 2500000 3627000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3627000 0
+    next_corner: 2500000 -3627000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "2" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "3" 0 2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "4" 0 2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+
+name: "OSCSC508P500X730X150-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,5.00mm L X 7.30mm W X 1.50mm H"
+  units: NM
+  sel_rect: -3300000 -4000000 3300000 4000000
+  ref_text: 1270000 0 5000000 0 177800
+  value_text: 1270000 0 -6270000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3777000 0
+    next_corner: 2500000 3777000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3777000 0
+    next_corner: 2500000 -3777000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "2" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "3" 0 2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "4" 0 2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+
+name: "OSCSC508P500X750X175-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,5.00mm L X 7.50mm W X 1.75mm H"
+  units: NM
+  sel_rect: -3300000 -4100000 3300000 4100000
+  ref_text: 1270000 0 5100000 0 177800
+  value_text: 1270000 0 -6370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3369000
+    next_corner: -2500000 3877000 0
+    next_corner: 2500000 3877000 0
+    next_corner: 2500000 3369000 0
+  outline_polyline: 177800 -2500000 -3369000
+    next_corner: -2500000 -3877000 0
+    next_corner: 2500000 -3877000 0
+    next_corner: 2500000 -3369000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2000000 2540000 0
+      top_pad: 3 1150000 1050000 1050000 0
+    pin: "2" 0 -2000000 -2540000 0
+      top_pad: 3 1150000 1050000 1050000 0
+    pin: "3" 0 2000000 -2540000 0
+      top_pad: 3 1150000 1050000 1050000 0
+    pin: "4" 0 2000000 2540000 0
+      top_pad: 3 1150000 1050000 1050000 0
+
+name: "OSCSC508P500X750X180-4AN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,5.00mm L X 7.50mm W X 1.80mm H"
+  units: NM
+  sel_rect: -3300000 -4100000 3300000 4100000
+  ref_text: 1270000 0 5100000 0 177800
+  value_text: 1270000 0 -6370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3877000 0
+    next_corner: 2500000 3877000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3877000 0
+    next_corner: 2500000 -3877000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2100000 2540000 0
+      top_pad: 3 1600000 950000 950000 0
+    pin: "2" 0 -2100000 -2540000 0
+      top_pad: 3 1600000 950000 950000 0
+    pin: "3" 0 2100000 -2540000 0
+      top_pad: 3 1600000 950000 950000 0
+    pin: "4" 0 2100000 2540000 0
+      top_pad: 3 1600000 950000 950000 0
+
+name: "OSCSC508P500X750X180-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 pin,5.00mm L X 7.50mm W X 1.80mm H"
+  units: NM
+  sel_rect: -3300000 -4100000 3300000 4100000
+  ref_text: 1270000 0 5100000 0 177800
+  value_text: 1270000 0 -6370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 3594000
+    next_corner: -2500000 3877000 0
+    next_corner: 2500000 3877000 0
+    next_corner: 2500000 3594000 0
+  outline_polyline: 177800 -2500000 -3594000
+    next_corner: -2500000 -3877000 0
+    next_corner: 2500000 -3877000 0
+    next_corner: 2500000 -3594000 0
+  outline_polyline: 254000 -3685000 2540000
+    next_corner: -3558000 2667000 1
+    next_corner: -3431000 2540000 1
+    next_corner: -3558000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "2" 0 -2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "3" 0 2050000 -2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+    pin: "4" 0 2050000 2540000 0
+      top_pad: 3 1600000 1000000 1000000 0
+
+name: "OSCSC508P520X700X180-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,5.20mm L X 7.00mm W X 1.80mm H"
+  units: NM
+  sel_rect: -3450000 -3900000 3450000 3900000
+  ref_text: 1270000 0 4900000 0 177800
+  value_text: 1270000 0 -6170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2600000 3494000
+    next_corner: -2600000 3627000 0
+    next_corner: 2600000 3627000 0
+    next_corner: 2600000 3494000 0
+  outline_polyline: 177800 -2600000 -3494000
+    next_corner: -2600000 -3627000 0
+    next_corner: 2600000 -3627000 0
+    next_corner: 2600000 -3494000 0
+  outline_polyline: 254000 -3835000 2540000
+    next_corner: -3708000 2667000 1
+    next_corner: -3581000 2540000 1
+    next_corner: -3708000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2300000 2540000 0
+      top_pad: 3 1400000 900000 900000 0
+    pin: "2" 0 -2300000 -2540000 0
+      top_pad: 3 1400000 900000 900000 0
+    pin: "3" 0 2300000 -2540000 0
+      top_pad: 3 1400000 900000 900000 0
+    pin: "4" 0 2300000 2540000 0
+      top_pad: 3 1400000 900000 900000 0
+
+name: "OSCSC508P700X900X170-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,side,concave;4 Pin,7.00mm L X 9.00mm W X 1.70mm H"
+  units: NM
+  sel_rect: -4350000 -4900000 4350000 4900000
+  ref_text: 1270000 0 5900000 0 177800
+  value_text: 1270000 0 -7170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3500000 3569000
+    next_corner: -3500000 4627000 0
+    next_corner: 3500000 4627000 0
+    next_corner: 3500000 3569000 0
+  outline_polyline: 177800 -3500000 -3569000
+    next_corner: -3500000 -4627000 0
+    next_corner: 3500000 -4627000 0
+    next_corner: 3500000 -3569000 0
+  outline_polyline: 254000 -4735000 2540000
+    next_corner: -4608000 2667000 1
+    next_corner: -4481000 2540000 1
+    next_corner: -4608000 2413000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -3100000 2540000 0
+      top_pad: 3 1550000 1000000 1000000 0
+    pin: "2" 0 -3100000 -2540000 0
+      top_pad: 3 1550000 1000000 1000000 0
+    pin: "3" 0 3100000 -2540000 0
+      top_pad: 3 1550000 1000000 1000000 0
+    pin: "4" 0 3100000 2540000 0
+      top_pad: 3 1550000 1000000 1000000 0
+

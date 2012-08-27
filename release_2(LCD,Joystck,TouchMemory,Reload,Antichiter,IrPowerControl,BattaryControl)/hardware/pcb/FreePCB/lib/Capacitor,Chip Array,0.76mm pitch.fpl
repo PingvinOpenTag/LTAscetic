@@ -1,0 +1,36 @@
+name: "CAPCAF76P160X320X135-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,Chip Array,0.76mm pitch;8 pin,1.60mm L X 3.20mm W X 1.35mm H"
+  units: NM
+  sel_rect: -1500000 -1950000 1500000 1950000
+  ref_text: 1270000 0 2950000 0 177800
+  value_text: 1270000 0 -4220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -800000 1740000
+    next_corner: 800000 1740000 0
+  outline_polyline: 177800 -800000 -1740000
+    next_corner: 800000 -1740000 0
+  outline_polyline: 200000 -1325000 1740000
+    next_corner: -1225000 1840000 1
+    next_corner: -1125000 1740000 1
+    next_corner: -1225000 1640000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -850000 1140000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "2" 0 -850000 380000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "3" 0 -850000 -380000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "4" 0 -850000 -1140000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "5" 0 850000 -1140000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "6" 0 850000 -380000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "7" 0 850000 380000 0
+      top_pad: 3 400000 375000 375000 0
+    pin: "8" 0 850000 1140000 0
+      top_pad: 3 400000 375000 375000 0
+

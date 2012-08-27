@@ -1,0 +1,96 @@
+name: "OSCJ508P885X1280X470-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,J-lead;4 pin,8.85mm L X 12.80mm W X 4.70mm H"
+  units: NM
+  sel_rect: -5750000 -6650000 5750000 6650000
+  ref_text: 1270000 0 7650000 0 177800
+  value_text: 1270000 0 -8920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4425000 3319000
+    next_corner: -4425000 6527000 0
+    next_corner: 4425000 6527000 0
+    next_corner: 4425000 3319000 0
+  outline_polyline: 177800 -4425000 -3319000
+    next_corner: -4425000 -6527000 0
+    next_corner: 4425000 -6527000 0
+    next_corner: 4425000 -3319000 0
+  outline_polyline: 254000 -5060000 6400000
+    next_corner: -4933000 6527000 1
+    next_corner: -4806000 6400000 1
+    next_corner: -4933000 6273000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -4050000 2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+    pin: "2" 0 -4050000 -2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+    pin: "3" 0 4050000 -2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+    pin: "4" 0 4050000 2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+
+name: "OSCJ508P885X1400X470-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,J-lead;4 pin,8.85mm L X 14.00mm W X 4.70mm H"
+  units: NM
+  sel_rect: -5750000 -7250000 5750000 7250000
+  ref_text: 1270000 0 8250000 0 177800
+  value_text: 1270000 0 -9520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4425000 3319000
+    next_corner: -4425000 7127000 0
+    next_corner: 4425000 7127000 0
+    next_corner: 4425000 3319000 0
+  outline_polyline: 177800 -4425000 -3319000
+    next_corner: -4425000 -7127000 0
+    next_corner: 4425000 -7127000 0
+    next_corner: 4425000 -3319000 0
+  outline_polyline: 254000 -5060000 7000000
+    next_corner: -4933000 7127000 1
+    next_corner: -4806000 7000000 1
+    next_corner: -4933000 6873000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -4050000 2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+    pin: "2" 0 -4050000 -2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+    pin: "3" 0 4050000 -2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+    pin: "4" 0 4050000 2540000 0
+      top_pad: 3 1050000 1450000 1450000 0
+
+name: "OSCJ508P895X1400X470-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,J-lead;4 pin,8.95mm L X 14.00mm W X 4.70mm H"
+  units: NM
+  sel_rect: -5750000 -7250000 5750000 7250000
+  ref_text: 1270000 0 8250000 0 177800
+  value_text: 1270000 0 -9520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4475000 3369000
+    next_corner: -4475000 7127000 0
+    next_corner: 4475000 7127000 0
+    next_corner: 4475000 3369000 0
+  outline_polyline: 177800 -4475000 -3369000
+    next_corner: -4475000 -7127000 0
+    next_corner: 4475000 -7127000 0
+    next_corner: 4475000 -3369000 0
+  outline_polyline: 254000 -5110000 7000000
+    next_corner: -4983000 7127000 1
+    next_corner: -4856000 7000000 1
+    next_corner: -4983000 6873000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -4050000 2540000 0
+      top_pad: 3 1150000 1450000 1450000 0
+    pin: "2" 0 -4050000 -2540000 0
+      top_pad: 3 1150000 1450000 1450000 0
+    pin: "3" 0 4050000 -2540000 0
+      top_pad: 3 1150000 1450000 1450000 0
+    pin: "4" 0 4050000 2540000 0
+      top_pad: 3 1150000 1450000 1450000 0
+

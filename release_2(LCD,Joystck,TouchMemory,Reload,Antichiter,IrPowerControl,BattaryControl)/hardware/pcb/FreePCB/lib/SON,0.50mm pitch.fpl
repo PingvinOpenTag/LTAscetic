@@ -1,0 +1,1440 @@
+name: "SON50P200X200X100-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,2.15mm W X 2.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -1650000 -1250000 1650000 1250000
+  ref_text: 1270000 0 2250000 0 177800
+  value_text: 1270000 0 -3520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1075000 1154000
+    next_corner: 1075000 1154000 0
+  outline_polyline: 177800 -1075000 -1154000
+    next_corner: 1075000 -1154000 0
+  outline_polyline: 254000 -1710000 1408000
+    next_corner: -1583000 1535000 1
+    next_corner: -1456000 1408000 1
+    next_corner: -1583000 1281000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -950000 750000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "2" 0 -950000 250000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "3" 0 -950000 -250000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "4" 0 -950000 -750000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "5" 0 950000 -750000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "6" 0 950000 -250000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "7" 0 950000 250000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "8" 0 950000 750000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1250000 325000 325000 0
+
+name: "SON50P200X200X40-6N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;6 pin,2.10mm W X 2.00mm L X 0.40mm H body"
+  units: NM
+  sel_rect: -1650000 -1250000 1650000 1250000
+  ref_text: 1270000 0 2250000 0 177800
+  value_text: 1270000 0 -3520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1050000 904000
+    next_corner: -1050000 1127000 0
+    next_corner: 1050000 1127000 0
+    next_corner: 1050000 904000 0
+  outline_polyline: 177800 -1050000 -904000
+    next_corner: -1050000 -1127000 0
+    next_corner: 1050000 -1127000 0
+    next_corner: 1050000 -904000 0
+  outline_polyline: 254000 -1685000 1158000
+    next_corner: -1558000 1285000 1
+    next_corner: -1431000 1158000 1
+    next_corner: -1558000 1031000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -750000 500000 0
+      top_pad: 4 300000 625000 625000 150000
+    pin: "2" 0 -750000 0 0
+      top_pad: 4 300000 625000 625000 150000
+    pin: "3" 0 -750000 -500000 0
+      top_pad: 4 300000 625000 625000 150000
+    pin: "4" 0 750000 -500000 0
+      top_pad: 4 300000 625000 625000 150000
+    pin: "5" 0 750000 0 0
+      top_pad: 4 300000 625000 625000 150000
+    pin: "6" 0 750000 500000 0
+      top_pad: 4 300000 625000 625000 150000
+
+name: "SON50P200X200X80-7WCCD2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;6 pin,2.00mm W X 2.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -1650000 -1250000 1650000 1250000
+  ref_text: 1270000 0 2250000 0 177800
+  value_text: 1270000 0 -3520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1000000 904000
+    next_corner: -1000000 1127000 0
+    next_corner: 1000000 1127000 0
+    next_corner: 1000000 904000 0
+  outline_polyline: 177800 -1000000 -904000
+    next_corner: -1000000 -1127000 0
+    next_corner: 1000000 -1127000 0
+    next_corner: 1000000 -904000 0
+  outline_polyline: 254000 -1635000 1158000
+    next_corner: -1508000 1285000 1
+    next_corner: -1381000 1158000 1
+    next_corner: -1508000 1031000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -950000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -950000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -950000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 950000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 950000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 950000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 0 0 0
+      top_pad: 3 1400000 300000 300000 0
+
+name: "SON50P200X215X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,2.00mm W X 2.15mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -1650000 -1350000 1650000 1350000
+  ref_text: 1270000 0 2350000 0 177800
+  value_text: 1270000 0 -3620000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1000000 1154000
+    next_corner: -1000000 1202000 0
+    next_corner: 1000000 1202000 0
+    next_corner: 1000000 1154000 0
+  outline_polyline: 177800 -1000000 -1154000
+    next_corner: -1000000 -1202000 0
+    next_corner: 1000000 -1202000 0
+    next_corner: 1000000 -1154000 0
+  outline_polyline: 254000 -1635000 1408000
+    next_corner: -1508000 1535000 1
+    next_corner: -1381000 1408000 1
+    next_corner: -1508000 1281000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -950000 750000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "2" 0 -950000 250000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "3" 0 -950000 -250000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "4" 0 -950000 -750000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "5" 0 950000 -750000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "6" 0 950000 -250000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "7" 0 950000 250000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "8" 0 950000 750000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "9" 0 0 0 0
+      top_pad: 3 2200000 300000 300000 0
+
+name: "SON50P200X300X100-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,2.25mm W X 3.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -1700000 -1750000 1700000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1125000 1129000
+    next_corner: -1125000 1627000 0
+    next_corner: 1125000 1627000 0
+    next_corner: 1125000 1129000 0
+  outline_polyline: 177800 -1125000 -1129000
+    next_corner: -1125000 -1627000 0
+    next_corner: 1125000 -1627000 0
+    next_corner: 1125000 -1129000 0
+  outline_polyline: 254000 -1760000 1500000
+    next_corner: -1633000 1627000 1
+    next_corner: -1506000 1500000 1
+    next_corner: -1633000 1373000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -950000 750000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "2" 0 -950000 250000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "3" 0 -950000 -250000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "4" 0 -950000 -750000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "5" 0 950000 -750000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "6" 0 950000 -250000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "7" 0 950000 250000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "8" 0 950000 750000 0
+      top_pad: 3 250000 475000 475000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1850000 300000 300000 0
+
+name: "SON50P200X300X80-11WECD1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,2.00mm W X 3.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -1600000 -1750000 1600000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1000000 1404000
+    next_corner: -1000000 1627000 0
+    next_corner: 1000000 1627000 0
+    next_corner: 1000000 1404000 0
+  outline_polyline: 177800 -1000000 -1404000
+    next_corner: -1000000 -1627000 0
+    next_corner: 1000000 -1627000 0
+    next_corner: 1000000 -1404000 0
+  outline_polyline: 254000 -1635000 1658000
+    next_corner: -1508000 1785000 1
+    next_corner: -1381000 1658000 1
+    next_corner: -1508000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -950000 1000000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "2" 0 -950000 500000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "3" 0 -950000 0 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "4" 0 -950000 -500000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "5" 0 -950000 -1000000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "6" 0 950000 -1000000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "7" 0 950000 -500000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "8" 0 950000 0 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "9" 0 950000 500000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "10" 0 950000 1000000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 2400000 325000 325000 0
+
+name: "SON50P200X300X80-9WECD1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,2.00mm W X 3.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -1650000 -1750000 1650000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1000000 1154000
+    next_corner: -1000000 1627000 0
+    next_corner: 1000000 1627000 0
+    next_corner: 1000000 1154000 0
+  outline_polyline: 177800 -1000000 -1154000
+    next_corner: -1000000 -1627000 0
+    next_corner: 1000000 -1627000 0
+    next_corner: 1000000 -1154000 0
+  outline_polyline: 254000 -1635000 1500000
+    next_corner: -1508000 1627000 1
+    next_corner: -1381000 1500000 1
+    next_corner: -1508000 1373000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -950000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -950000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -950000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -950000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 950000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 950000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 950000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 950000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 0 0 0
+      top_pad: 3 2200000 300000 300000 0
+
+name: "SON50P250X250X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,2.60mm W X 2.50mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -1850000 -1500000 1850000 1500000
+  ref_text: 1270000 0 2500000 0 177800
+  value_text: 1270000 0 -3770000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1300000 1154000
+    next_corner: -1300000 1377000 0
+    next_corner: 1300000 1377000 0
+    next_corner: 1300000 1154000 0
+  outline_polyline: 177800 -1300000 -1154000
+    next_corner: -1300000 -1377000 0
+    next_corner: 1300000 -1377000 0
+    next_corner: 1300000 -1154000 0
+  outline_polyline: 254000 -1935000 1408000
+    next_corner: -1808000 1535000 1
+    next_corner: -1681000 1408000 1
+    next_corner: -1808000 1281000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1200000 750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "2" 0 -1200000 250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "3" 0 -1200000 -250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "4" 0 -1200000 -750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "5" 0 1200000 -750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "6" 0 1200000 -250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "7" 0 1200000 250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "8" 0 1200000 750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1600000 550000 550000 0
+
+name: "SON50P300X200X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;6 pin,3.00mm W X 2.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1250000 2150000 1250000
+  ref_text: 1270000 0 2250000 0 177800
+  value_text: 1270000 0 -3520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 904000
+    next_corner: -1500000 1127000 0
+    next_corner: 1500000 1127000 0
+    next_corner: 1500000 904000 0
+  outline_polyline: 177800 -1500000 -904000
+    next_corner: -1500000 -1127000 0
+    next_corner: 1500000 -1127000 0
+    next_corner: 1500000 -904000 0
+  outline_polyline: 254000 -2135000 1158000
+    next_corner: -2008000 1285000 1
+    next_corner: -1881000 1158000 1
+    next_corner: -2008000 1031000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 0 0 0
+      top_pad: 3 1450000 875000 875000 0
+
+name: "SON50P300X300X100-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.10mm W X 3.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1404000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1404000 0
+  outline_polyline: 177800 -1550000 -1404000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1404000 0
+  outline_polyline: 254000 -2185000 1658000
+    next_corner: -2058000 1785000 1
+    next_corner: -1931000 1658000 1
+    next_corner: -2058000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 -1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "10" 0 1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 2550000 875000 875000 0
+
+name: "SON50P300X300X100-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,3.10mm W X 3.00mm L X 1.00mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2100000 -1750000 2100000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1154000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1154000 0
+  outline_polyline: 177800 -1550000 -1154000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1154000 0
+  outline_polyline: 254000 -2185000 1500000
+    next_corner: -2058000 1627000 1
+    next_corner: -1931000 1500000 1
+    next_corner: -2058000 1373000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1450000 750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "2" 0 -1450000 250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "3" 0 -1450000 -250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "4" 0 -1450000 -750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "5" 0 1450000 -750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "6" 0 1450000 -250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "7" 0 1450000 250000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "8" 0 1450000 750000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 2250000 825000 825000 0
+
+name: "SON50P300X300X40-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.10mm W X 3.00mm L X 0.40mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1404000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1404000 0
+  outline_polyline: 177800 -1550000 -1404000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1404000 0
+  outline_polyline: 254000 -2185000 1658000
+    next_corner: -2058000 1785000 1
+    next_corner: -1931000 1658000 1
+    next_corner: -2058000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 -1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "10" 0 1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 2450000 875000 875000 0
+
+name: "SON50P300X300X80-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.10mm W X 3.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1404000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1404000 0
+  outline_polyline: 177800 -1550000 -1404000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1404000 0
+  outline_polyline: 254000 -2185000 1658000
+    next_corner: -2058000 1785000 1
+    next_corner: -1931000 1658000 1
+    next_corner: -2058000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1450000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1450000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1450000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1450000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -1450000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 1450000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 1450000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 1450000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 1450000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 1450000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 0 0 0
+      top_pad: 3 2100000 800000 800000 0
+
+name: "SON50P300X300X80-11WEED2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.00mm W X 3.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1404000
+    next_corner: -1500000 1627000 0
+    next_corner: 1500000 1627000 0
+    next_corner: 1500000 1404000 0
+  outline_polyline: 177800 -1500000 -1404000
+    next_corner: -1500000 -1627000 0
+    next_corner: 1500000 -1627000 0
+    next_corner: 1500000 -1404000 0
+  outline_polyline: 254000 -2135000 1658000
+    next_corner: -2008000 1785000 1
+    next_corner: -1881000 1658000 1
+    next_corner: -2008000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 -1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "10" 0 1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 2450000 875000 875000 0
+
+name: "SON50P300X300X80-11WEED3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.00mm W X 3.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1404000
+    next_corner: -1500000 1627000 0
+    next_corner: 1500000 1627000 0
+    next_corner: 1500000 1404000 0
+  outline_polyline: 177800 -1500000 -1404000
+    next_corner: -1500000 -1627000 0
+    next_corner: 1500000 -1627000 0
+    next_corner: 1500000 -1404000 0
+  outline_polyline: 254000 -2135000 1658000
+    next_corner: -2008000 1785000 1
+    next_corner: -1881000 1658000 1
+    next_corner: -2008000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1500000 1000000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "2" 0 -1500000 500000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "3" 0 -1500000 0 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "4" 0 -1500000 -500000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "5" 0 -1500000 -1000000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "6" 0 1500000 -1000000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "7" 0 1500000 -500000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "8" 0 1500000 0 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "9" 0 1500000 500000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "10" 0 1500000 1000000 0
+      top_pad: 4 300000 375000 375000 150000
+    pin: "11" 0 0 0 0
+      top_pad: 3 2400000 800000 800000 0
+
+name: "SON50P300X300X80-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,3.10mm W X 3.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1154000
+    next_corner: -1550000 1627000 0
+    next_corner: 1550000 1627000 0
+    next_corner: 1550000 1154000 0
+  outline_polyline: 177800 -1550000 -1154000
+    next_corner: -1550000 -1627000 0
+    next_corner: 1550000 -1627000 0
+    next_corner: 1550000 -1154000 0
+  outline_polyline: 254000 -2185000 1500000
+    next_corner: -2058000 1627000 1
+    next_corner: -1931000 1500000 1
+    next_corner: -2058000 1373000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1450000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1450000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1450000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1450000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 1450000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 1450000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 1450000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 1450000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 0 0 0
+      top_pad: 3 2100000 800000 800000 0
+
+name: "SON50P300X300X80-9WEED1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,3.00mm W X 3.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1154000
+    next_corner: -1500000 1627000 0
+    next_corner: 1500000 1627000 0
+    next_corner: 1500000 1154000 0
+  outline_polyline: 177800 -1500000 -1154000
+    next_corner: -1500000 -1627000 0
+    next_corner: 1500000 -1627000 0
+    next_corner: 1500000 -1154000 0
+  outline_polyline: 254000 -2135000 1500000
+    next_corner: -2008000 1627000 1
+    next_corner: -1881000 1500000 1
+    next_corner: -2008000 1373000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1500000 750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 -250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 -750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 1500000 -750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 1500000 -250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 1500000 250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 1500000 750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 2450000 875000 875000 0
+
+name: "SON50P300X300X90-9N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;8 pin,3.20mm W X 3.00mm L X 0.90mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1750000 2150000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 1154000
+    next_corner: -1600000 1627000 0
+    next_corner: 1600000 1627000 0
+    next_corner: 1600000 1154000 0
+  outline_polyline: 177800 -1600000 -1154000
+    next_corner: -1600000 -1627000 0
+    next_corner: 1600000 -1627000 0
+    next_corner: 1600000 -1154000 0
+  outline_polyline: 254000 -2235000 1500000
+    next_corner: -2108000 1627000 1
+    next_corner: -1981000 1500000 1
+    next_corner: -2108000 1373000 1
+    close_polyline: 1
+  n_pins: 9
+    pin: "1" 0 -1450000 750000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "2" 0 -1450000 250000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "3" 0 -1450000 -250000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "4" 0 -1450000 -750000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "5" 0 1450000 -750000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "6" 0 1450000 -250000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "7" 0 1450000 250000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "8" 0 1450000 750000 0
+      top_pad: 3 300000 450000 450000 0
+    pin: "9" 0 0 0 0
+      top_pad: 3 1900000 800000 800000 0
+
+name: "SON50P300X310X80-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.10mm W X 3.10mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -1800000 2150000 1800000
+  ref_text: 1270000 0 2800000 0 177800
+  value_text: 1270000 0 -4070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1404000
+    next_corner: -1550000 1677000 0
+    next_corner: 1550000 1677000 0
+    next_corner: 1550000 1404000 0
+  outline_polyline: 177800 -1550000 -1404000
+    next_corner: -1550000 -1677000 0
+    next_corner: 1550000 -1677000 0
+    next_corner: 1550000 -1404000 0
+  outline_polyline: 254000 -2185000 1658000
+    next_corner: -2058000 1785000 1
+    next_corner: -1931000 1658000 1
+    next_corner: -2058000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1450000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1450000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1450000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1450000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -1450000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 1450000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 1450000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 1450000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 1450000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 1450000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 0 0 0
+      top_pad: 3 2300000 800000 800000 0
+
+name: "SON50P300X325X100-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,3.00mm W X 3.25mm L X 1.00mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2200000 -1900000 2200000 1900000
+  ref_text: 1270000 0 2900000 0 177800
+  value_text: 1270000 0 -4170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1404000
+    next_corner: -1500000 1752000 0
+    next_corner: 1500000 1752000 0
+    next_corner: 1500000 1404000 0
+  outline_polyline: 177800 -1500000 -1404000
+    next_corner: -1500000 -1752000 0
+    next_corner: 1500000 -1752000 0
+    next_corner: 1500000 -1404000 0
+  outline_polyline: 254000 -2135000 1658000
+    next_corner: -2008000 1785000 1
+    next_corner: -1881000 1658000 1
+    next_corner: -2008000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1500000 1000000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "2" 0 -1500000 500000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "3" 0 -1500000 0 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "4" 0 -1500000 -500000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "5" 0 -1500000 -1000000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "6" 0 1500000 -1000000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "7" 0 1500000 -500000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "8" 0 1500000 0 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "9" 0 1500000 500000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "10" 0 1500000 1000000 0
+      top_pad: 3 300000 425000 425000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 2500000 875000 875000 0
+
+name: "SON50P300X400X80-13WGEDN"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;12 pin,3.00mm W X 4.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2250000 2150000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1654000
+    next_corner: -1500000 2127000 0
+    next_corner: 1500000 2127000 0
+    next_corner: 1500000 1654000 0
+  outline_polyline: 177800 -1500000 -1654000
+    next_corner: -1500000 -2127000 0
+    next_corner: 1500000 -2127000 0
+    next_corner: 1500000 -1654000 0
+  outline_polyline: 254000 -2135000 2000000
+    next_corner: -2008000 2127000 1
+    next_corner: -1881000 2000000 1
+    next_corner: -2008000 1873000 1
+    close_polyline: 1
+  n_pins: 13
+    pin: "1" 0 -1500000 1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 -250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 -1500000 -750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 -1500000 -1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 1500000 -1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 1500000 -750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 1500000 -250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "10" 0 1500000 250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "11" 0 1500000 750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "12" 0 1500000 1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "13" 0 0 0 0
+      top_pad: 3 3400000 900000 900000 0
+
+name: "SON50P300X400X80-15N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;14 pin,3.10mm W X 4.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2250000 2150000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 1904000
+    next_corner: -1550000 2127000 0
+    next_corner: 1550000 2127000 0
+    next_corner: 1550000 1904000 0
+  outline_polyline: 177800 -1550000 -1904000
+    next_corner: -1550000 -2127000 0
+    next_corner: 1550000 -2127000 0
+    next_corner: 1550000 -1904000 0
+  outline_polyline: 254000 -2185000 2158000
+    next_corner: -2058000 2285000 1
+    next_corner: -1931000 2158000 1
+    next_corner: -2058000 2031000 1
+    close_polyline: 1
+  n_pins: 15
+    pin: "1" 0 -1450000 1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1450000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1450000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1450000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -1450000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 -1450000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 -1450000 -1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 1450000 -1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 1450000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 1450000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 1450000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "12" 0 1450000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "13" 0 1450000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "14" 0 1450000 1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "15" 0 0 0 0
+      top_pad: 3 3100000 800000 800000 0
+
+name: "SON50P300X400X80-15WGED3N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;14 pin,3.00mm W X 4.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2250000 2150000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 1904000
+    next_corner: -1500000 2127000 0
+    next_corner: 1500000 2127000 0
+    next_corner: 1500000 1904000 0
+  outline_polyline: 177800 -1500000 -1904000
+    next_corner: -1500000 -2127000 0
+    next_corner: 1500000 -2127000 0
+    next_corner: 1500000 -1904000 0
+  outline_polyline: 254000 -2135000 2158000
+    next_corner: -2008000 2285000 1
+    next_corner: -1881000 2158000 1
+    next_corner: -2008000 2031000 1
+    close_polyline: 1
+  n_pins: 15
+    pin: "1" 0 -1500000 1500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 -1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 -1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 -1500000 -1500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 1500000 -1500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 1500000 -1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "10" 0 1500000 -500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "11" 0 1500000 0 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "12" 0 1500000 500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "13" 0 1500000 1000000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "14" 0 1500000 1500000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "15" 0 0 0 0
+      top_pad: 3 3400000 900000 900000 0
+
+name: "SON50P300X500X80-17WJED1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;16 pin,3.00mm W X 5.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2150000 -2750000 2150000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1500000 2154000
+    next_corner: -1500000 2627000 0
+    next_corner: 1500000 2627000 0
+    next_corner: 1500000 2154000 0
+  outline_polyline: 177800 -1500000 -2154000
+    next_corner: -1500000 -2627000 0
+    next_corner: 1500000 -2627000 0
+    next_corner: 1500000 -2154000 0
+  outline_polyline: 254000 -2135000 2500000
+    next_corner: -2008000 2627000 1
+    next_corner: -1881000 2500000 1
+    next_corner: -2008000 2373000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1500000 1750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "2" 0 -1500000 1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "3" 0 -1500000 750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "4" 0 -1500000 250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "5" 0 -1500000 -250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "6" 0 -1500000 -750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "7" 0 -1500000 -1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "8" 0 -1500000 -1750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "9" 0 1500000 -1750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "10" 0 1500000 -1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "11" 0 1500000 -750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "12" 0 1500000 -250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "13" 0 1500000 250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "14" 0 1500000 750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "15" 0 1500000 1250000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "16" 0 1500000 1750000 0
+      top_pad: 3 300000 375000 375000 0
+    pin: "17" 0 0 0 0
+      top_pad: 3 4500000 875000 875000 0
+
+name: "SON50P400X325X100-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;10 pin,4.00mm W X 3.25mm L X 1.00mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2700000 -1900000 2700000 1900000
+  ref_text: 1270000 0 2900000 0 177800
+  value_text: 1270000 0 -4170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2000000 1404000
+    next_corner: -2000000 1752000 0
+    next_corner: 2000000 1752000 0
+    next_corner: 2000000 1404000 0
+  outline_polyline: 177800 -2000000 -1404000
+    next_corner: -2000000 -1752000 0
+    next_corner: 2000000 -1752000 0
+    next_corner: 2000000 -1404000 0
+  outline_polyline: 254000 -2635000 1658000
+    next_corner: -2508000 1785000 1
+    next_corner: -2381000 1658000 1
+    next_corner: -2508000 1531000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1950000 1000000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "2" 0 -1950000 500000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "3" 0 -1950000 0 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "4" 0 -1950000 -500000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "5" 0 -1950000 -1000000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "6" 0 1950000 -1000000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "7" 0 1950000 -500000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "8" 0 1950000 0 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "9" 0 1950000 500000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "10" 0 1950000 1000000 0
+      top_pad: 4 300000 500000 500000 150000
+    pin: "11" 0 0 0 0
+      top_pad: 3 3250000 1000000 1000000 0
+
+name: "SON50P400X400X80-15N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;14 pin,4.10mm W X 4.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2250000 2650000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 1904000
+    next_corner: -2049999 2127000 0
+    next_corner: 2049999 2127000 0
+    next_corner: 2049999 1904000 0
+  outline_polyline: 177800 -2049999 -1904000
+    next_corner: -2049999 -2127000 0
+    next_corner: 2049999 -2127000 0
+    next_corner: 2049999 -1904000 0
+  outline_polyline: 254000 -2684999 2158000
+    next_corner: -2557999 2285000 1
+    next_corner: -2430999 2158000 1
+    next_corner: -2557999 2031000 1
+    close_polyline: 1
+  n_pins: 15
+    pin: "1" 0 -1950000 1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1950000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1950000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1950000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -1950000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 -1950000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 -1950000 -1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 1950000 -1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 1950000 -1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 1950000 -500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 1950000 0 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "12" 0 1950000 500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "13" 0 1950000 1000000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "14" 0 1950000 1500000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "15" 0 0 0 0
+      top_pad: 3 3100000 1300000 1300000 0
+
+name: "SON50P400X500X80-17N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;16 pin,4.10mm W X 5.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2750000 2650000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 2154000
+    next_corner: -2049999 2627000 0
+    next_corner: 2049999 2627000 0
+    next_corner: 2049999 2154000 0
+  outline_polyline: 177800 -2049999 -2154000
+    next_corner: -2049999 -2627000 0
+    next_corner: 2049999 -2627000 0
+    next_corner: 2049999 -2154000 0
+  outline_polyline: 254000 -2684999 2500000
+    next_corner: -2557999 2627000 1
+    next_corner: -2430999 2500000 1
+    next_corner: -2557999 2373000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1950000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1950000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1950000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1950000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -1950000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 -1950000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 -1950000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 -1950000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 1950000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 1950000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 1950000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "12" 0 1950000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "13" 0 1950000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "14" 0 1950000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "15" 0 1950000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "16" 0 1950000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "17" 0 0 0 0
+      top_pad: 3 4100000 1300000 1300000 0
+
+name: "SON50P400X500X80-17WJGD2N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;16 pin,4.00mm W X 5.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -2650000 -2750000 2650000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2000000 2154000
+    next_corner: -2000000 2627000 0
+    next_corner: 2000000 2627000 0
+    next_corner: 2000000 2154000 0
+  outline_polyline: 177800 -2000000 -2154000
+    next_corner: -2000000 -2627000 0
+    next_corner: 2000000 -2627000 0
+    next_corner: 2000000 -2154000 0
+  outline_polyline: 254000 -2635000 2500000
+    next_corner: -2508000 2627000 1
+    next_corner: -2381000 2500000 1
+    next_corner: -2508000 2373000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -1950000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -1950000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -1950000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -1950000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -1950000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 -1950000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 -1950000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 -1950000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 1950000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 1950000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 1950000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "12" 0 1950000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "13" 0 1950000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "14" 0 1950000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "15" 0 1950000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "16" 0 1950000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "17" 0 0 0 0
+      top_pad: 3 4400000 1250000 1250000 0
+
+name: "SON50P500X200X80-7N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;6 pin,5.10mm W X 2.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -3100000 -1250000 3100000 1250000
+  ref_text: 1270000 0 2250000 0 177800
+  value_text: 1270000 0 -3520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 904000
+    next_corner: -2550000 1127000 0
+    next_corner: 2550000 1127000 0
+    next_corner: 2550000 904000 0
+  outline_polyline: 177800 -2550000 -904000
+    next_corner: -2550000 -1127000 0
+    next_corner: 2550000 -1127000 0
+    next_corner: 2550000 -904000 0
+  outline_polyline: 254000 -3185000 1158000
+    next_corner: -3058000 1285000 1
+    next_corner: -2931000 1158000 1
+    next_corner: -3058000 1031000 1
+    close_polyline: 1
+  n_pins: 7
+    pin: "1" 0 -2400000 500000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "2" 0 -2400000 0 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "3" 0 -2400000 -500000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "4" 0 2400000 -500000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "5" 0 2400000 0 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "6" 0 2400000 500000 0
+      top_pad: 4 300000 450000 450000 150000
+    pin: "7" 0 0 0 0
+      top_pad: 3 1550000 1250000 1250000 0
+
+name: "SON50P500X500X80-17N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;16 pin,5.10mm W X 5.00mm L X 0.80mm H body (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -2750000 3150000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2550000 2154000
+    next_corner: -2550000 2627000 0
+    next_corner: 2550000 2627000 0
+    next_corner: 2550000 2154000 0
+  outline_polyline: 177800 -2550000 -2154000
+    next_corner: -2550000 -2627000 0
+    next_corner: 2550000 -2627000 0
+    next_corner: 2550000 -2154000 0
+  outline_polyline: 254000 -3185000 2500000
+    next_corner: -3058000 2627000 1
+    next_corner: -2931000 2500000 1
+    next_corner: -3058000 2373000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -2450000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -2450000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -2450000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -2450000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -2450000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 -2450000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 -2450000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 -2450000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 2450000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 2450000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 2450000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "12" 0 2450000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "13" 0 2450000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "14" 0 2450000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "15" 0 2450000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "16" 0 2450000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "17" 0 0 0 0
+      top_pad: 3 4100000 1800000 1800000 0
+
+name: "SON50P500X500X80-17WJJD1N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SON,0.50mm pitch;16 pin,5.00mm W X 5.00mm L X 0.80mm H Body (w/thermal tab)"
+  units: NM
+  sel_rect: -3150000 -2750000 3150000 2750000
+  ref_text: 1270000 0 3750000 0 177800
+  value_text: 1270000 0 -5020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2500000 2154000
+    next_corner: -2500000 2627000 0
+    next_corner: 2500000 2627000 0
+    next_corner: 2500000 2154000 0
+  outline_polyline: 177800 -2500000 -2154000
+    next_corner: -2500000 -2627000 0
+    next_corner: 2500000 -2627000 0
+    next_corner: 2500000 -2154000 0
+  outline_polyline: 254000 -3135000 2500000
+    next_corner: -3008000 2627000 1
+    next_corner: -2881000 2500000 1
+    next_corner: -3008000 2373000 1
+    close_polyline: 1
+  n_pins: 17
+    pin: "1" 0 -2450000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "2" 0 -2450000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "3" 0 -2450000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "4" 0 -2450000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "5" 0 -2450000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "6" 0 -2450000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "7" 0 -2450000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "8" 0 -2450000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "9" 0 2450000 -1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "10" 0 2450000 -1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "11" 0 2450000 -750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "12" 0 2450000 -250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "13" 0 2450000 250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "14" 0 2450000 750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "15" 0 2450000 1250000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "16" 0 2450000 1750000 0
+      top_pad: 4 300000 425000 425000 150000
+    pin: "17" 0 0 0 0
+      top_pad: 3 4200000 1775000 1775000 0
+

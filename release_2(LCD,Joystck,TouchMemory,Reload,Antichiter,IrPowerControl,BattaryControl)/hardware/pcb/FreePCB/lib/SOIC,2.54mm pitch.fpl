@@ -1,0 +1,424 @@
+name: "SOIC254P1016X460-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;4 pin,7.00mm W X 5.10mm L X 4.60mm H body"
+  units: NM
+  sel_rect: -5850000 -2800000 5850000 2800000
+  ref_text: 1270000 0 3800000 0 177800
+  value_text: 1270000 0 -5070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 2992000 2550000
+    next_corner: -2992000 2550000 0
+    next_corner: -2992000 -2550000 0
+    next_corner: 2992000 -2550000 0
+    close_polyline: 0
+  outline_polyline: 254000 -5473000 2924000
+    next_corner: -5346000 3051000 1
+    next_corner: -5219000 2924000 1
+    next_corner: -5346000 2797000 1
+    close_polyline: 1
+  outline_polyline: 177800 -2865000 2042000
+    next_corner: -2484000 2423000 1
+    next_corner: -2103000 2042000 1
+    next_corner: -2484000 1661000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -4550000 1270000 0
+      top_pad: 4 1400000 1050000 1050000 700000
+    pin: "2" 0 -4550000 -1270000 0
+      top_pad: 4 1400000 1050000 1050000 700000
+    pin: "3" 0 4550000 -1270000 0
+      top_pad: 4 1400000 1050000 1050000 700000
+    pin: "4" 0 4550000 1270000 0
+      top_pad: 4 1400000 1050000 1050000 700000
+
+name: "SOIC254P1030X508-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;8 pin,6.86mm W X 9.91mm L X 5.08mm H body"
+  units: NM
+  sel_rect: -5850000 -5250000 5850000 5250000
+  ref_text: 1270000 0 6250000 0 177800
+  value_text: 1270000 0 -7520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 3092000 4955000
+    next_corner: -3092000 4955000 0
+    next_corner: -3092000 -4955000 0
+    next_corner: 3092000 -4955000 0
+    close_polyline: 0
+  outline_polyline: 254000 -5473000 5914000
+    next_corner: -5346000 6041000 1
+    next_corner: -5219000 5914000 1
+    next_corner: -5346000 5787000 1
+    close_polyline: 1
+  outline_polyline: 177800 -2965000 4447000
+    next_corner: -2584000 4828000 1
+    next_corner: -2203000 4447000 1
+    next_corner: -2584000 4066000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -4600000 3810000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "2" 0 -4600000 1270000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "3" 0 -4600000 -1270000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "4" 0 -4600000 -3810000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "5" 0 4600000 -3810000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "6" 0 4600000 -1270000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "7" 0 4600000 1270000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+    pin: "8" 0 4600000 3810000 0
+      top_pad: 4 1850000 1000000 1000000 925000
+
+name: "SOIC254P1035X635-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;8 pin,6.86mm W X 9.91mm L X 6.35mm H Body"
+  units: NM
+  sel_rect: -5850000 -5250000 5850000 5250000
+  ref_text: 1270000 0 6250000 0 177800
+  value_text: 1270000 0 -7520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 3117000 4955000
+    next_corner: -3117000 4955000 0
+    next_corner: -3117000 -4955000 0
+    next_corner: 3117000 -4955000 0
+    close_polyline: 0
+  outline_polyline: 254000 -5448000 5914000
+    next_corner: -5321000 6041000 1
+    next_corner: -5194000 5914000 1
+    next_corner: -5321000 5787000 1
+    close_polyline: 1
+  outline_polyline: 177800 -2990000 4447000
+    next_corner: -2609000 4828000 1
+    next_corner: -2228000 4447000 1
+    next_corner: -2609000 4066000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -4600000 3810000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "2" 0 -4600000 1270000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "3" 0 -4600000 -1270000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "4" 0 -4600000 -3810000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "5" 0 4600000 -3810000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "6" 0 4600000 -1270000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "7" 0 4600000 1270000 0
+      top_pad: 4 1850000 975000 975000 925000
+    pin: "8" 0 4600000 3810000 0
+      top_pad: 4 1850000 975000 975000 925000
+
+name: "SOIC254P1803X635-24N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;24 pin,14.73mm W X 32.77mm L X 6.35mm H Body"
+  units: NM
+  sel_rect: -9900000 -16650000 9900000 16650000
+  ref_text: 1270000 0 17650000 0 177800
+  value_text: 1270000 0 -18920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 6567000 16385000
+    next_corner: -6567000 16385000 0
+    next_corner: -6567000 -16385000 0
+    next_corner: 6567000 -16385000 0
+    close_polyline: 0
+  outline_polyline: 254000 -9498000 14874000
+    next_corner: -9371000 15001000 1
+    next_corner: -9244000 14874000 1
+    next_corner: -9371000 14747000 1
+    close_polyline: 1
+  outline_polyline: 177800 -6440000 15877000
+    next_corner: -6059000 16258000 1
+    next_corner: -5678000 15877000 1
+    next_corner: -6059000 15496000 1
+    close_polyline: 1
+  n_pins: 24
+    pin: "1" 0 -8350000 13970000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "2" 0 -8350000 11430000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "3" 0 -8350000 8890000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "4" 0 -8350000 6350000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "5" 0 -8350000 3810000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "6" 0 -8350000 1270000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "7" 0 -8350000 -1270000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "8" 0 -8350000 -3810000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "9" 0 -8350000 -6350000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "10" 0 -8350000 -8890000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "11" 0 -8350000 -11430000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "12" 0 -8350000 -13970000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "13" 0 8350000 -13970000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "14" 0 8350000 -11430000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "15" 0 8350000 -8890000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "16" 0 8350000 -6350000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "17" 0 8350000 -3810000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "18" 0 8350000 -1270000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "19" 0 8350000 1270000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "20" 0 8350000 3810000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "21" 0 8350000 6350000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "22" 0 8350000 8890000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "23" 0 8350000 11430000 0
+      top_pad: 4 650000 1275000 1275000 325000
+    pin: "24" 0 8350000 13970000 0
+      top_pad: 4 650000 1275000 1275000 325000
+
+name: "SOIC254P1820X1363-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;8 pin,10.80mm W X 11.50mm L X 13.63mm H body"
+  units: NM
+  sel_rect: -9800000 -6000000 9800000 6000000
+  ref_text: 1270000 0 7000000 0 177800
+  value_text: 1270000 0 -8270000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 6442000 5750000
+    next_corner: -6442000 5750000 0
+    next_corner: -6442000 -5750000 0
+    next_corner: 6442000 -5750000 0
+    close_polyline: 0
+  outline_polyline: 254000 -9423000 5264000
+    next_corner: -9296000 5391000 1
+    next_corner: -9169000 5264000 1
+    next_corner: -9296000 5137000 1
+    close_polyline: 1
+  outline_polyline: 177800 -6315000 5242000
+    next_corner: -5934000 5623000 1
+    next_corner: -5553000 5242000 1
+    next_corner: -5934000 4861000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -8250000 3810000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "2" 0 -8250000 1270000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "3" 0 -8250000 -1270000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "4" 0 -8250000 -3810000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "5" 0 8250000 -3810000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "6" 0 8250000 -1270000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "7" 0 8250000 1270000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+    pin: "8" 0 8250000 3810000 0
+      top_pad: 4 1200000 1300000 1300000 600000
+
+name: "SOIC254P1821X1321-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;8 pin,10.79mm W X 10.79mm L X 13.21mm H body"
+  units: NM
+  sel_rect: -9850000 -5650000 9850000 5650000
+  ref_text: 1270000 0 6650000 0 177800
+  value_text: 1270000 0 -7920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 6417000 5395000
+    next_corner: -6417000 5395000 0
+    next_corner: -6417000 -5395000 0
+    next_corner: 6417000 -5395000 0
+    close_polyline: 0
+  outline_polyline: 254000 -9448000 5264000
+    next_corner: -9321000 5391000 1
+    next_corner: -9194000 5264000 1
+    next_corner: -9321000 5137000 1
+    close_polyline: 1
+  outline_polyline: 177800 -6290000 4887000
+    next_corner: -5909000 5268000 1
+    next_corner: -5528000 4887000 1
+    next_corner: -5909000 4506000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -8250000 3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "2" 0 -8250000 1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "3" 0 -8250000 -1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "4" 0 -8250000 -3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "5" 0 8250000 -3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "6" 0 8250000 -1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "7" 0 8250000 1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "8" 0 8250000 3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+
+name: "SOIC254P1821X584-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;8 pin,10.79mm W X 10.79mm L X 5.84mm H body"
+  units: NM
+  sel_rect: -9850000 -5650000 9850000 5650000
+  ref_text: 1270000 0 6650000 0 177800
+  value_text: 1270000 0 -7920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 6417000 5395000
+    next_corner: -6417000 5395000 0
+    next_corner: -6417000 -5395000 0
+    next_corner: 6417000 -5395000 0
+    close_polyline: 0
+  outline_polyline: 254000 -9448000 5264000
+    next_corner: -9321000 5391000 1
+    next_corner: -9194000 5264000 1
+    next_corner: -9321000 5137000 1
+    close_polyline: 1
+  outline_polyline: 177800 -6290000 4887000
+    next_corner: -5909000 5268000 1
+    next_corner: -5528000 4887000 1
+    next_corner: -5909000 4506000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -8250000 3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "2" 0 -8250000 1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "3" 0 -8250000 -1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "4" 0 -8250000 -3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "5" 0 8250000 -3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "6" 0 8250000 -1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "7" 0 8250000 1270000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+    pin: "8" 0 8250000 3810000 0
+      top_pad: 4 1200000 1325000 1325000 600000
+
+name: "SOIC254P680X239-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;4 pin,4.40mm W X 4.29mm L X 2.39mm H body"
+  units: NM
+  sel_rect: -4250000 -2400000 4250000 2400000
+  ref_text: 1270000 0 3400000 0 177800
+  value_text: 1270000 0 -4670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 1617000 2145000
+    next_corner: -1617000 2145000 0
+    next_corner: -1617000 -2145000 0
+    next_corner: 1617000 -2145000 0
+    close_polyline: 0
+  outline_polyline: 254000 -3848000 2124000
+    next_corner: -3721000 2251000 1
+    next_corner: -3594000 2124000 1
+    next_corner: -3721000 1997000 1
+    close_polyline: 1
+  outline_polyline: 177800 -1490000 1637000
+    next_corner: -1109000 2018000 1
+    next_corner: -728000 1637000 1
+    next_corner: -1109000 1256000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -3050000 1270000 0
+      top_pad: 4 600000 925000 925000 300000
+    pin: "2" 0 -3050000 -1270000 0
+      top_pad: 4 600000 925000 925000 300000
+    pin: "3" 0 3050000 -1270000 0
+      top_pad: 4 600000 925000 925000 300000
+    pin: "4" 0 3050000 1270000 0
+      top_pad: 4 600000 925000 925000 300000
+
+name: "SOIC254P958X508-6N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;6 pin,7.11mm W X 8.13mm L X 5.08mm H Body"
+  units: NM
+  sel_rect: -5450000 -4350000 5450000 4350000
+  ref_text: 1270000 0 5350000 0 177800
+  value_text: 1270000 0 -6620000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 3292000 4065000
+    next_corner: -3292000 4065000 0
+    next_corner: -3292000 -4065000 0
+    next_corner: 3292000 -4065000 0
+    close_polyline: 0
+  outline_polyline: 254000 -5073000 3444000
+    next_corner: -4946000 3571000 1
+    next_corner: -4819000 3444000 1
+    next_corner: -4946000 3317000 1
+    close_polyline: 1
+  outline_polyline: 177800 -3165000 3557000
+    next_corner: -2784000 3938000 1
+    next_corner: -2403000 3557000 1
+    next_corner: -2784000 3176000 1
+    close_polyline: 1
+  n_pins: 6
+    pin: "1" 0 -4500000 2540000 0
+      top_pad: 4 650000 700000 700000 325000
+    pin: "2" 0 -4500000 0 0
+      top_pad: 4 650000 700000 700000 325000
+    pin: "3" 0 -4500000 -2540000 0
+      top_pad: 4 650000 700000 700000 325000
+    pin: "4" 0 4500000 -2540000 0
+      top_pad: 4 650000 700000 700000 325000
+    pin: "5" 0 4500000 0 0
+      top_pad: 4 650000 700000 700000 325000
+    pin: "6" 0 4500000 2540000 0
+      top_pad: 4 650000 700000 700000 325000
+
+name: "SOIC254P960X400-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "SOIC,2.54mm pitch;4 pin,6.50mm W X 5.10mm L X 4.00mm H Body"
+  units: NM
+  sel_rect: -5600000 -2800000 5600000 2800000
+  ref_text: 1270000 0 3800000 0 177800
+  value_text: 1270000 0 -5070000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 2742000 2550000
+    next_corner: -2742000 2550000 0
+    next_corner: -2742000 -2550000 0
+    next_corner: 2742000 -2550000 0
+    close_polyline: 0
+  outline_polyline: 254000 -5223000 3074000
+    next_corner: -5096000 3201000 1
+    next_corner: -4969000 3074000 1
+    next_corner: -5096000 2947000 1
+    close_polyline: 1
+  outline_polyline: 177800 -2615000 2042000
+    next_corner: -2234000 2423000 1
+    next_corner: -1853000 2042000 1
+    next_corner: -2234000 1661000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -4300000 1270000 0
+      top_pad: 4 1550000 1050000 1050000 775000
+    pin: "2" 0 -4300000 -1270000 0
+      top_pad: 4 1550000 1050000 1050000 775000
+    pin: "3" 0 4300000 -1270000 0
+      top_pad: 4 1550000 1050000 1050000 775000
+    pin: "4" 0 4300000 1270000 0
+      top_pad: 4 1550000 1050000 1050000 775000
+

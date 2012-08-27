@@ -1,0 +1,516 @@
+name: "RESCAV127P210X254X70-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;4 pin,2.10mm L X 2.54mm W X 0.70mm H"
+  units: NM
+  sel_rect: -1950000 -1650000 1950000 1650000
+  ref_text: 1270000 0 2650000 0 177800
+  value_text: 1270000 0 -3920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1050000 1739000
+    next_corner: 1050000 1739000 0
+  outline_polyline: 177800 -1050000 -1739000
+    next_corner: 1050000 -1739000 0
+  outline_polyline: 254000 -1802000 1739000
+    next_corner: -1675000 1866000 1
+    next_corner: -1548000 1739000 1
+    next_corner: -1675000 1612000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1100000 635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "2" 0 -1100000 -635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "3" 0 1100000 -635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "4" 0 1100000 635000 0
+      top_pad: 3 850000 575000 575000 0
+
+name: "RESCAV127P210X508X70-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;8 pin,2.10mm L X 5.08mm W X 0.70mm H"
+  units: NM
+  sel_rect: -1950000 -2950000 1950000 2950000
+  ref_text: 1270000 0 3950000 0 177800
+  value_text: 1270000 0 -5220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1050000 3009000
+    next_corner: 1050000 3009000 0
+  outline_polyline: 177800 -1050000 -3009000
+    next_corner: 1050000 -3009000 0
+  outline_polyline: 254000 -1802000 3009000
+    next_corner: -1675000 3136000 1
+    next_corner: -1548000 3009000 1
+    next_corner: -1675000 2882000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -1100000 1905000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "2" 0 -1100000 635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "3" 0 -1100000 -635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "4" 0 -1100000 -1905000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "5" 0 1100000 -1905000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "6" 0 1100000 -635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "7" 0 1100000 635000 0
+      top_pad: 3 850000 575000 575000 0
+    pin: "8" 0 1100000 1905000 0
+      top_pad: 3 850000 575000 575000 0
+
+name: "RESCAV127P225X513X90-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;8 pin,2.25mm L X 5.13mm W X 0.90mm H"
+  units: NM
+  sel_rect: -1900000 -2900000 1900000 2900000
+  ref_text: 1270000 0 3900000 0 177800
+  value_text: 1270000 0 -5170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1125000 3009000
+    next_corner: 1125000 3009000 0
+  outline_polyline: 177800 -1125000 -3009000
+    next_corner: 1125000 -3009000 0
+  outline_polyline: 254000 -1777000 3009000
+    next_corner: -1650000 3136000 1
+    next_corner: -1523000 3009000 1
+    next_corner: -1650000 2882000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -1000000 1905000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "2" 0 -1000000 635000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "3" 0 -1000000 -635000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "4" 0 -1000000 -1905000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "5" 0 1000000 -1905000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "6" 0 1000000 -635000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "7" 0 1000000 635000 0
+      top_pad: 3 850000 650000 650000 0
+    pin: "8" 0 1000000 1905000 0
+      top_pad: 3 850000 650000 650000 0
+
+name: "RESCAV127P310X640X65-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;10 pin,3.10mm L X 6.40mm W X 0.65mm H"
+  units: NM
+  sel_rect: -2400000 -3550000 2400000 3550000
+  ref_text: 1270000 0 4550000 0 177800
+  value_text: 1270000 0 -5820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1550000 3394000
+    next_corner: 1550000 3394000 0
+  outline_polyline: 177800 -1550000 -3394000
+    next_corner: 1550000 -3394000 0
+  outline_polyline: 254000 -2252000 3394000
+    next_corner: -2125000 3521000 1
+    next_corner: -1998000 3394000 1
+    next_corner: -2125000 3267000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -1550000 2540000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "2" 0 -1550000 1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "3" 0 -1550000 0 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "4" 0 -1550000 -1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "5" 0 -1550000 -2540000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "6" 0 1550000 -2540000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "7" 0 1550000 -1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "8" 0 1550000 0 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "9" 0 1550000 1270000 0
+      top_pad: 3 600000 575000 575000 0
+    pin: "10" 0 1550000 2540000 0
+      top_pad: 3 600000 575000 575000 0
+
+name: "RESCAV127P320X254X70-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;4 pin,3.20mm L X 2.54mm W X 0.70mm H"
+  units: NM
+  sel_rect: -2450000 -1650000 2450000 1650000
+  ref_text: 1270000 0 2650000 0 177800
+  value_text: 1270000 0 -3920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 1839000
+    next_corner: 1600000 1839000 0
+  outline_polyline: 177800 -1600000 -1839000
+    next_corner: 1600000 -1839000 0
+  outline_polyline: 254000 -2302000 1839000
+    next_corner: -2175000 1966000 1
+    next_corner: -2048000 1839000 1
+    next_corner: -2175000 1712000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1600000 635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "2" 0 -1600000 -635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "3" 0 1600000 -635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "4" 0 1600000 635000 0
+      top_pad: 3 950000 575000 575000 0
+
+name: "RESCAV127P320X508X70-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;8 pin,3.20mm L X 5.08mm W X 0.70mm H"
+  units: NM
+  sel_rect: -2450000 -2950000 2450000 2950000
+  ref_text: 1270000 0 3950000 0 177800
+  value_text: 1270000 0 -5220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 3109000
+    next_corner: 1600000 3109000 0
+  outline_polyline: 177800 -1600000 -3109000
+    next_corner: 1600000 -3109000 0
+  outline_polyline: 254000 -2302000 3109000
+    next_corner: -2175000 3236000 1
+    next_corner: -2048000 3109000 1
+    next_corner: -2175000 2982000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -1600000 1905000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "2" 0 -1600000 635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "3" 0 -1600000 -635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "4" 0 -1600000 -1905000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "5" 0 1600000 -1905000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "6" 0 1600000 -635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "7" 0 1600000 635000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "8" 0 1600000 1905000 0
+      top_pad: 3 950000 575000 575000 0
+
+name: "RESCAV127P320X640X70-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;10 pin,3.20mm L X 6.40mm W X 0.70mm H"
+  units: NM
+  sel_rect: -2400000 -3550000 2400000 3550000
+  ref_text: 1270000 0 4550000 0 177800
+  value_text: 1270000 0 -5820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 3444000
+    next_corner: 1600000 3444000 0
+  outline_polyline: 177800 -1600000 -3444000
+    next_corner: 1600000 -3444000 0
+  outline_polyline: 254000 -2277000 3444000
+    next_corner: -2150000 3571000 1
+    next_corner: -2023000 3444000 1
+    next_corner: -2150000 3317000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -1550000 2540000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "2" 0 -1550000 1270000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "3" 0 -1550000 0 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "4" 0 -1550000 -1270000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "5" 0 -1550000 -2540000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "6" 0 1550000 -2540000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "7" 0 1550000 -1270000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "8" 0 1550000 0 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "9" 0 1550000 1270000 0
+      top_pad: 3 650000 600000 600000 0
+    pin: "10" 0 1550000 2540000 0
+      top_pad: 3 650000 600000 600000 0
+
+name: "RESCAXE127P305X1030X63-16N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;16 pin,3.05mm L X 10.30mm W X 0.63mm H"
+  units: NM
+  sel_rect: -2300000 -5500000 2300000 5500000
+  ref_text: 1270000 0 6500000 0 177800
+  value_text: 1270000 0 -7770000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1525000 5549000
+    next_corner: 1525000 5549000 0
+  outline_polyline: 177800 -1525000 -5549000
+    next_corner: 1525000 -5549000 0
+  outline_polyline: 254000 -2177000 5549000
+    next_corner: -2050000 5676000 1
+    next_corner: -1923000 5549000 1
+    next_corner: -2050000 5422000 1
+    close_polyline: 1
+  n_pins: 16
+    pin: "1" 0 -1550000 4445000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "2" 0 -1550000 3175000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "3" 0 -1550000 1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "4" 0 -1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "5" 0 -1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "6" 0 -1550000 -1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "7" 0 -1550000 -3175000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "8" 0 -1550000 -4445000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "9" 0 1550000 -4445000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "10" 0 1550000 -3175000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "11" 0 1550000 -1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "12" 0 1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "13" 0 1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "14" 0 1550000 1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "15" 0 1550000 3175000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "16" 0 1550000 4445000 0
+      top_pad: 3 850000 500000 500000 0
+
+name: "RESCAXE127P305X254X63-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;4 pin,3.05mm L X 2.54mm W X 0.63mm H"
+  units: NM
+  sel_rect: -2300000 -1600000 2300000 1600000
+  ref_text: 1270000 0 2600000 0 177800
+  value_text: 1270000 0 -3870000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1525000 1739000
+    next_corner: 1525000 1739000 0
+  outline_polyline: 177800 -1525000 -1739000
+    next_corner: 1525000 -1739000 0
+  outline_polyline: 254000 -2177000 1739000
+    next_corner: -2050000 1866000 1
+    next_corner: -1923000 1739000 1
+    next_corner: -2050000 1612000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "2" 0 -1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "3" 0 1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "4" 0 1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+
+name: "RESCAXE127P305X508X63-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;8 pin,3.05mm L X 5.08mm W X 0.63mm H"
+  units: NM
+  sel_rect: -2300000 -2900000 2300000 2900000
+  ref_text: 1270000 0 3900000 0 177800
+  value_text: 1270000 0 -5170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1525000 3009000
+    next_corner: 1525000 3009000 0
+  outline_polyline: 177800 -1525000 -3009000
+    next_corner: 1525000 -3009000 0
+  outline_polyline: 254000 -2177000 3009000
+    next_corner: -2050000 3136000 1
+    next_corner: -1923000 3009000 1
+    next_corner: -2050000 2882000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -1550000 1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "2" 0 -1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "3" 0 -1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "4" 0 -1550000 -1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "5" 0 1550000 -1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "6" 0 1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "7" 0 1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "8" 0 1550000 1905000 0
+      top_pad: 3 850000 500000 500000 0
+
+name: "RESCAXE127P305X640X63-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;10 pin,3.05mm L X 6.40mm W X 0.63mm H"
+  units: NM
+  sel_rect: -2300000 -3550000 2300000 3550000
+  ref_text: 1270000 0 4550000 0 177800
+  value_text: 1270000 0 -5820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1525000 3644000
+    next_corner: 1525000 3644000 0
+  outline_polyline: 177800 -1525000 -3644000
+    next_corner: 1525000 -3644000 0
+  outline_polyline: 254000 -2177000 3644000
+    next_corner: -2050000 3771000 1
+    next_corner: -1923000 3644000 1
+    next_corner: -2050000 3517000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -1550000 2540000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "2" 0 -1550000 1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "3" 0 -1550000 0 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "4" 0 -1550000 -1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "5" 0 -1550000 -2540000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "6" 0 1550000 -2540000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "7" 0 1550000 -1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "8" 0 1550000 0 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "9" 0 1550000 1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "10" 0 1550000 2540000 0
+      top_pad: 3 850000 500000 500000 0
+
+name: "RESCAXS127P305X508X63-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;8 pin,3.05mm L X 5.08mm W X 0.63mm H"
+  units: NM
+  sel_rect: -2300000 -2900000 2300000 2900000
+  ref_text: 1270000 0 3900000 0 177800
+  value_text: 1270000 0 -5170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1525000 3009000
+    next_corner: 1525000 3009000 0
+  outline_polyline: 177800 -1525000 -3009000
+    next_corner: 1525000 -3009000 0
+  outline_polyline: 254000 -2177000 3009000
+    next_corner: -2050000 3136000 1
+    next_corner: -1923000 3009000 1
+    next_corner: -2050000 2882000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -1550000 1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "2" 0 -1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "3" 0 -1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "4" 0 -1550000 -1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "5" 0 1550000 -1905000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "6" 0 1550000 -635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "7" 0 1550000 635000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "8" 0 1550000 1905000 0
+      top_pad: 3 850000 500000 500000 0
+
+name: "RESCAXS127P305X640X63-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;10 pin,3.05mm L X 6.40mm W X 0.63mm H"
+  units: NM
+  sel_rect: -2300000 -3550000 2300000 3550000
+  ref_text: 1270000 0 4550000 0 177800
+  value_text: 1270000 0 -5820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1525000 3644000
+    next_corner: 1525000 3644000 0
+  outline_polyline: 177800 -1525000 -3644000
+    next_corner: 1525000 -3644000 0
+  outline_polyline: 254000 -2177000 3644000
+    next_corner: -2050000 3771000 1
+    next_corner: -1923000 3644000 1
+    next_corner: -2050000 3517000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -1550000 2540000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "2" 0 -1550000 1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "3" 0 -1550000 0 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "4" 0 -1550000 -1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "5" 0 -1550000 -2540000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "6" 0 1550000 -2540000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "7" 0 1550000 -1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "8" 0 1550000 0 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "9" 0 1550000 1270000 0
+      top_pad: 3 850000 500000 500000 0
+    pin: "10" 0 1550000 2540000 0
+      top_pad: 3 850000 500000 500000 0
+
+name: "RESCAXS127P320X640X70-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,1.27mm pitch;10 pin,3.20mm L X 6.40mm W X 0.70mm H"
+  units: NM
+  sel_rect: -2450000 -3550000 2450000 3550000
+  ref_text: 1270000 0 4550000 0 177800
+  value_text: 1270000 0 -5820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1600000 3744000
+    next_corner: 1600000 3744000 0
+  outline_polyline: 177800 -1600000 -3744000
+    next_corner: 1600000 -3744000 0
+  outline_polyline: 254000 -2302000 3744000
+    next_corner: -2175000 3871000 1
+    next_corner: -2048000 3744000 1
+    next_corner: -2175000 3617000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -1600000 2540000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "2" 0 -1600000 1270000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "3" 0 -1600000 0 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "4" 0 -1600000 -1270000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "5" 0 -1600000 -2540000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "6" 0 1600000 -2540000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "7" 0 1600000 -1270000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "8" 0 1600000 0 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "9" 0 1600000 1270000 0
+      top_pad: 3 950000 575000 575000 0
+    pin: "10" 0 1600000 2540000 0
+      top_pad: 3 950000 575000 575000 0
+

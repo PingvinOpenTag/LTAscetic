@@ -1,0 +1,64 @@
+name: "OSCL550P350X800X370-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,L-lead;4 Pin,3.50mm L X 8.00mm W X 3.70mm H"
+  units: NM
+  sel_rect: -2850000 -4250000 2850000 4250000
+  ref_text: 1270000 0 5250000 0 177800
+  value_text: 1270000 0 -6520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1750000 3604000
+    next_corner: -1750000 4127000 0
+    next_corner: 1750000 4127000 0
+    next_corner: 1750000 3604000 0
+  outline_polyline: 177800 -1750000 -3604000
+    next_corner: -1750000 -4127000 0
+    next_corner: 1750000 -4127000 0
+    next_corner: 1750000 -3604000 0
+  outline_polyline: 254000 -2385000 4000000
+    next_corner: -2258000 4127000 1
+    next_corner: -2131000 4000000 1
+    next_corner: -2258000 3873000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -1700000 2750000 0
+      top_pad: 3 1200000 875000 875000 0
+    pin: "2" 0 -1700000 -2750000 0
+      top_pad: 3 1200000 875000 875000 0
+    pin: "3" 0 1700000 -2750000 0
+      top_pad: 3 1200000 875000 875000 0
+    pin: "4" 0 1700000 2750000 0
+      top_pad: 3 1200000 875000 875000 0
+
+name: "OSCL550P440X1250X370-4N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Oscillator,L-lead;4 Pin,4.40mm L X 12.50mm W X 3.70mm H"
+  units: NM
+  sel_rect: -3150000 -6500000 3150000 6500000
+  ref_text: 1270000 0 7500000 0 177800
+  value_text: 1270000 0 -8770000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2200000 3754000
+    next_corner: -2200000 6377000 0
+    next_corner: 2200000 6377000 0
+    next_corner: 2200000 3754000 0
+  outline_polyline: 177800 -2200000 -3754000
+    next_corner: -2200000 -6377000 0
+    next_corner: 2200000 -6377000 0
+    next_corner: 2200000 -3754000 0
+  outline_polyline: 254000 -2835000 6250000
+    next_corner: -2708000 6377000 1
+    next_corner: -2581000 6250000 1
+    next_corner: -2708000 6123000 1
+    close_polyline: 1
+  n_pins: 4
+    pin: "1" 0 -2000000 2750000 0
+      top_pad: 3 1500000 900000 900000 0
+    pin: "2" 0 -2000000 -2750000 0
+      top_pad: 3 1500000 900000 900000 0
+    pin: "3" 0 2000000 -2750000 0
+      top_pad: 3 1500000 900000 900000 0
+    pin: "4" 0 2000000 2750000 0
+      top_pad: 3 1500000 900000 900000 0
+

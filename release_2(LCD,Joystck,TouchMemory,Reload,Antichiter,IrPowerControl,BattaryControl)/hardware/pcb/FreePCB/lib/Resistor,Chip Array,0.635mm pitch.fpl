@@ -1,0 +1,128 @@
+name: "RESCAV63P160X320X65-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,0.635mm pitch;10 pin,1 pin X 4 pin,1.60mm L X 3.20mm W X 0.65mm H"
+  units: NM
+  sel_rect: -1450000 -2250000 1450000 2250000
+  ref_text: 1270000 0 3250000 0 177800
+  value_text: 1270000 0 -4520000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -800000 1603000
+    next_corner: -800000 1600000 0
+    next_corner: -658000 1600000 0
+  outline_polyline: 177800 800000 1603000
+    next_corner: 800000 1600000 0
+    next_corner: 658000 1600000 0
+  outline_polyline: 177800 -800000 -1603000
+    next_corner: -800000 -1600000 0
+    next_corner: -658000 -1600000 0
+  outline_polyline: 177800 800000 -1603000
+    next_corner: 800000 -1600000 0
+    next_corner: 658000 -1600000 0
+  outline_polyline: 254000 -127000 2508000
+    next_corner: 0 2635000 1
+    next_corner: 127000 2508000 1
+    next_corner: 0 2381000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "2" 0 -800000 945000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "3" 0 -800000 315000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "4" 0 -800000 -315000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "5" 0 -800000 -945000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "6" 0 0 -1650000 90
+      top_pad: 3 450000 350000 350000 0
+    pin: "7" 0 800000 -945000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "8" 0 800000 -315000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "9" 0 800000 315000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "10" 0 800000 945000 0
+      top_pad: 3 300000 400000 400000 0
+    pin: "1" 0 0 1650000 90
+      top_pad: 3 450000 350000 350000 0
+
+name: "RESCAXS63P160X320X55-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,0.635mm pitch;10 pin,1.60mm L X 3.20mm W X 0.55mm H"
+  units: NM
+  sel_rect: -1450000 -1950000 1450000 1950000
+  ref_text: 1270000 0 2950000 0 177800
+  value_text: 1270000 0 -4220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -800000 1860000
+    next_corner: 800000 1860000 0
+  outline_polyline: 177800 -800000 -1860000
+    next_corner: 800000 -1860000 0
+  outline_polyline: 200000 -1275000 1860000
+    next_corner: -1175000 1960000 1
+    next_corner: -1075000 1860000 1
+    next_corner: -1175000 1760000 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -850000 1260000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "2" 0 -850000 630000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "3" 0 -850000 0 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "4" 0 -850000 -630000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "5" 0 -850000 -1260000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "6" 0 850000 -1260000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "7" 0 850000 -630000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "8" 0 850000 0 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "9" 0 850000 630000 0
+      top_pad: 3 400000 325000 325000 0
+    pin: "10" 0 850000 1260000 0
+      top_pad: 3 400000 325000 325000 0
+
+name: "RESCAXS63P165X330X70-10N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Resistor,Chip Array,0.635mm pitch;10 pin,1.65mm L X 3.30mm W X 0.70mm H"
+  units: NM
+  sel_rect: -1450000 -1950000 1450000 1950000
+  ref_text: 1270000 0 2950000 0 177800
+  value_text: 1270000 0 -4220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -825000 1785000
+    next_corner: 825000 1785000 0
+  outline_polyline: 177800 -825000 -1785000
+    next_corner: 825000 -1785000 0
+  outline_polyline: 175000 -1287500 1785000
+    next_corner: -1200000 1872500 1
+    next_corner: -1112500 1785000 1
+    next_corner: -1200000 1697500 1
+    close_polyline: 1
+  n_pins: 10
+    pin: "1" 0 -750000 1260000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "2" 0 -750000 630000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "3" 0 -750000 0 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "4" 0 -750000 -630000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "5" 0 -750000 -1260000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "6" 0 750000 -1260000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "7" 0 750000 -630000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "8" 0 750000 0 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "9" 0 750000 630000 0
+      top_pad: 3 350000 450000 450000 0
+    pin: "10" 0 750000 1260000 0
+      top_pad: 3 350000 450000 450000 0
+

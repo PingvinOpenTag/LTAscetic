@@ -1,0 +1,42 @@
+name: "PSON85P403X410X160-11N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "PSON,0.85mm pitch;10 pin,4.10mm W X 4.10mm L X 1.60mm H body (pullback leads) (w/thermal tab)"
+  units: NM
+  sel_rect: -2300000 -2300000 2300000 2300000
+  ref_text: 1270000 0 3300000 0 177800
+  value_text: 1270000 0 -4570000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2049999 2229000
+    next_corner: 2049999 2229000 0
+  outline_polyline: 177800 -2049999 -2229000
+    next_corner: 2049999 -2229000 0
+  outline_polyline: 254000 -2684999 2483000
+    next_corner: -2557999 2610000 1
+    next_corner: -2430999 2483000 1
+    next_corner: -2557999 2356000 1
+    close_polyline: 1
+  n_pins: 11
+    pin: "1" 0 -1700000 1700000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "2" 0 -1700000 850000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "3" 0 -1700000 0 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "4" 0 -1700000 -850000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "5" 0 -1700000 -1700000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "6" 0 1700000 -1700000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "7" 0 1700000 -850000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "8" 0 1700000 0 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "9" 0 1700000 850000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "10" 0 1700000 1700000 0
+      top_pad: 3 550000 325000 325000 0
+    pin: "11" 0 0 0 0
+      top_pad: 3 3650000 900000 900000 0
+

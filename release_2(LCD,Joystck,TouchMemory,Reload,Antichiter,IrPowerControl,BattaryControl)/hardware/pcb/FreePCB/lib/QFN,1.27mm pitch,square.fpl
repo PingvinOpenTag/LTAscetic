@@ -1,0 +1,44 @@
+name: "QFN127P500X500X178-8N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "QFN,1.27mm pitch,square;1 pin X 3 pin, 5.20mm X 5.20mm X 1.78mm H body"
+  units: NM
+  sel_rect: -3150000 -3150000 3150000 3150000
+  ref_text: 1270000 0 4150000 0 177800
+  value_text: 1270000 0 -5420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2727000 1874000
+    next_corner: -2727000 2727000 0
+    next_corner: -604000 2727000 0
+  outline_polyline: 177800 604000 2727000
+    next_corner: 2727000 2727000 0
+    next_corner: 2727000 1874000 0
+  outline_polyline: 177800 -2727000 -1874000
+    next_corner: -2727000 -2727000 0
+    next_corner: -604000 -2727000 0
+  outline_polyline: 177800 604000 -2727000
+    next_corner: 2727000 -2727000 0
+    next_corner: 2727000 -1874000 0
+  outline_polyline: 254000 -3235000 2128000
+    next_corner: -3108000 2255000 1
+    next_corner: -2981000 2128000 1
+    next_corner: -3108000 2001000 1
+    close_polyline: 1
+  n_pins: 8
+    pin: "1" 0 -2000000 1270000 0
+      top_pad: 4 700000 900000 900000 350000
+    pin: "2" 0 -2000000 0 0
+      top_pad: 4 700000 900000 900000 350000
+    pin: "3" 0 -2000000 -1270000 0
+      top_pad: 4 700000 900000 900000 350000
+    pin: "4" 0 0 -2000000 90
+      top_pad: 4 700000 900000 900000 350000
+    pin: "5" 0 2000000 -1270000 0
+      top_pad: 4 700000 900000 900000 350000
+    pin: "6" 0 2000000 0 0
+      top_pad: 4 700000 900000 900000 350000
+    pin: "7" 0 2000000 1270000 0
+      top_pad: 4 700000 900000 900000 350000
+    pin: "8" 0 0 2000000 90
+      top_pad: 4 700000 900000 900000 350000
+

@@ -1,0 +1,660 @@
+name: "CAPMP2013X120N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;2.00mm L X 1.30mm W X 1.20mm H"
+  units: NM
+  sel_rect: -1850000 -1000000 1850000 1000000
+  ref_text: 1270000 0 2000000 0 177800
+  value_text: 1270000 0 -3270000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1127000 777000
+    next_corner: 1127000 777000 0
+  outline_polyline: 177800 -1127000 -777000
+    next_corner: 1127000 -777000 0
+  outline_polyline: 254000 -1889000 1021100
+    next_corner: -1762000 1148100 1
+    next_corner: -1635000 1021100 1
+    next_corner: -1762000 894100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -850000 0 0
+      top_pad: 3 950000 750000 750000 0
+    pin: "2" 0 850000 0 0
+      top_pad: 3 950000 750000 750000 0
+
+name: "CAPMP3216X120N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;3.20mm L X 1.60mm W X 1.20mm H"
+  units: NM
+  sel_rect: -2450000 -1150000 2450000 1150000
+  ref_text: 1270000 0 2150000 0 177800
+  value_text: 1270000 0 -3420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1727000 927000
+    next_corner: 1727000 927000 0
+  outline_polyline: 177800 -1727000 -927000
+    next_corner: 1727000 -927000 0
+  outline_polyline: 254000 -2489000 1171100
+    next_corner: -2362000 1298100 1
+    next_corner: -2235000 1171100 1
+    next_corner: -2362000 1044100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -1300000 0 0
+      top_pad: 3 1250000 900000 900000 0
+    pin: "2" 0 1300000 0 0
+      top_pad: 3 1250000 900000 900000 0
+
+name: "CAPMP3216X180N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;3.20mm L X 1.60mm W X 1.80mm H"
+  units: NM
+  sel_rect: -2450000 -1150000 2450000 1150000
+  ref_text: 1270000 0 2150000 0 177800
+  value_text: 1270000 0 -3420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1727000 927000
+    next_corner: 1727000 927000 0
+  outline_polyline: 177800 -1727000 -927000
+    next_corner: 1727000 -927000 0
+  outline_polyline: 254000 -2489000 1171100
+    next_corner: -2362000 1298100 1
+    next_corner: -2235000 1171100 1
+    next_corner: -2362000 1044100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -1300000 0 0
+      top_pad: 3 1250000 900000 900000 0
+    pin: "2" 0 1300000 0 0
+      top_pad: 3 1250000 900000 900000 0
+
+name: "CAPMP3528X120N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;3.50mm L X 2.80mm W X 1.20mm H"
+  units: NM
+  sel_rect: -2600000 -1750000 2600000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1877000 1506000
+    next_corner: -1877000 1527000 0
+    next_corner: 1877000 1527000 0
+    next_corner: 1877000 1506000 0
+  outline_polyline: 177800 -1877000 -1506000
+    next_corner: -1877000 -1527000 0
+    next_corner: 1877000 -1527000 0
+    next_corner: 1877000 -1506000 0
+  outline_polyline: 254000 -2639000 1671100
+    next_corner: -2512000 1798100 1
+    next_corner: -2385000 1671100 1
+    next_corner: -2512000 1544100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -1450000 0 0
+      top_pad: 3 2250000 900000 900000 0
+    pin: "2" 0 1450000 0 0
+      top_pad: 3 2250000 900000 900000 0
+
+name: "CAPMP3528X210N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;3.50mm L X 2.80mm W X 2.10mm H"
+  units: NM
+  sel_rect: -2600000 -1750000 2600000 1750000
+  ref_text: 1270000 0 2750000 0 177800
+  value_text: 1270000 0 -4020000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -1877000 1506000
+    next_corner: -1877000 1527000 0
+    next_corner: 1877000 1527000 0
+    next_corner: 1877000 1506000 0
+  outline_polyline: 177800 -1877000 -1506000
+    next_corner: -1877000 -1527000 0
+    next_corner: 1877000 -1527000 0
+    next_corner: 1877000 -1506000 0
+  outline_polyline: 254000 -2639000 1671100
+    next_corner: -2512000 1798100 1
+    next_corner: -2385000 1671100 1
+    next_corner: -2512000 1544100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -1450000 0 0
+      top_pad: 3 2250000 900000 900000 0
+    pin: "2" 0 1450000 0 0
+      top_pad: 3 2250000 900000 900000 0
+
+name: "CAPMP4726X230N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;4.70mm L X 2.60mm W X 2.30mm H"
+  units: NM
+  sel_rect: -3250000 -1700000 3250000 1700000
+  ref_text: 1270000 0 2700000 0 177800
+  value_text: 1270000 0 -3970000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2477000 1181000
+    next_corner: -2477000 1427000 0
+    next_corner: 2477000 1427000 0
+    next_corner: 2477000 1181000 0
+  outline_polyline: 177800 -2477000 -1181000
+    next_corner: -2477000 -1427000 0
+    next_corner: 2477000 -1427000 0
+    next_corner: 2477000 -1181000 0
+  outline_polyline: 254000 -3239000 1346100
+    next_corner: -3112000 1473100 1
+    next_corner: -2985000 1346100 1
+    next_corner: -3112000 1219100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2200000 0 0
+      top_pad: 3 1600000 775000 775000 0
+    pin: "2" 0 2200000 0 0
+      top_pad: 3 1600000 775000 775000 0
+
+name: "CAPMP4945X270N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;4.90mm L X 4.50mm W X 2.70mm H"
+  units: NM
+  sel_rect: -3350000 -2650000 3350000 2650000
+  ref_text: 1270000 0 3650000 0 177800
+  value_text: 1270000 0 -4920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2577000 2081000
+    next_corner: -2577000 2377000 0
+    next_corner: 2577000 2377000 0
+    next_corner: 2577000 2081000 0
+  outline_polyline: 177800 -2577000 -2081000
+    next_corner: -2577000 -2377000 0
+    next_corner: 2577000 -2377000 0
+    next_corner: 2577000 -2081000 0
+  outline_polyline: 254000 -3339000 2246100
+    next_corner: -3212000 2373100 1
+    next_corner: -3085000 2246100 1
+    next_corner: -3212000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2150000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 2150000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
+name: "CAPMP4955X270N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;4.90mm L X 5.50mm W X 2.70mm H"
+  units: NM
+  sel_rect: -3350000 -3100000 3350000 3100000
+  ref_text: 1270000 0 4100000 0 177800
+  value_text: 1270000 0 -5370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -2577000 2081000
+    next_corner: -2577000 2877000 0
+    next_corner: 2577000 2877000 0
+    next_corner: 2577000 2081000 0
+  outline_polyline: 177800 -2577000 -2081000
+    next_corner: -2577000 -2877000 0
+    next_corner: 2577000 -2877000 0
+    next_corner: 2577000 -2081000 0
+  outline_polyline: 254000 -3339000 2246100
+    next_corner: -3212000 2373100 1
+    next_corner: -3085000 2246100 1
+    next_corner: -3212000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2150000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 2150000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
+name: "CAPMP5846X340N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;5.80mm L X 4.60mm W X 3.40mm H"
+  units: NM
+  sel_rect: -3750000 -2700000 3750000 2700000
+  ref_text: 1270000 0 3700000 0 177800
+  value_text: 1270000 0 -4970000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3027000 1681000
+    next_corner: -3027000 2427000 0
+    next_corner: 3027000 2427000 0
+    next_corner: 3027000 1681000 0
+  outline_polyline: 177800 -3027000 -1681000
+    next_corner: -3027000 -2427000 0
+    next_corner: 3027000 -2427000 0
+    next_corner: 3027000 -1681000 0
+  outline_polyline: 254000 -3789000 1846100
+    next_corner: -3662000 1973100 1
+    next_corner: -3535000 1846100 1
+    next_corner: -3662000 1719100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2650000 0 0
+      top_pad: 3 2600000 850000 850000 0
+    pin: "2" 0 2650000 0 0
+      top_pad: 3 2600000 850000 850000 0
+
+name: "CAPMP6032X150N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;6.00mm L X 3.20mm W X 1.50mm H"
+  units: NM
+  sel_rect: -3900000 -2000000 3900000 2000000
+  ref_text: 1270000 0 3000000 0 177800
+  value_text: 1270000 0 -4270000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 1506000
+    next_corner: -3127000 1727000 0
+    next_corner: 3127000 1727000 0
+    next_corner: 3127000 1506000 0
+  outline_polyline: 177800 -3127000 -1506000
+    next_corner: -3127000 -1727000 0
+    next_corner: 3127000 -1727000 0
+    next_corner: 3127000 -1506000 0
+  outline_polyline: 254000 -3889000 1671100
+    next_corner: -3762000 1798100 1
+    next_corner: -3635000 1671100 1
+    next_corner: -3762000 1544100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2450000 0 0
+      top_pad: 3 2250000 1175000 1175000 0
+    pin: "2" 0 2450000 0 0
+      top_pad: 3 2250000 1175000 1175000 0
+
+name: "CAPMP6032X250N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;6.00mm L X 3.20mm W X 2.50mm H"
+  units: NM
+  sel_rect: -3850000 -1950000 3850000 1950000
+  ref_text: 1270000 0 2950000 0 177800
+  value_text: 1270000 0 -4220000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 1506000
+    next_corner: -3127000 1727000 0
+    next_corner: 3127000 1727000 0
+    next_corner: 3127000 1506000 0
+  outline_polyline: 177800 -3127000 -1506000
+    next_corner: -3127000 -1727000 0
+    next_corner: 3127000 -1727000 0
+    next_corner: 3127000 -1506000 0
+  outline_polyline: 254000 -3889000 1671100
+    next_corner: -3762000 1798100 1
+    next_corner: -3635000 1671100 1
+    next_corner: -3762000 1544100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2450000 0 0
+      top_pad: 3 2250000 1150000 1150000 0
+    pin: "2" 0 2450000 0 0
+      top_pad: 3 2250000 1150000 1150000 0
+
+name: "CAPMP6032X280N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;6.00mm L X 3.20mm W X 2.80mm H"
+  units: NM
+  sel_rect: -3900000 -2000000 3900000 2000000
+  ref_text: 1270000 0 3000000 0 177800
+  value_text: 1270000 0 -4270000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3127000 1506000
+    next_corner: -3127000 1727000 0
+    next_corner: 3127000 1727000 0
+    next_corner: 3127000 1506000 0
+  outline_polyline: 177800 -3127000 -1506000
+    next_corner: -3127000 -1727000 0
+    next_corner: 3127000 -1727000 0
+    next_corner: 3127000 -1506000 0
+  outline_polyline: 254000 -3889000 1671100
+    next_corner: -3762000 1798100 1
+    next_corner: -3635000 1671100 1
+    next_corner: -3762000 1544100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -2450000 0 0
+      top_pad: 3 2250000 1175000 1175000 0
+    pin: "2" 0 2450000 0 0
+      top_pad: 3 2250000 1175000 1175000 0
+
+name: "CAPMP7243X430N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.20mm L X 4.30mm W X 4.30mm H"
+  units: NM
+  sel_rect: -4600000 -2550000 4600000 2550000
+  ref_text: 1270000 0 3550000 0 177800
+  value_text: 1270000 0 -4820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3727000 1606000
+    next_corner: -3727000 2277000 0
+    next_corner: 3727000 2277000 0
+    next_corner: 3727000 1606000 0
+  outline_polyline: 177800 -3727000 -1606000
+    next_corner: -3727000 -2277000 0
+    next_corner: 3727000 -2277000 0
+    next_corner: 3727000 -1606000 0
+  outline_polyline: 254000 -4489000 1771100
+    next_corner: -4362000 1898100 1
+    next_corner: -4235000 1771100 1
+    next_corner: -4362000 1644100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 2450000 1225000 1225000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 2450000 1225000 1225000 0
+
+name: "CAPMP7343X200N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 4.30mm W X 2.00mm H"
+  units: NM
+  sel_rect: -4550000 -2550000 4550000 2550000
+  ref_text: 1270000 0 3550000 0 177800
+  value_text: 1270000 0 -4820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 1606000
+    next_corner: -3777000 2277000 0
+    next_corner: 3777000 2277000 0
+    next_corner: 3777000 1606000 0
+  outline_polyline: 177800 -3777000 -1606000
+    next_corner: -3777000 -2277000 0
+    next_corner: 3777000 -2277000 0
+    next_corner: 3777000 -1606000 0
+  outline_polyline: 254000 -4539000 1771100
+    next_corner: -4412000 1898100 1
+    next_corner: -4285000 1771100 1
+    next_corner: -4412000 1644100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 2450000 1175000 1175000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 2450000 1175000 1175000 0
+
+name: "CAPMP7343X280N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 4.30mm W X 2.80mm H"
+  units: NM
+  sel_rect: -4500000 -2500000 4500000 2500000
+  ref_text: 1270000 0 3500000 0 177800
+  value_text: 1270000 0 -4770000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 1606000
+    next_corner: -3777000 2277000 0
+    next_corner: 3777000 2277000 0
+    next_corner: 3777000 1606000 0
+  outline_polyline: 177800 -3777000 -1606000
+    next_corner: -3777000 -2277000 0
+    next_corner: 3777000 -2277000 0
+    next_corner: 3777000 -1606000 0
+  outline_polyline: 254000 -4539000 1771100
+    next_corner: -4412000 1898100 1
+    next_corner: -4285000 1771100 1
+    next_corner: -4412000 1644100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 2450000 1150000 1150000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 2450000 1150000 1150000 0
+
+name: "CAPMP7343X310N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 4.30mm W X 3.10mm H"
+  units: NM
+  sel_rect: -4550000 -2550000 4550000 2550000
+  ref_text: 1270000 0 3550000 0 177800
+  value_text: 1270000 0 -4820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 1606000
+    next_corner: -3777000 2277000 0
+    next_corner: 3777000 2277000 0
+    next_corner: 3777000 1606000 0
+  outline_polyline: 177800 -3777000 -1606000
+    next_corner: -3777000 -2277000 0
+    next_corner: 3777000 -2277000 0
+    next_corner: 3777000 -1606000 0
+  outline_polyline: 254000 -4539000 1771100
+    next_corner: -4412000 1898100 1
+    next_corner: -4285000 1771100 1
+    next_corner: -4412000 1644100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 2450000 1175000 1175000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 2450000 1175000 1175000 0
+
+name: "CAPMP7343X430N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 4.30mm W X 4.30mm H"
+  units: NM
+  sel_rect: -4550000 -2550000 4550000 2550000
+  ref_text: 1270000 0 3550000 0 177800
+  value_text: 1270000 0 -4820000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 1606000
+    next_corner: -3777000 2277000 0
+    next_corner: 3777000 2277000 0
+    next_corner: 3777000 1606000 0
+  outline_polyline: 177800 -3777000 -1606000
+    next_corner: -3777000 -2277000 0
+    next_corner: 3777000 -2277000 0
+    next_corner: 3777000 -1606000 0
+  outline_polyline: 254000 -4539000 1771100
+    next_corner: -4412000 1898100 1
+    next_corner: -4285000 1771100 1
+    next_corner: -4412000 1644100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 2450000 1175000 1175000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 2450000 1175000 1175000 0
+
+name: "CAPMP7350X340N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 5.00mm W X 3.40mm H"
+  units: NM
+  sel_rect: -4550000 -2900000 4550000 2900000
+  ref_text: 1270000 0 3900000 0 177800
+  value_text: 1270000 0 -5170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 2081000
+    next_corner: -3777000 2627000 0
+    next_corner: 3777000 2627000 0
+    next_corner: 3777000 2081000 0
+  outline_polyline: 177800 -3777000 -2081000
+    next_corner: -3777000 -2627000 0
+    next_corner: 3777000 -2627000 0
+    next_corner: 3777000 -2081000 0
+  outline_polyline: 254000 -4539000 2246100
+    next_corner: -4412000 2373100 1
+    next_corner: -4285000 2246100 1
+    next_corner: -4412000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
+name: "CAPMP7355X270N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 5.50mm W X 2.70mm H"
+  units: NM
+  sel_rect: -4550000 -3100000 4550000 3100000
+  ref_text: 1270000 0 4100000 0 177800
+  value_text: 1270000 0 -5370000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 2081000
+    next_corner: -3777000 2877000 0
+    next_corner: 3777000 2877000 0
+    next_corner: 3777000 2081000 0
+  outline_polyline: 177800 -3777000 -2081000
+    next_corner: -3777000 -2877000 0
+    next_corner: 3777000 -2877000 0
+    next_corner: 3777000 -2081000 0
+  outline_polyline: 254000 -4539000 2246100
+    next_corner: -4412000 2373100 1
+    next_corner: -4285000 2246100 1
+    next_corner: -4412000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
+name: "CAPMP7360X370N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 6.00mm W X 3.70mm H"
+  units: NM
+  sel_rect: -4550000 -3400000 4550000 3400000
+  ref_text: 1270000 0 4400000 0 177800
+  value_text: 1270000 0 -5670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 2456000
+    next_corner: -3777000 3127000 0
+    next_corner: 3777000 3127000 0
+    next_corner: 3777000 2456000 0
+  outline_polyline: 177800 -3777000 -2456000
+    next_corner: -3777000 -3127000 0
+    next_corner: 3777000 -3127000 0
+    next_corner: 3777000 -2456000 0
+  outline_polyline: 254000 -4539000 2621100
+    next_corner: -4412000 2748100 1
+    next_corner: -4285000 2621100 1
+    next_corner: -4412000 2494100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 4150000 1175000 1175000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 4150000 1175000 1175000 0
+
+name: "CAPMP7360X380N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 6.00mm W X 3.80mm H"
+  units: NM
+  sel_rect: -4550000 -3400000 4550000 3400000
+  ref_text: 1270000 0 4400000 0 177800
+  value_text: 1270000 0 -5670000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 2456000
+    next_corner: -3777000 3127000 0
+    next_corner: 3777000 3127000 0
+    next_corner: 3777000 2456000 0
+  outline_polyline: 177800 -3777000 -2456000
+    next_corner: -3777000 -3127000 0
+    next_corner: 3777000 -3127000 0
+    next_corner: 3777000 -2456000 0
+  outline_polyline: 254000 -4539000 2621100
+    next_corner: -4412000 2748100 1
+    next_corner: -4285000 2621100 1
+    next_corner: -4412000 2494100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3100000 0 0
+      top_pad: 3 4150000 1175000 1175000 0
+    pin: "2" 0 3100000 0 0
+      top_pad: 3 4150000 1175000 1175000 0
+
+name: "CAPMP7365X370N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 6.50mm W X 3.70mm H"
+  units: NM
+  sel_rect: -4550000 -3650000 4550000 3650000
+  ref_text: 1270000 0 4650000 0 177800
+  value_text: 1270000 0 -5920000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 2081000
+    next_corner: -3777000 3377000 0
+    next_corner: 3777000 3377000 0
+    next_corner: 3777000 2081000 0
+  outline_polyline: 177800 -3777000 -2081000
+    next_corner: -3777000 -3377000 0
+    next_corner: 3777000 -3377000 0
+    next_corner: 3777000 -2081000 0
+  outline_polyline: 254000 -4539000 2246100
+    next_corner: -4412000 2373100 1
+    next_corner: -4285000 2246100 1
+    next_corner: -4412000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
+name: "CAPMP7370X440N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;7.30mm L X 7.00mm W X 4.40mm H"
+  units: NM
+  sel_rect: -4550000 -3900000 4550000 3900000
+  ref_text: 1270000 0 4900000 0 177800
+  value_text: 1270000 0 -6170000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -3777000 2081000
+    next_corner: -3777000 3627000 0
+    next_corner: 3777000 3627000 0
+    next_corner: 3777000 2081000 0
+  outline_polyline: 177800 -3777000 -2081000
+    next_corner: -3777000 -3627000 0
+    next_corner: 3777000 -3627000 0
+    next_corner: 3777000 -2081000 0
+  outline_polyline: 254000 -4539000 2246100
+    next_corner: -4412000 2373100 1
+    next_corner: -4285000 2246100 1
+    next_corner: -4412000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 3350000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
+name: "CAPMP9675X490N"
+author: "Allan Wright @ freepcb.com"
+source: "Extracted from PCB Libraries IPC-7351 viewer"
+description: "Capacitor,polarized,Molded Body;9.60mm L X 7.50mm W X 4.90mm H"
+  units: NM
+  sel_rect: -5700000 -4150000 5700000 4150000
+  ref_text: 1270000 0 5150000 0 177800
+  value_text: 1270000 0 -6420000 0 177800
+  centroid: 0 0 0 0
+  outline_polyline: 177800 -4927000 2081000
+    next_corner: -4927000 3877000 0
+    next_corner: 4927000 3877000 0
+    next_corner: 4927000 2081000 0
+  outline_polyline: 177800 -4927000 -2081000
+    next_corner: -4927000 -3877000 0
+    next_corner: 4927000 -3877000 0
+    next_corner: 4927000 -2081000 0
+  outline_polyline: 254000 -5689000 2246100
+    next_corner: -5562000 2373100 1
+    next_corner: -5435000 2246100 1
+    next_corner: -5562000 2119100 1
+    close_polyline: 1
+  n_pins: 2
+    pin: "1" 0 -4500000 0 0
+      top_pad: 3 3400000 925000 925000 0
+    pin: "2" 0 4500000 0 0
+      top_pad: 3 3400000 925000 925000 0
+
