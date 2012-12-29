@@ -1,0 +1,10 @@
+====+  Parts List for LTAscetic\release_3(all_thet_is_in_the_release_2,extern_EEPROM_RS232_BOOTLOADER)\hardware\scheme\TinyCAD_files\LCD_SMD_SHIELD.dsn  +====
+
+R3                            1   68,Resistor,1206
+R5*,R4                        2   1.1k,Resistor,1206
+R1*,R2                        2   10k,Resistor,1206
+U1                            1   74HC595D,S016
+Q1                            1   BC847C,SOT-23
+C1                            1   0.1u,Ceramic Capacitor,1206
+K3                            1   PLS-40 (5 pin), 2,54мм
+K2                            1   PLS-40 (16 pin), 2,54мм

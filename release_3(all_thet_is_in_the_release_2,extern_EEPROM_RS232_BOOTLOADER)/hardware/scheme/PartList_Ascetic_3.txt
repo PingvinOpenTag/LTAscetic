@@ -1,0 +1,38 @@
+====+  Parts List   +====
+
+R35,R36,R37,R38,R39,R40       6   0,Resistor,1206
+C16                           1   100u 16v,Electrolitic Capacitor
+R1,R14,R17,R20,R5             5   10k,Resistor,0603
+R3                            1   10k,Resistor,1206
+D1,D2,D3                      3   1N4007
+D4                            1   1N5822
+R21,R22,R23,R24,R25,R26,R27,
+R28,R29,R30,R31              11   1k,Resistor,0603
+R10,R7,R8,R9                  4   1k,Resistor,1206
+U3                            1   24LC512,512 Кбит (64К x 8) SEEPROM, I2C 400 КГц, 2.5- 5.5 V, SOIC-8
+R2                            1   270k,Resistor,1206
+R15                           1   3,Resistor,1206
+R6                            1   330,Resistor,1206
+R13,R16                       2   3k,Resistor,0603
+R4                            1   3k,Resistor,1206
+R11,R12                       2   4.7k,Resistor,1206
+C12,C13,C14                   3   470u 25v,Electrolitic Capacitor
+C11                           1   47u 16V,Electrolitic Capacitor
+R18                           1   51,Resistor,1206
+R19                           1   63-68k*,Resistor,1206
+U1                            1   Atmega32,TQFP44
+Con4                          1   BATT_CONTROL,New symbol,Conn2
+C3,C39,C4,C5,C6,C7,C9,C10     8   0.1u,Ceramic Capacitor,1206
+C1,C2                         2   22,Ceramic Capacitor,1206
+K1,                           1   PLS-40 (6 pin), 2,54мм
+K3,K5,K6                      3   PLD80 (2x5 pin), 2.54мм
+L1                            1   68uH 3A,INDUCTOR
+K4                            1   PLS-40 (5 pin), 2,54мм
+U5                            1   LM2596T-5.0,Step-Down DC/DC convertor 5V 3A, TO-220-5
+U2                            1   MAX232,Dual Full-Duplex RS232 Transceiver,SOIC-16
+K2                            1   PLS-40 (3 pin), 2,54мм
+U4                            1   TDA7267,DIP8
+X1                            1   16MHz,Crystal Oscillator,
+Z1,Z2,Z3                      3   irlml2502,SOT23
+Con2,Con3,Con4,Con5           4   DG308-2.5-02P-14-00A(H)
+Con1                          1   2xDG308-2.5-02P-14-00A(H)
