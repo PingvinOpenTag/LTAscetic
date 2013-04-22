@@ -1,0 +1,849 @@
+Archive member included because of file (symbol)
+
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                              ltag_ascetic.o (__udivmodqi4)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              ltag_ascetic.o (__udivmodhi4)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                              ltag_ascetic.o (__divmodhi4)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ltag_ascetic.o (__do_copy_data)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ltag_ascetic.o (__do_clear_bss)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmem.o)
+                              ltag_ascetic.o (memmem)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                              ltag_ascetic.o (__eerd_byte_m32)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_word_atmega32.o)
+                              ltag_ascetic.o (__eerd_word_m32)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega32.o)
+                              ltag_ascetic.o (__eewr_byte_m32)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_word_atmega32.o)
+                              ltag_ascetic.o (__eewr_word_m32)
+d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32.o)
+                              d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_word_atmega32.o) (__eerd_blraw_m32)
+
+Allocating common symbols
+Common symbol       size              file
+
+snd_adress          0x6               global_variables.o
+chit_detected       0x1               global_variables.o
+ir_transmitter_on   0x1               global_variables.o
+joystick_event      0x1               global_variables.o
+low_level_counter   0x2               global_variables.o
+ir_pulse_counter    0x2               global_variables.o
+chit_detected_counter
+                    0x2               global_variables.o
+curr_ir_pin         0x1               global_variables.o
+in                  0x1               ltag_ascetic.o
+simples_in_queue    0x2               global_variables.o
+tm_code             0x6               ltag_ascetic.o
+start_bit_received  0x1               global_variables.o
+timer2              0x2               global_variables.o
+clips               0x1               global_variables.o
+curr_adress_in_eeprom
+                    0x2               global_variables.o
+tm_connect          0x1               global_variables.o
+rx_event            0x1               global_variables.o
+crc8                0x1               ltag_ascetic.o
+lcd_buffer          0x1               ltag_ascetic.o
+receiver_on         0x1               global_variables.o
+bullets             0x1               global_variables.o
+joystick_key_pressing_duration
+                    0x11              global_variables.o
+rx_buffer           0x8               global_variables.o
+key_pressing_duration
+                    0x8               global_variables.o
+tx_buffer           0x8               global_variables.o
+cr_received         0x1               global_variables.o
+data_packet         0x20              global_variables.o
+display_bullets_update_now
+                    0x1               global_variables.o
+curr_simple         0x1               global_variables.o
+tm_event            0x1               ltag_ascetic.o
+usartTxBuf          0x100             usart.o
+device_code         0x1               ltag_ascetic.o
+life_in_percent     0x2               global_variables.o
+keyboard_event      0x1               global_variables.o
+last_simple         0x2               global_variables.o
+reload_key_event    0x1               global_variables.o
+fcurr_simple_prepared
+                    0x1               global_variables.o
+life                0x1               global_variables.o
+usartRxBuf          0x100             usart.o
+cut_off_sound       0x2               global_variables.o
+ir_space_counter    0x2               global_variables.o
+code                0x1               ltag_ascetic.o
+rx_packet           0x3               global_variables.o
+uart_timer          0x2               global_variables.o
+high_level_counter  0x2               global_variables.o
+ch                  0x1               ltag_ascetic.o
+eeprom_is_open      0x1               global_variables.o
+display_batt_mode   0x1               global_variables.o
+life_leds_status    0x4               global_variables.o
+play_hit_snd        0x1               global_variables.o
+cursor_position     0x1               global_variables.o
+bit_in_rx_buff      0x2               global_variables.o
+fire_led_status     0x1               global_variables.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ltag_ascetic.o
+LOAD global_variables.o
+LOAD isr.o
+LOAD joystick_driver.o
+LOAD usart.o
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x511a
+ *(.vectors)
+ .vectors       0x00000000       0x54 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000054       0x5e ltag_ascetic.o
+ *(.progmem*)
+ .progmem.data  0x000000b2      0x663 ltag_ascetic.o
+                0x0000040f                parameter_empty_error
+                0x000001c6                command_15
+                0x0000036d                command_45
+                0x0000027a                command_27
+                0x00000347                command_43
+                0x00000472                protocol
+                0x000002e7                command_35
+                0x000001aa                command_13
+                0x000002d1                command_33
+                0x0000018a                command_11
+                0x000002b6                command_31
+                0x00000303                command_37
+                0x00000114                command_2
+                0x0000014e                command_7
+                0x00000407                command_error
+                0x0000046b                ok_string
+                0x00000212                command_20
+                0x00000326                command_40
+                0x000001f4                command_18
+                0x00000451                parameter_invalid_error
+                0x00000432                parameter_out_of_range_error
+                0x00000391                commandsPointers
+                0x000001d6                command_16
+                0x00000125                command_4
+                0x0000025e                command_25
+                0x00000103                command_1
+                0x00000335                command_41
+                0x0000012c                command_5
+                0x000000f2                command_0
+                0x0000037f                command_46
+                0x000002a8                command_30
+                0x00000202                command_19
+                0x000002f5                command_36
+                0x000002c1                command_32
+                0x0000030d                command_38
+                0x0000017c                command_10
+                0x00000230                command_22
+                0x0000028a                command_28
+                0x00000143                command_6
+                0x0000015e                command_8
+                0x000001e6                command_17
+                0x000001b8                command_14
+                0x0000026c                command_26
+                0x0000024e                command_24
+                0x0000035a                command_44
+                0x000000b2                Decode2Rus
+                0x000002dc                command_34
+                0x0000033e                command_42
+                0x0000019a                command_12
+                0x0000070a                numbers
+                0x00000317                command_39
+                0x00000222                command_21
+                0x0000016e                command_9
+                0x000003ef                unknown_command_error
+                0x0000011e                command_3
+                0x0000023e                command_23
+                0x0000029a                command_29
+ .progmem.data  0x00000715       0x10 global_variables.o
+                0x00000715                damage_value
+                0x00000726                . = ALIGN (0x2)
+ *fill*         0x00000725        0x1 00
+                0x00000726                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000726        0x0 linker stubs
+ *(.trampolines*)
+                0x00000726                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000726                __ctors_start = .
+ *(.ctors)
+                0x00000726                __ctors_end = .
+                0x00000726                __dtors_start = .
+ *(.dtors)
+                0x00000726                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000726        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000726                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000726        0xc d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000732       0x16 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000732                __do_copy_data
+ .init4         0x00000748       0x10 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000748                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000758        0x8 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x00000760        0x4 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000760                __vector_12
+                0x00000760                __bad_interrupt
+                0x00000760                __vector_6
+                0x00000760                __vector_3
+                0x00000760                __vector_11
+                0x00000760                __vector_17
+                0x00000760                __vector_19
+                0x00000760                __vector_5
+                0x00000760                __vector_9
+                0x00000760                __vector_8
+                0x00000760                __vector_14
+                0x00000760                __vector_10
+                0x00000760                __vector_16
+                0x00000760                __vector_18
+                0x00000760                __vector_20
+ .text          0x00000764     0x3c5a ltag_ascetic.o
+                0x00002350                command_28_slot
+                0x00002534                command_38_slot
+                0x0000094a                lcd_data
+                0x000024fc                command_42_slot
+                0x000030ae                check_eeprom
+                0x000017e8                init_timer0
+                0x00002b32                get_enum_settings
+                0x0000235a                command_26_slot
+                0x00000c0e                init_tm
+                0x000028dc                command_41_slot
+                0x000023a0                command_12_slot
+                0x00001afa                long_int_to_str
+                0x000007f6                shift_register_clean
+                0x00000a46                lcd_bl_off
+                0x00002598                command_4_slot
+                0x00001f7e                play_sound_6
+                0x000027f2                get_int_argument_value
+                0x00000d08                tm_read_serial_number
+                0x000013f6                set_player_id
+                0x0000327c                command_2_slot
+                0x00002088                display_voltage_update
+                0x0000309c                command_43_slot
+                0x00001c5c                display_status
+                0x00001e46                play_sound_from_eeprom
+                0x00002906                command_33_slot
+                0x00000952                lcd_function_set
+                0x00002e20                write_team_id_to_eeprom
+                0x000009de                lcd_gotoxy
+                0x00000966                lcd_newline
+                0x0000142c                set_team_color
+                0x00000a36                lcd_bl_on
+                0x00002f1a                command_25_slot
+                0x0000308a                command_45_slot
+                0x000023aa                command_10_slot
+                0x0000098e                lcd_putc
+                0x0000221e                command_31_slot
+                0x00001cf0                display_bullets_update
+                0x00002e2c                apply_sound_set_command
+                0x00000e22                eeWriteByte
+                0x00001ff0                play_sound_3
+                0x000021d8                command_46_slot
+                0x00002d8e                get_all_setings
+                0x00002346                command_30_slot
+                0x00000f8c                eeWriteBytes
+                0x00000792                shift_register_set_data
+                0x000028f8                command_35_slot
+                0x00000c96                tm_read
+                0x000017ae                get_buffer_bit
+                0x00002382                command_18_slot
+                0x00001496                set_gun_damage
+                0x00002f74                command_7_slot
+                0x00002396                command_14_slot
+                0x00002f10                command_27_slot
+                0x00001240                close_eeprom
+                0x00002210                command_32_slot
+                0x00000a04                lcd_home
+                0x00001ccc                display_life_update
+                0x0000238c                command_16_slot
+                0x00001ddc                char_to_int
+                0x00000764                init_shift_register
+                0x000033b6                get_command_index
+                0x000018ba                fire_mode
+                0x00000940                lcd_clrscr
+                0x00002378                command_20_slot
+                0x0000198c                damage_beep
+                0x00002f7e                get_word_argument_value
+                0x00001fa2                play_sound_5
+                0x00003292                command_6_slot
+                0x00002014                playclipinsound
+                0x000019c6                int_to_str
+                0x00000c46                tm_send
+                0x00001d3e                ReadADC
+                0x00001056                eeReadBytes
+                0x00002364                command_24_slot
+                0x00002f24                command_23_slot
+                0x00001d34                init_adc
+                0x00002f60                command_11_slot
+                0x000009be                lcd_puts
+                0x00002a20                get_ir_power_settings
+                0x000025b4                command_1_slot
+                0x0000201a                play_sound_2
+                0x00000a12                lcd_puts_p
+                0x00003b6a                main
+                0x00002f38                command_19_slot
+                0x0000134a                init_int0
+                0x00000e04                eeInit
+                0x00002f42                command_17_slot
+                0x00002648                command_37_slot
+                0x0000257c                command_34_slot
+                0x00002732                command_3_slot
+                0x000013d6                send_ir_package
+                0x0000203e                playhitsound
+                0x000028ea                command_39_slot
+                0x00002518                command_40_slot
+                0x00002914                command_0_slot
+                0x000023b4                command_8_slot
+                0x00002f4c                command_15_slot
+                0x00001d14                display_clips_update
+                0x00002f6a                command_9_slot
+                0x000021f4                command_44_slot
+                0x00003660                invite
+                0x00002f56                command_13_slot
+                0x00001272                configuring_ports
+                0x00002f06                command_29_slot
+                0x00001802                init_timer1
+                0x00002f2e                command_21_slot
+                0x000018c4                beep
+                0x0000121c                read_eeprom_byte
+                0x00000cde                new_crc8
+                0x00000ebe                eeReadByte
+                0x00002560                command_36_slot
+                0x0000236e                command_22_slot
+                0x00000b84                init_lcd
+                0x00001172                open_eeprom
+                0x000031a0                init_var
+                0x00000a56                lcd_generate_batt_symbols
+                0x00002922                get_friendly_fire_settings
+                0x00001fea                playclipoutsound
+                0x000025da                team_id
+                0x00000938                lcd_command
+                0x000025e4                tm_verification
+                0x00002064                play_sound_1
+                0x00001d6e                display_hit_data
+                0x00001fc6                play_sound_4
+                0x0000232e                apply_sound_get_command
+                0x000023be                command_5_slot
+                0x0000350a                parsing_command
+                0x00001336                init_timer2
+                0x0000185c                display_life
+                0x00001e44                str_to_int
+                0x000025d0                gun_damage
+                0x00002c4a                get_int_settings
+                0x00001370                set_buffer_bit
+ .text          0x000043be        0x0 global_variables.o
+ .text          0x000043be      0x81a isr.o
+                0x00004a5a                __vector_1
+                0x00004638                __vector_7
+                0x000043be                __vector_4
+                0x00004570                read_seimpl
+                0x000049f4                __vector_2
+ .text          0x00004bd8      0x28e joystick_driver.o
+                0x00004bd8                init_joystick
+                0x00004c9e                test_joystick
+                0x00004c76                get_joystick_status
+ .text          0x00004e66      0x19e usart.o
+                0x00004e8a                USART_FlushTxBuf
+                0x00004e84                USART_GetTxCount
+                0x00004ec8                USART_SendStrP
+                0x00004f96                __vector_13
+                0x00004e66                USART_Init
+                0x00004f60                USART_GetChar
+                0x00004e98                USART_PutChar
+                0x00004ea8                USART_SendStr
+                0x00004eec                __vector_15
+                0x00004f42                USART_FlushRxBuf
+                0x00004f3c                USART_GetRxCount
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmem.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_word_atmega32.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega32.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_word_atmega32.o)
+ .text          0x00005004        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32.o)
+                0x00005004                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00005004       0x18 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x00005004                __udivmodqi4
+ .text.libgcc   0x0000501c       0x28 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000501c                __udivmodhi4
+ .text.libgcc   0x00005044       0x26 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00005044                __divmodhi4
+                0x00005044                _div
+ .text.libgcc   0x0000506a        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000506a        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000506a        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000506a       0x4c d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmem.o)
+                0x0000506a                memmem
+ .text.avr-libc
+                0x000050b6       0x10 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                0x000050b6                __eerd_byte_m32
+ .text.avr-libc
+                0x000050c6        0xc d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_word_atmega32.o)
+                0x000050c6                __eerd_word_m32
+ .text.avr-libc
+                0x000050d2       0x1a d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega32.o)
+                0x000050d4                __eewr_r18_m32
+                0x000050d2                __eewr_byte_m32
+ .text.avr-libc
+                0x000050ec        0xa d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_word_atmega32.o)
+                0x000050ec                __eewr_word_m32
+ .text.avr-libc
+                0x000050f6       0x20 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32.o)
+                0x000050fa                __eerd_blraw_m32
+                0x000050f6                __eerd_block_m32
+                0x00005116                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00005116        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00005116                exit
+                0x00005116                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00005116        0x4 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000511a                _etext = .
+
+.data           0x00800060      0x280 load address 0x0000511a
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060      0x27e ltag_ascetic.o
+ .data          0x008002de        0x0 global_variables.o
+ .data          0x008002de        0x1 isr.o
+ .data          0x008002df        0x0 joystick_driver.o
+ .data          0x008002df        0x0 usart.o
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmem.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_word_atmega32.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega32.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_word_atmega32.o)
+ .data          0x008002df        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008002e0                . = ALIGN (0x2)
+ *fill*         0x008002df        0x1 00
+                0x008002e0                _edata = .
+                0x008002e0                PROVIDE (__data_end, .)
+
+.bss            0x008002e0      0x2a9
+                0x008002e0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008002e0        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x008002e0        0xd ltag_ascetic.o
+ .bss           0x008002ed        0x0 global_variables.o
+ .bss           0x008002ed        0x3 isr.o
+ .bss           0x008002f0        0x0 joystick_driver.o
+ .bss           0x008002f0        0x6 usart.o
+                0x008002f1                txBufHead
+                0x008002f5                rxCount
+                0x008002f2                txCount
+                0x008002f4                rxBufHead
+                0x008002f0                txBufTail
+                0x008002f3                rxBufTail
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memmem.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_word_atmega32.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_byte_atmega32.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eewr_word_atmega32.o)
+ .bss           0x008002f6        0x0 d:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_block_atmega32.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008002f6        0xd ltag_ascetic.o
+                0x008002f6                in
+                0x008002f7                tm_code
+                0x008002fd                crc8
+                0x008002fe                lcd_buffer
+                0x008002ff                tm_event
+                0x00800300                device_code
+                0x00800301                code
+                0x00800302                ch
+ COMMON         0x00800303       0x86 global_variables.o
+                0x00800303                snd_adress
+                0x00800309                chit_detected
+                0x0080030a                ir_transmitter_on
+                0x0080030b                joystick_event
+                0x0080030c                low_level_counter
+                0x0080030e                ir_pulse_counter
+                0x00800310                chit_detected_counter
+                0x00800312                curr_ir_pin
+                0x00800313                simples_in_queue
+                0x00800315                start_bit_received
+                0x00800316                timer2
+                0x00800318                clips
+                0x00800319                curr_adress_in_eeprom
+                0x0080031b                tm_connect
+                0x0080031c                rx_event
+                0x0080031d                receiver_on
+                0x0080031e                bullets
+                0x0080031f                joystick_key_pressing_duration
+                0x00800330                rx_buffer
+                0x00800338                key_pressing_duration
+                0x00800340                tx_buffer
+                0x00800348                cr_received
+                0x00800349                data_packet
+                0x00800369                display_bullets_update_now
+                0x0080036a                curr_simple
+                0x0080036b                life_in_percent
+                0x0080036d                keyboard_event
+                0x0080036e                last_simple
+                0x00800370                reload_key_event
+                0x00800371                fcurr_simple_prepared
+                0x00800372                life
+                0x00800373                cut_off_sound
+                0x00800375                ir_space_counter
+                0x00800377                rx_packet
+                0x0080037a                uart_timer
+                0x0080037c                high_level_counter
+                0x0080037e                eeprom_is_open
+                0x0080037f                display_batt_mode
+                0x00800380                life_leds_status
+                0x00800384                play_hit_snd
+                0x00800385                cursor_position
+                0x00800386                bit_in_rx_buff
+                0x00800388                fire_led_status
+ COMMON         0x00800389      0x200 usart.o
+                0x00800389                usartTxBuf
+                0x00800489                usartRxBuf
+                0x00800589                PROVIDE (__bss_end, .)
+                0x0000511a                __data_load_start = LOADADDR (.data)
+                0x0000539a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800589        0x0
+                0x00800589                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800589                PROVIDE (__noinit_end, .)
+                0x00800589                _end = .
+                0x00800589                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000       0x2b
+ *(.eeprom*)
+ .eeprom        0x00810000       0x2b global_variables.o
+                0x0081001c                sound_3_size
+                0x00810024                sound_5_size
+                0x00810005                eeprom_reload_duration
+                0x00810002                eeprom_damage
+                0x00810004                eeprom_clips
+                0x00810018                sound_2_size
+                0x0081000b                eeprom_tm_serial_num
+                0x0081001a                sound_3_adress
+                0x00810008                eeprom_batt_low_voltage
+                0x00810003                eeprom_bullets_in_clip
+                0x0081001e                sound_4_adress
+                0x00810020                sound_4_size
+                0x00810026                sound_6_adress
+                0x00810001                eeprom_player_id
+                0x00810006                eeprom_batt_full_voltage
+                0x00810012                sound_1_adress
+                0x00810016                sound_2_adress
+                0x00810028                sound_6_size
+                0x00810000                eeprom_team_id
+                0x00810022                sound_5_adress
+                0x0081000a                eeprom_curr_ir_pin
+                0x00810014                sound_1_size
+                0x0081002a                friendly_fire_enable
+                0x0081002b                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ltag_ascetic.o
+ .debug_aranges
+                0x00000020       0x20 isr.o
+ .debug_aranges
+                0x00000040       0x20 joystick_driver.o
+ .debug_aranges
+                0x00000060       0x20 usart.o
+
+.debug_pubnames
+                0x00000000     0x14dd
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0xdb9 ltag_ascetic.o
+ .debug_pubnames
+                0x00000db9      0x52c global_variables.o
+ .debug_pubnames
+                0x000012e5       0x5e isr.o
+ .debug_pubnames
+                0x00001343       0x4e joystick_driver.o
+ .debug_pubnames
+                0x00001391      0x14c usart.o
+
+.debug_info     0x00000000     0x42b6
+ *(.debug_info)
+ .debug_info    0x00000000     0x2bd9 ltag_ascetic.o
+ .debug_info    0x00002bd9      0xaa0 global_variables.o
+ .debug_info    0x00003679      0x774 isr.o
+ .debug_info    0x00003ded      0x20d joystick_driver.o
+ .debug_info    0x00003ffa      0x2bc usart.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x926
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x414 ltag_ascetic.o
+ .debug_abbrev  0x00000414       0xf3 global_variables.o
+ .debug_abbrev  0x00000507      0x1e8 isr.o
+ .debug_abbrev  0x000006ef       0xf8 joystick_driver.o
+ .debug_abbrev  0x000007e7      0x13f usart.o
+
+.debug_line     0x00000000     0x4695
+ *(.debug_line)
+ .debug_line    0x00000000     0x3a84 ltag_ascetic.o
+ .debug_line    0x00003a84       0xc1 global_variables.o
+ .debug_line    0x00003b45      0x5f4 isr.o
+ .debug_line    0x00004139      0x2de joystick_driver.o
+ .debug_line    0x00004417      0x27e usart.o
+
+.debug_frame    0x00000000      0x9e0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x880 ltag_ascetic.o
+ .debug_frame   0x00000880       0x60 isr.o
+ .debug_frame   0x000008e0       0x40 joystick_driver.o
+ .debug_frame   0x00000920       0xc0 usart.o
+
+.debug_str      0x00000000     0x1711
+ *(.debug_str)
+ .debug_str     0x00000000     0x13e1 ltag_ascetic.o
+                               0x155f (size before relaxing)
+ .debug_str     0x000013e1      0x136 global_variables.o
+                                0x8f0 (size before relaxing)
+ .debug_str     0x00001517       0xdb isr.o
+                                0x5ae (size before relaxing)
+ .debug_str     0x000015f2       0x4e joystick_driver.o
+                                0x25a (size before relaxing)
+ .debug_str     0x00001640       0xd1 usart.o
+                                0x1da (size before relaxing)
+
+.debug_loc      0x00000000     0x1c21
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x18ed ltag_ascetic.o
+ .debug_loc     0x000018ed      0x15b isr.o
+ .debug_loc     0x00001a48       0xe1 joystick_driver.o
+ .debug_loc     0x00001b29       0xf8 usart.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(LTAscetic_Atmega32.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x1c0
+ .debug_ranges  0x00000000      0x1a0 ltag_ascetic.o
+ .debug_ranges  0x000001a0       0x20 usart.o
