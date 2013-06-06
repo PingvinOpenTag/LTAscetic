@@ -1,1 +1,1 @@
-This is an open lasertag project of Russian developers
+This is an open lasertag project
