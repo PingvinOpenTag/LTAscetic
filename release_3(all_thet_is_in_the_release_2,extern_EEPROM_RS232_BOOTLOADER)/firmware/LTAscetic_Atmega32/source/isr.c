@@ -29,7 +29,9 @@ else  //На ножке ИК-приемника высокий уровень сигнала (пойман сигнал несущей)
 		if((start_bit_received)&&(high_level_counter > IR_ZERO*8))
 		{//Фиксируем окончание приема по таймауту
 			start_bit_received	= false; 	//отменяем прием
-			rx_event = RX_COMPLETE;			//Генерим событие "принят пакет"		
+			
+		if (bit_in_rx_buff>=13) rx_event = RX_COMPLETE; //Генерим событие "принят пакет"
+ 		else rx_event = RX_ERROR; //генерируем событие - "ошибка приёма"		
 		}
 	
 	
