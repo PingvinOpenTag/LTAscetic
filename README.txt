@@ -9,3 +9,7 @@ PonyProg
 serial device programmer
 
 http://www.lancos.com/prog.html
+
+PC software to use bootloader
+
+http://download.chip45.com/chip45boot2_GUI_V1.13.zip
