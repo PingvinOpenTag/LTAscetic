@@ -6,7 +6,8 @@ http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/01_2013
 
 NEW!!!
 
-http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/Qt5_version/02_10_2014/Ascet-Configurator_and_libs_10_sounds.zip/download
+
+http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/Qt5_version/02_10_2014/Configurator_and_libs_10_sounds.zip/download
 
 
 PonyProg
