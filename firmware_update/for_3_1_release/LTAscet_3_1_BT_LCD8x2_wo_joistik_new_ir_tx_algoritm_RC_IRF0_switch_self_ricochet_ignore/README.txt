@@ -20,7 +20,7 @@ if (chit_detected_counter >= (4000)) chit_detected=true;
 
 or like this
 
-if(!TSOP_IN&TSOP_PIN)
+if(!(TSOP_IN&TSOP_PIN))
 {
 if (chit_detected_counter < (4000)) chit_detected_counter++;
 if (chit_detected_counter >= (4000)) chit_detected=true;
