@@ -1,8 +1,42 @@
-This is an open lasertag project
+This firmware can work with both wired bandanna and Bluetooth bandanna.
+Attention !!!!
+If you only use a wired bandanna solder 10K ~ 100K between input State and GND, щtherwise anti-cheater will not work correctly.
+
+If you do not want to solder a resistor, then in the file isr.s correct this
+
+if((!(TSOP_IN&TSOP_PIN))&&(!(BT_STATE_IN&BT_STATE_PIN)))
+{
+if (chit_detected_counter < (4000)) chit_detected_counter++;
+if (chit_detected_counter >= (4000)) chit_detected=true;
+}
+
+should look like this
+
+if((!(TSOP_IN&TSOP_PIN))/*&&(!(BT_STATE_IN&BT_STATE_PIN))*/)
+{
+if (chit_detected_counter < (4000)) chit_detected_counter++;
+if (chit_detected_counter >= (4000)) chit_detected=true;
+}
+
+or like this
+
+if(!TSOP_IN&TSOP_PIN)
+{
+if (chit_detected_counter < (4000)) chit_detected_counter++;
+if (chit_detected_counter >= (4000)) chit_detected=true;
+}
+
+Rebuild project.
+
+
+Implemented a variety of carrier frequency IR signal through the settings.
 
 Program to configure the "Ascetic" and upload sounds.
 
-http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/01_2013/
+NEW!!!!
+
+
+http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/Qt5_version/02_10_2014/Ascet-Configurator_and_libs_10_sounds.zip/download
 
 
 PonyProg
