@@ -1,8 +1,8 @@
 This firmware can work with both wired bandanna and Bluetooth bandanna.
 Attention !!!!
-If you only use a wired bandanna solder 10K ~ 100K between input State and GND, щtherwise anti-cheater will not work correctly.
+If you only use a wired bandanna solder 10K ~ 100K between input State and GND, therwise anti-cheater will not work correctly.
 
-If you do not want to solder a resistor, then in the file isr.s correct this
+If you do not want to solder a resistor, then in the file isr.c correct this
 
 if((!(TSOP_IN&TSOP_PIN))&&(!(BT_STATE_IN&BT_STATE_PIN)))
 {
