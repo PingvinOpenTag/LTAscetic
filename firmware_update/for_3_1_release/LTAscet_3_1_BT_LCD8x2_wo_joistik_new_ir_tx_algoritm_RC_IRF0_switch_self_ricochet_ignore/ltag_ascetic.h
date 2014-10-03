@@ -53,6 +53,7 @@ void playhitsound(void); //Воспроизводим звук при ранении
 void playclipinsound(void); //Воспроизводим звук при передёргивании затвора
 void playclipoutsound(void); //Воспроизводим звук при отпускании затвора
 void playgameoversound(void);//Воспроизводим звук когда жизни ноль
+void playstartsound(void);//Воспроизводим звук "старт игры"
 void write_team_id_to_eeprom(tteam_color);
 void invite(void); //приглашение  в меню настроек
 //inline trx_packet get_packet_value(void); //Считываем данные из полученного 
