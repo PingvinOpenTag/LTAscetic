@@ -16,6 +16,8 @@ init_tm();	//инициализируем считыватель тачмемори
 init_timer1();
 init_timer0();
 
+
+fire_led_status = FQR_1HZ;
 init_var();                		//Задаём значения переменным
 
 init_lcd(); 
@@ -30,7 +32,7 @@ EnableTxInt();
 
 eeInit();
 
-
+/**********************************
 _delay_ms(15); 
 lcd_puts("LTAscetic \n");
 //lcd_gotoxy(0, 1);
@@ -38,7 +40,7 @@ lcd_puts("www.open-tag.ru");
 //lcd_puts(int_to_str(4,3));
 //lcd_clrscr();
 //lcd_generate_batt_symbols();
-
+*******************************************/
 
 /*
 lcd_putc(0);
@@ -51,7 +53,7 @@ lcd_putc(5);
 */
 
 sei(); 
-
+/**************************************************
 life_leds_status[0] = ON;
 timer2 = 0;
 while (timer2 < 1000);
@@ -137,13 +139,16 @@ while (timer2 < 1000);
 //life_led3_status = FQR_4HZ;
 //life_led4_status = ON;
 
-display_life(life);
-beep(1000, 3, 128);
+**************************************************/
 
-USART_SendStr("Hello!\n\r");
-USART_SendStr("Привет!\n\r");
-USART_SendStrP(command_0);
-USART_SendStrP(command_1);
+
+////display_life(life);
+////beep(1000, 3, 128);
+
+////USART_SendStr("Hello!\n\r");
+////USART_SendStr("Привет!\n\r");
+////USART_SendStrP(command_0);
+////USART_SendStrP(command_1);
 
 //play_sound_from_eeprom(0,27264);
 /*
@@ -174,12 +179,14 @@ simples_in_queue = eeprom_read_word(&sound_1_size);
 
 
 //invite();
+/*************************
 cut_off_sound = (eeprom_read_word(&sound_1_size)/100)*(100-CUT_OFF_SOUNT);
 joystick_event=no_pressing;
 display_status();
 
 timer2 = 0;
 while (timer2 < 1000);
+***************************/
 
 
 while(1){
