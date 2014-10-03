@@ -27,6 +27,7 @@ if (chit_detected_counter >= (4000)) chit_detected=true;
 Rebuild project.
 
 Implemented a variety of carrier frequency IR signal through the settings.
+Understand the remote control command "new game".
 
 hex-file in the "default" folder.
 
