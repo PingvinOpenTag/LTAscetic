@@ -4301,7 +4301,7 @@ if ((hit_packet.team_id != team_id())||(eeprom_read_byte(&friendly_fire_enable)&
 									display_hit_data(hit_packet);
 								//	playhitsound();
 
-									WOUND_LED_OFF;
+					//				WOUND_LED_OFF;
 
 
 
@@ -4313,6 +4313,7 @@ if ((hit_packet.team_id != team_id())||(eeprom_read_byte(&friendly_fire_enable)&
 										life = (life_in_percent*10)/125;
 										if ((life==0)&&(life_in_percent>0)) life=1;
 										playhitsound();
+										WOUND_LED_OFF;
 										keyboard_event=no_key_pressing; 
 									}
 									else 
