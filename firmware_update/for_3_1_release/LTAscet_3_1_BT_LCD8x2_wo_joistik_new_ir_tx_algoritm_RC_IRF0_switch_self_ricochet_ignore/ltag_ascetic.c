@@ -4313,6 +4313,7 @@ if ((hit_packet.team_id != team_id())||(eeprom_read_byte(&friendly_fire_enable)&
 										life = (life_in_percent*10)/125;
 										if ((life==0)&&(life_in_percent>0)) life=1;
 										playhitsound();
+										keyboard_event=no_key_pressing; 
 									}
 									else 
 									{	
@@ -4609,7 +4610,11 @@ void test_bt_data()
 			break;
 			case RX_ERROR:		//ошибка приема
 			{
-				    if((!ir_error_ignore)&&(!eeprom_is_open))	play_sound_8();
+				    if((!ir_error_ignore)&&(!eeprom_is_open))	
+					{
+						play_sound_8();
+						keyboard_event=no_key_pressing; 
+					}
 			}
 			break;
 			case RX_MESSAGE_COMPLITE://прин€то сообщение
@@ -4654,7 +4659,7 @@ void test_bt_data()
 													reload_key_event=no_key_pressing;//очищаем событи€ перезар€дки
 													rx_event = NOT_EVENT;   //очищаем событи€ »  приемника
 													display_status();//обновл€ем информацию на дисплее
-													
+													display_life(life);//отобразим уровень жизни на диодах
 													WOUND_LED_ON;
 													playstartsound();//¬оспроизводим звук "старт игры"
 													//код обработки дополнительной команды
