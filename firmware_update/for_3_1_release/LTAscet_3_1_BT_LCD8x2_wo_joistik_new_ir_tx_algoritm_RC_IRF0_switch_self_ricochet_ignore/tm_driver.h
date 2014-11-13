@@ -49,8 +49,9 @@ volatile unsigned char tm_code[6]; //считанный код ключа Touch_memory
 volatile TTM_EVENT tm_event; //события считывателя TouchMemory
 
 
-
-
+//Декларируем функции
+void init_tm(void);
+void tm_send( unsigned char);
 
 /**************************************************************************************
 * Функция выполняет настройку внешних прерываний вывода INT1
@@ -78,7 +79,7 @@ void tm_send( unsigned char byte )
     b=byte;
     for( i = 0; i < 8; i++ )
     {
-        volatile unsigned char pulldown_time, recovery_time;
+//        volatile unsigned char pulldown_time;//, recovery_time;
 
         if( b & 1 )
         {

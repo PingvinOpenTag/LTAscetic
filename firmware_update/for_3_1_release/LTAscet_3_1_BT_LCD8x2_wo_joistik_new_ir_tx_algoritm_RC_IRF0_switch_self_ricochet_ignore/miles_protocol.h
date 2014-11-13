@@ -7,12 +7,12 @@
 #define ERROR_TOLERANCE miles_protocol.err_tolerance //14//22 //ƒопустима€ погрешность длительности принимаемых бит (в "тиках" таймера)
 
 
-#define ERROR_TOLERANCE_FOR_36KHZ 14
-#define ERROR_TOLERANCE_FOR_56KHZ 22
+#define ERROR_TOLERANCE_FOR_36KHZ 12//14
+#define ERROR_TOLERANCE_FOR_56KHZ 19//22
 
 
 #define DEFAULT_IR_F0 36000					// Ќесуща€ частота » -приемника (f0)
-#define DEFAULT_ERROR_TOLERANCE 14//14 //ƒопустима€ погрешность длительности принимаемых бит (в "тиках" таймера)
+#define DEFAULT_ERROR_TOLERANCE 12//14 //ƒопустима€ погрешность длительности принимаемых бит (в "тиках" таймера)
 
 
 #define IR_ZERO miles_protocol.ir_zero//(IR_ZERO_BIT_DURATION*2*IR_F0)/1000000 //ƒлительность импулс€, соответствующего биту = 0
@@ -114,5 +114,7 @@ uint8_t data [8];
 
 #define Add_Health 0x80 //сообщение добавить жизни
 #define Add_Rounds 0x81 //сообщение добавить патронов
+#define Change_color 0xA9//сообщение сменить цвет команды 
 #define Command 0x83 //сообщение-команда
 #define Valid_value 0xE8 //корректное значение контрольного байта сообщени€
+

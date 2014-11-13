@@ -74,6 +74,11 @@ const unsigned char command_62[] PROGMEM = "sound_10_size?";
 const unsigned char command_63[] PROGMEM = "ir_carrier_frequency=";
 const unsigned char command_64[] PROGMEM = "ir_carrier_frequency?";
 const unsigned char command_65[] PROGMEM = "clear_tm";
+const unsigned char command_66[] PROGMEM = "reload_duration=";
+const unsigned char command_67[] PROGMEM = "reload_duration?";
+const unsigned char command_68[] PROGMEM = "life_after_start=";
+const unsigned char command_69[] PROGMEM = "life_after_start?";
+
 
 const unsigned char* commandsPointers[] PROGMEM = 
 {command_0,
@@ -141,7 +146,11 @@ command_61,
 command_62,
 command_63,
 command_64,
-command_65
+command_65,
+command_66,
+command_67,
+command_68,
+command_69
 };
 
 
@@ -156,7 +165,7 @@ const unsigned char ok_string[] PROGMEM = "\r\nOK\r\n";
 
 
 #define MAX_BULL_IN_CLIP 90
-#define MAX_BULL_IN_CLIP_STR '90'
+
 
 const unsigned char protocol[] PROGMEM = 	//"bullets_in_clip;int(0,90);bullets_in_clip?;bullets_in_clip=\r\n"
 											"Количество патронов в магазине;int(0,90);bullets_in_clip?;bullets_in_clip=\r\n"
@@ -165,8 +174,10 @@ const unsigned char protocol[] PROGMEM = 	//"bullets_in_clip;int(0,90);bullets_i
 											"Цвет команды;enum(Красная,Синяя,Желтая,Зеленая);team_id?;team_id=\r\n"
 											"Наносимый урон;enum(1%,2%,4%,5%,7%,10%,15%,17%,20%,25%,30%,35%,40%,50%,75%,100%);damage_index?;damage_index=\r\n"
 											"Дружественный огонь;enum(Нет,Да);friendly_fire?;friendly_fire=\r\n"
+											"Жизнь после старта;int(0,100);life_after_start?;life_after_start=\r\n"
 											"Мощность ИК излучения;enum(Для игры в помещении,Для игры на улице);ir_power?;ir_power=\r\n"
 											"Частота несущей ИК сигнала;enum(36 кГц,56 кГц);ir_carrier_frequency?;ir_carrier_frequency=\r\n"
+											"Время перезаряда;int(0,8);reload_duration?;reload_duration=\r\n"
 											"Напряжение заряж. батареи мВ;int(3000,45000);batt_full_voltage?;batt_full_voltage=\r\n"
 											"Напряжение разряж. батареи мВ;int(2700,45000);batt_low_voltage?;batt_low_voltage=\r\n";
 

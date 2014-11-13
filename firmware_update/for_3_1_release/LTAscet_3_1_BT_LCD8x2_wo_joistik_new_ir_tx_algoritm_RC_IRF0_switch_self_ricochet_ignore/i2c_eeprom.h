@@ -63,6 +63,11 @@ bool eeWriteBytes(uint8_t *buffer, uint16_t address, uint16_t data_size);
 #define TW_NO_INFO                  0xF8
 #define TW_BUS_ERROR                0x00
 
+
+
+bool open_eeprom( uint16_t);
+
+
 void eeInit(){ //Настраиваем Генератор скорости связи c eeprom
 
 /*Настраиваем Генератор скорости связи*/

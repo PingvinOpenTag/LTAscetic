@@ -110,7 +110,6 @@ if (ir_transmitter_on==true)
 				else //¬се данные переданы (элемент, на который ссылаетс€ указатель, равен 0)
 				{
 					ir_transmitter_on=false; //выключаем передатчик
-				//	display_bullets_update();
 					FIRE_LED_OFF;
 					display_bullets_update_now++;
 				// если 	
@@ -118,20 +117,10 @@ if (ir_transmitter_on==true)
 					{
 						TIMSK &=~_BV(OCIE2);          // «апрещаем прерывани€ по захвату/сравнению
 						
-					}
-					//TIMSK |= _BV(OCIE2);   
-				}	
-				
-				
-				
-				
-						
+					}				 
+				}										
 			}				 
 		}
-
-
-
-
 	}
 else 	{//≈сли передача запрещена
 
@@ -300,87 +289,25 @@ return result;
 ISR(TIMER1_COMPA_vect){
 TIMSK &= ~_BV(OCIE1A);  //запрещаем прерывани€ timer1, чтобы не было рекурсии
 sei(); 
-//uart_timer++;
-if ((bullets >0))//&&(!play_hit_snd))//если патроны не кончились
+if ((bullets >0))//если патроны не кончились
 {
-
 	if (simples_in_queue>0) //если не все сеймплы ещЄ воспроизведены
 	{ 
-		
-		
 		OCR0 =	read_seimpl();
 		if (simples_in_queue==1) OCR0=0;
 		simples_in_queue--;
-
-
 	}
-
-//if (()(!play_hit_snd)) OCR0=0;
-
-/***************************************************************************
-	if (last_simple == 0) 
-	{
-
-	}
-	else;
-	if (last_simple < sizeof(pSnd))//3913
-			{
-				if (last_simple==(sizeof(pSnd)/100)*CUT_OFF_SOUNT)
-				{
-					if (fire_mode()==queues)
-					{
-						if ((get_keyboard_status()==key_pressed)&&(life>0)) //курок нажат, то отсекаем звук
-						{
-							bullets--;//уменьшаем на 1 количество патронов
-							send_ir_package();	//ѕроизводим "выстрел"
-							last_simple=0;		//воспроизводим звук сначала
-						}
-						else 	{};//fire_led_status=ON;						
-					}
-					else;
-				}
-				else;
-				
-				OCR0 = pgm_read_byte(&(pSnd[last_simple++]));
-			}
-	if (last_simple >= sizeof(pSnd)&&(last_simple)!=0xFFFF)//3913
-			{
-			//	last_simple = 0;
-			//	PORTA &= ~(1 << 2);
-				OCR0 = 128; //—кважность = 0,5
-//				fire_led_status=OFF;
-				//FIRE_LED_OFF;
-			};
-
-********************************************************/
 }
-
-/*
-if (bullets <= 0) //патроны кончились
-	{
-		BULLETS_OUT_LED_ON; // включаем светодиод "ѕатроны кончились"
-		if (last_simple < sizeof(pSnd)) {OCR0 = pgm_read_byte(&(pSnd[last_simple++]));}//дадим выстрелу прозвучать до конца
-		else {};//fire_led_status = OFF;
-	};
-
-*/
 
 if (bullets <= 0) //патроны кончились
 	{
 		BULLETS_OUT_LED_ON; // включаем светодиод "ѕатроны кончились"
 		if (simples_in_queue>0) //если не все сеймплы ещЄ воспроизведены
 		{ 
-		
-		
 			OCR0 =	read_seimpl();
 			if (simples_in_queue==1) OCR0=0;
 			simples_in_queue--;
-
-
 		}
-
-		//if (last_simple < sizeof(pSnd)) {OCR0 = pgm_read_byte(&(pSnd[last_simple++]));}//дадим выстрелу прозвучать до конца
-		//else {};//fire_led_status = OFF;
 	};
 
 
@@ -420,31 +347,18 @@ static volatile uint16_t tmp_cntr=0;
 				}
 		  	default:;         
 			}	
-
-	
-	
-	
-	
 	}
-
-
-
-//cli();
-
 if (++tmp_cntr > 1000) //пора обновить индикацию
 	{
-		  
-/*
-		volatile uint16_t adc_data;
-volatile uint16_t batt_voltage;
-adc_data=ReadADC(ADC_CHANNEL);
-//adc_data=(adc_data/4)*7.5;
-display_voltage_update(adc_data);
-*/		
-		
-		//test_keyboard();
-		//LIFE_LED1_INVERT;
 		tmp_cntr = 0;
+		if(reload_countdown > 0) //обратный отсчет длительности перезар€дки не окончен
+		{
+			reload_countdown--;
+		}
+		else //пора закончить перезар€д 
+		{
+			if(reload_state==waiting_countdown)reload_state=reload_now;
+		} 
 		static volatile uint8_t bit_mask = 0b00000001;
 	
 		if ((life_leds_status[0]&bit_mask)==0) 
@@ -481,18 +395,6 @@ display_voltage_update(adc_data);
 				LIFE_LED4_ON;
 			};
 
-/*
-		if ((fire_led_status&bit_mask)==0)
-			{
-				FIRE_LED_OFF;
-			}
-		else
-			{
-				FIRE_LED_ON;
-			};
-
-
-*/
 		bit_mask = (bit_mask<<1);
 		if (bit_mask == 0)  bit_mask = 0b00000001;
 		

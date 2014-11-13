@@ -228,3 +228,11 @@ freq_56KHz
 typedef enum  ir_carrier_frequency TIR_CARRIER_FREQUENCY;
 
 
+enum reload_status{
+	nothing_to_do,
+	waiting_countdown,
+	reload_now
+};
+typedef enum  reload_status TRELOAD_STATUS;
+
+

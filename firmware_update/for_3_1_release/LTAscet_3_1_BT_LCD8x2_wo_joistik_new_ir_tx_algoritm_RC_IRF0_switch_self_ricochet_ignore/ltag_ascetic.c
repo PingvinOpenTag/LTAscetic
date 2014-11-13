@@ -150,10 +150,11 @@ while (timer2 < 1000);
 display_life(life);
 beep(1000, 3, 128);
 
-USART_SendStr("Hello!\n\r");
-USART_SendStr("Привет!\n\r");
-USART_SendStrP(command_0);
-USART_SendStrP(command_1);
+USART_SendStr("Ascet 3.1\n\r");//приветствие
+
+//USART_SendStr("Привет!\n\r");
+//USART_SendStrP(command_0);
+//USART_SendStrP(command_1);
 
 //play_sound_from_eeprom(0,27264);
 /*
@@ -184,12 +185,14 @@ simples_in_queue = eeprom_read_word(&sound_1_size);
 
 
 invite();
+life_in_percent =eeprom_read_byte(&life_after_start);
 cut_off_sound = (eeprom_read_word(&sound_1_size)/100)*(100-CUT_OFF_SOUNT);
 joystick_event=no_pressing;
 display_status();
 USART_FlushRxBuf();
 bt_header_received=false;
 timer2 = 0;
+
 while (timer2 < 1000);
 
 
@@ -232,30 +235,37 @@ switch(keyboard_event)
 	 	case no_key_pressing: break;
 		case key_pressing:
 		{
-			if (bullets > 0)
+			if(reload_state==nothing_to_do)
 			{
-				bullets--;//уменьшаем на 1 количество патронов		
-				//last_simple = 0;//воспроизводим звук выстрела
-				
-				if (simples_in_queue>1) //если звук выстрла воспроизводится
+				if (bullets > 0)
 				{
-					simples_in_queue=1;//закроем eeprom
-					while (eeprom_is_open);//дождемся, пока eerom закроется
-				}
+					bullets--;//уменьшаем на 1 количество патронов		
+					//last_simple = 0;//воспроизводим звук выстрела
+				
+					if (simples_in_queue>1) //если звук выстрла воспроизводится
+					{
+						simples_in_queue=1;//закроем eeprom
+						while (eeprom_is_open);//дождемся, пока eerom закроется
+					}
 				 
-				simples_in_queue = eeprom_read_word(&sound_1_size);
+					simples_in_queue = eeprom_read_word(&sound_1_size);
 				
 				
-				send_ir_package();		//Производим "выстрел"
+					send_ir_package();		//Производим "выстрел"
 			//	display_bullets_update();
 				
-	 		}
-			else
-			{
-				if (simples_in_queue==0) //если звук выстрла не воспроизводится
+	 			}
+			
+			
+				else // патронов в магазине нет
+			
 				{
-					play_sound_5();
+					if (simples_in_queue==0) //если звук выстрла не воспроизводится
+					{
+						play_sound_5();//воспроизводим звук осечки
+					}
 				}
+			
 			}
 			keyboard_event=no_key_pressing; 
 		} 
@@ -271,6 +281,18 @@ switch(reload_key_event)
 	 	case no_key_pressing: break;
 		case key_pressing:
 		{
+			if (reload_state==nothing_to_do)
+			{
+				if ((clips > 0)&&(simples_in_queue==0))//если обоймы не кончилсь и не воспроизводиться звук выстрела
+				{	
+					reload_countdown =  eeprom_read_byte(&eeprom_reload_duration)*8;
+					reload_state=waiting_countdown;
+					playclipinsound();
+				}
+			}
+			
+			
+			/*
 			if ((clips > 0)&&(simples_in_queue==0))//если обоймы не кончилсь и не воспроизводиться звук выстрела
 			{
 				playclipinsound();
@@ -289,6 +311,7 @@ switch(reload_key_event)
 		//		send_ir_package();		//Производим "выстрел"
 				
 	 		}
+			 */
 			reload_key_event=no_key_pressing; 
 		} 
         break;
@@ -302,34 +325,14 @@ switch(reload_key_event)
 		switch(rx_event)//выясним, какое именно событие произошло
 					{
 						case RX_COMPLETE: 	//получен пакет
-						{
-						//	cli();
-						/*********************************************************
-							WOUND_LED_ON; //включаем вспомогательный светодиод
-							timer1=0;
-							while(timer1 < 35000);
-							WOUND_LED_OFF;	//выключаем вспомогательный светодиод
-						************************************************************/
-							
+						{						
 							rx_event = NOT_EVENT;	
 							if(!get_buffer_bit(0)) //если этот бит равен 0, то это пакет с данными (выстрел)
 							{
-						
-								
-	//							uint8_t player_id;
 								rx_packet = get_packet_value();
-//								volatile int gg;
-//								gg++;
-
-
 								hit_processing(rx_packet);
 								rx_event = NOT_EVENT;
-
 							}
-							
-						
-						
-						//	sei();
 							break;
 						}
 						
@@ -356,7 +359,37 @@ switch(reload_key_event)
                                  		break;
                               		}
 
-                              		case Command://какая то дополнительноя команда
+                              		case Change_color:
+									{
+										//код для смены цвета
+										if((ir_message.param>=0)&&(ir_message.param<=3))
+										{
+											eeprom_write_byte(&eeprom_team_id,ir_message.param );	
+											set_team_color(team_id());	//Устанавливаем идентификатор (цвет) команды
+											for (uint8_t i=0; i <ir_message.param; i++ )
+											{
+													beep(1000, 2, 128);
+													timer2 = 0;
+													while (timer2 < 1000);
+											};
+											beep(1000, 2, 128);
+										}
+										else
+										{
+											//ошибка смены цвета
+											
+											beep(1000, 3, 128);
+											beep(500, 3, 128); //Воспроизводим звук (частота, длительность, громкость)											
+											beep(1000, 3, 128);
+											beep(500, 3, 128); //Воспроизводим звук (частота, длительность, громкость)
+										}
+										
+																				
+										break;
+									}
+									  
+									  
+									case Command://какая то дополнительноя команда
                               		{
                                     	
 										switch(ir_message.param)//выясним, какая это командв
@@ -376,7 +409,7 @@ switch(reload_key_event)
 													reload_key_event=no_key_pressing;//очищаем события перезарядки
 													rx_event = NOT_EVENT;   //очищаем события ИК приемника
 													display_status();//обновляем информацию на дисплее
-													
+													display_life(life);//отобразим уровень жизни на диодах
 													WOUND_LED_ON;
 													playstartsound();
 													//код обработки дополнительной команды
@@ -455,40 +488,40 @@ if (rxCount>0)//если буфер BT приемника не пустой
 	}
 	
 
-//		unsigned char tmp_char;
-//		tmp_char = USART_GetChar();
-//		USART_FlushRxBuf();
-//		cr_received=false;
+switch (reload_state)
+	{
+		case nothing_to_do:
+		{
+			
+		}
+		break;
+		case waiting_countdown:
+		{
+			
+		}
+		break;
+		case reload_now:
+		{
+			clips--;//уменьшаем на 1 количество патронов
+			bullets = eeprom_read_byte(&eeprom_bullets_in_clip);
+			display_clips_update();
+			display_bullets_update();
+			playclipoutsound();
+			reload_state = nothing_to_do;
+		}
+		break;
+	}
 
-
-
-//	timer1=0;				//Сделаем паузу
-//	while(timer1 < 65000);	//Подождем, пока не произойдет 65000 прерываний таймера (чуть меньше секунды)
-
-	switch(joystick_event)
+switch(joystick_event)
 	{
 		case key_up_pressing: 
 			{
-		//	lcd_clrscr();
-	//		lcd_gotoxy(0, 0);
-	
-	//		if ((result+10)<=max_value) result=result+10;
-	//		lcd_gotoxy(0, 1);
-	//		lcd_puts(int_to_str(result,3));
-		/*
-			uint16_t adc_data;
-			uint16_t batt_voltage;
-			adc_data=ReadADC(ADC_CHANNEL);
-			adc_data=(adc_data/4)*7.5;
-			display_voltage_update(adc_data);
-		*/
-			switch(display_batt_mode)
-			{
-				case icon: display_batt_mode=digit;
-				break;
-				case digit: display_batt_mode=icon;
-			
-			}
+				switch(display_batt_mode)
+				{
+					case icon: display_batt_mode=digit;
+					break;
+					case digit: display_batt_mode=icon;
+				}
 			
 			
 			
@@ -498,36 +531,17 @@ if (rxCount>0)//если буфер BT приемника не пустой
 		break;
 		case key_right_pressing: 
 			{
-			//lcd_clrscr();
-			//lcd_home();
-//			if ((result)<max_value) result++;
-//			lcd_gotoxy(0, 1);
-//			lcd_puts(int_to_str(pgm_read_byte(arr_adress+result),3));
-			//lcd_puts("Нажата кнопка \n");
-			//lcd_puts("Вправо");
-			joystick_event = no_pressing;
+				joystick_event = no_pressing;
 			}
 		break;
 		case key_down_pressing: 
 			{
-	//		lcd_clrscr();
-	//		lcd_gotoxy(0, 0);
-	//		if((result-9)>0) result=result-10;
-	//		lcd_gotoxy(0, 1);
-	//		lcd_puts(int_to_str(result,3));
-			joystick_event = no_pressing;
+				joystick_event = no_pressing;
 			}
 		break;
 		case key_left_pressing: 
 			{
-			//lcd_clrscr();
-			//lcd_gotoxy(0, 0);
-//			if ((result)>0) result--;
-			//lcd_puts("Нажата кнопка \n");
-			//lcd_puts("Влево");
-//			lcd_gotoxy(0, 1);
-//			lcd_puts(int_to_str(pgm_read_byte(arr_adress+result),3));
-			joystick_event = no_pressing;
+				joystick_event = no_pressing;
 			}
 		break;
 		case key_central_pressing: 
@@ -788,7 +802,8 @@ rx_event = NOT_EVENT;//Сбрасываем события приемника
 bt_rx_event = NOT_EVENT;//Сбрасываем события BT приемника
 //reset_clock(); //обнуляем часы
 life = 8;//здоровье -100% выводим на диоды
-life_in_percent = 100;//эту выводим на дисплей
+//life_in_percent = 100;//эту выводим на дисплей
+life_in_percent =eeprom_read_byte(&life_after_start);
 key_pressing_duration.key_1    =0;//обнуляем счетчики 
 						  //длительности
 						  //непрерывного нажатия кнопок
@@ -809,7 +824,8 @@ simples_in_queue =0;
 eeprom_is_open = false;
 receiver_on = false;
 ir_error_ignore = 0; //не игнорируем ошибочные пакеты
-
+reload_state = nothing_to_do;
+reload_countdown=0;
 }
 
 
@@ -2351,6 +2367,8 @@ if (eeprom_read_word(&eeprom_batt_low_voltage)==0xFFFF) eeprom_write_word(&eepro
 if ((eeprom_read_byte(&eeprom_ir_carr_freq)!=freq_36KHz)&&(eeprom_read_byte(&eeprom_ir_carr_freq)!=freq_56KHz)) eeprom_write_byte(&eeprom_ir_carr_freq,freq_36KHz); 
 if ((eeprom_read_byte(&eeprom_curr_ir_pin)!=IR_LED_HIGH_POWER_PIN)&&(eeprom_read_byte(&eeprom_curr_ir_pin)!=IR_LED_LOW_POWER_PIN)) eeprom_write_byte(&eeprom_curr_ir_pin,IR_LED_HIGH_POWER_PIN); 
 if (eeprom_read_byte(&friendly_fire_enable)>1) eeprom_write_byte(&friendly_fire_enable,1); 
+if (eeprom_read_byte(&life_after_start)>100) eeprom_write_byte(&life_after_start,100); 
+
 }
 
 
@@ -2889,6 +2907,8 @@ void get_all_setings(void)
 	get_ir_power_settings();
 	curr_ir_pin=eeprom_read_byte(&eeprom_curr_ir_pin);
 	get_friendly_fire_settings();
+ 	get_int_settings("Жизнь", &life_after_start, 100);
+
 }
 
 
@@ -3644,8 +3664,8 @@ switch (result)
 	}
 		
 
-USART_SendStrP(ok_string);
-
+//USART_SendStrP(ok_string);
+USART_SendStr("OK\r\n");
 
 }
 
@@ -3784,7 +3804,6 @@ reinit_timer2();
 void command_64_slot(void){//ir_carrier_frequency?
 USART_SendStr(int_to_str(eeprom_read_byte(&eeprom_ir_carr_freq),0));
 USART_SendStr("\r\nOK\r\n");
-
 }
 
 
@@ -3808,6 +3827,29 @@ void command_65_slot(void){//clear_tm
 
 
 }
+
+void command_66_slot(void){//reload_time=
+	get_int_argument_value( &eeprom_reload_duration, 0, 8);
+	
+}
+
+void command_67_slot(void){//reload_time?
+	USART_SendStr(int_to_str(eeprom_read_byte(&eeprom_reload_duration),0));
+//	USART_SendStr("\r\nOK\r\n");
+	USART_SendStrP(ok_string);
+}
+
+
+void command_68_slot(void){//life_after_start=
+	get_int_argument_value( &life_after_start, 0, 100);
+}
+
+void command_69_slot(void){//life_after_start?
+	USART_SendStr(int_to_str(eeprom_read_byte(&life_after_start),0));
+	//	USART_SendStr("\r\nOK\r\n");
+	USART_SendStrP(ok_string);
+}
+
 
 
 void parsing_command(void)
@@ -3949,8 +3991,14 @@ uint8_t cmd_index;
 						break;
 						case 65: command_65_slot();
 						break;
-
-
+						case 66: command_66_slot();
+						break;
+						case 67: command_67_slot();
+						break;
+						case 68: command_68_slot();
+						break;
+						case 69: command_69_slot();
+						break;
 														
 						default:
 						{
@@ -4228,6 +4276,7 @@ trx_event parsing_bt_data(void) //анализируем пакет, полученный по блютус, извек
 					}						
 
 						bt_header_received = false;//заголовок обработали
+						return result;
 				//		return RX_COMPLETE;//выходим с сообщением о получении пакета
 				}
 				else 	
@@ -4294,221 +4343,198 @@ void hit_processing(trx_packet hit_packet)//обрабатываем попадание
 {
 
 if ((hit_packet.team_id != team_id())||(eeprom_read_byte(&friendly_fire_enable)&&(hit_packet.player_id != eeprom_read_byte(&eeprom_player_id))))//"пуля" прилетела от игрока другой, не нашей, команды
-								{
-									WOUND_LED_ON; //включаем вспомогательный светодиод						
-									USART_SendStr("111");
-									lcd_bl_on();
-									display_hit_data(hit_packet);
-								//	playhitsound();
+	{
+		WOUND_LED_ON; //включаем вспомогательный светодиод						
+		USART_SendStr("111");
+		lcd_bl_on();
+		display_hit_data(hit_packet);
+		//	playhitsound();
 
-					//				WOUND_LED_OFF;
+	    //				WOUND_LED_OFF;
 
-
-
-
-
-								if (life_in_percent > hit_packet.damage) 
-									{
-										life_in_percent = life_in_percent-hit_packet.damage;
-										life = (life_in_percent*10)/125;
-										if ((life==0)&&(life_in_percent>0)) life=1;
-										playhitsound();
-										WOUND_LED_OFF;
-										keyboard_event=no_key_pressing; 
-									}
-									else 
-									{	
-										life = 0;
-										life_in_percent=0;
-										WOUND_LED_ON;
-										display_life(life);//отобразим уровень жизни на диодах
-										display_life_update();//отобразим уровень жизни на ЖКИ
-										volatile uint8_t keypress_cntr; //счетчик циклов, в течении которых курок был нажат
-										keypress_cntr = 0;
-										playgameoversound();
-										
-										
-										
-										if ((eeprom_read_byte(&eeprom_tm_serial_num.device_code)!=0)&&(eeprom_read_byte(&eeprom_tm_serial_num.device_code)!=0xFF))
+		if (life_in_percent > hit_packet.damage) 
+		{
+			life_in_percent = life_in_percent-hit_packet.damage;
+			life = (life_in_percent*10)/125;
+			if ((life==0)&&(life_in_percent>0)) life=1;
+			playhitsound();
+			WOUND_LED_OFF;
+			keyboard_event=no_key_pressing; 
+		}
+		else //[else]
+		{	
+			life = 0;
+			life_in_percent=0;
+			WOUND_LED_ON;
+			display_life(life);//отобразим уровень жизни на диодах
+			display_life_update();//отобразим уровень жизни на ЖКИ
+			volatile uint8_t keypress_cntr; //счетчик циклов, в течении которых курок был нажат
+			keypress_cntr = 0;
+			playgameoversound();
+			if ((eeprom_read_byte(&eeprom_tm_serial_num.device_code)!=0)&&(eeprom_read_byte(&eeprom_tm_serial_num.device_code)!=0xFF))
 
 										/*если ТМ ключ уже занесён в память*/
-										{
+			{
 
-											joystick_event=no_pressing;
-											keyboard_event=no_key_pressing;
-											tm_event=no_tm_event;
-											uint8_t tm_valide;
-											tm_valide=0;
-											lcd_bl_off();
+				joystick_event=no_pressing;
+				keyboard_event=no_key_pressing;
+				tm_event=no_tm_event;
+				uint8_t tm_valide;
+				tm_valide=0;
+				lcd_bl_off();
 											
 											
-											while (!tm_valide)
-											{//[while]
-												lcd_clrscr();
-												lcd_home();
-												lcd_puts("Для активации");
-												lcd_gotoxy(0, 1);
-												lcd_puts("приложите ключ");
-												while (tm_event == no_tm_event)
-												{
-													WOUND_LED_INVERT;
-													USART_PutChar('1');
-													timer2 = 0;
-													while (timer2 < 1000);
-													WOUND_LED_INVERT;
-													timer2 = 0;
-													while (timer2 < 1000);	
+				while (!tm_valide)
+				{//[while]
+					lcd_clrscr();
+					lcd_home();
+					lcd_puts("Для активации");
+					lcd_gotoxy(0, 1);
+					lcd_puts("приложите ключ");
+					while (tm_event == no_tm_event)
+					{
+						WOUND_LED_INVERT;
+						USART_PutChar('1');
+						timer2 = 0;
+						while (timer2 < 1000);
+						WOUND_LED_INVERT;
+						timer2 = 0;
+						while (timer2 < 1000);	
 												
-												};
-												switch(tm_event)
-												{//[switch]
-													case no_tm_event: 
-													{
-															
-													}
-													break;
+					};
+					switch(tm_event)
+					{//[switch]
+						case no_tm_event: 
+						{											
+						}
+						break;
 					
-													case tm_crc_error: 
-													{
-														lcd_clrscr();
-														lcd_home();
-														lcd_puts("Ошибка CRC");
-														timer2 = 0;
-														while (timer2 < 6000){};
-														tm_event=no_tm_event;
-													}
-													break;
+						case tm_crc_error: 
+						{
+							lcd_clrscr();
+							lcd_home();
+							lcd_puts("Ошибка CRC");
+							timer2 = 0;
+							while (timer2 < 6000){};
+							tm_event=no_tm_event;
+						}
+						break;
 
-													case tm_crc_ok: 
-													{
-					
-														if (tm_verification()) 	
-														{ 	tm_valide=1;
-															lcd_clrscr();
-															lcd_home();
-															lcd_puts("Удачи!");
-															timer2 = 0;
-															while (timer2 < 6000){};
-				
-															tm_event=no_tm_event;
-															break;
-														}	
-														lcd_clrscr();
-														lcd_home();
-														lcd_puts("Не тот ключ");
-														timer2 = 0;
-														while (timer2 < 6000){};
-													/*
-														lcd_clrscr();
-														lcd_home();
-														lcd_puts("Для активации");
-														lcd_gotoxy(0, 1);
-														lcd_puts("приложи ключ");
-													*/
-														tm_event=no_tm_event;
+						case tm_crc_ok: 
+						{
+							if (tm_verification()) 	
+							{ 	tm_valide=1;
+								lcd_clrscr();
+								lcd_home();
+								lcd_puts("Удачи!");
+								timer2 = 0;
+								while (timer2 < 6000){};
+								tm_event=no_tm_event;
+								break;
+							}	
+							lcd_clrscr();
+							lcd_home();
+							lcd_puts("Не тот ключ");
+							timer2 = 0;
+							while (timer2 < 6000){};
+							/*
+							lcd_clrscr();
+							lcd_home();
+							lcd_puts("Для активации");
+							lcd_gotoxy(0, 1);
+							lcd_puts("приложи ключ");
+							*/
+							tm_event=no_tm_event;
 														
 																		
-													}
+						}
 
-														break;
+						break;
 				
-												}//[/switch]
-											}//[while]
+					}//[/switch]
+				}//[while]
 										
-										}//end if
+			}//end if
 									
-									else //тач мемори не записан в память
-									{ 
-										
-										lcd_bl_off();
-										display_status();
-										rx_event = rx_event = NOT_EVENT;
-										ir_message.control_byte = 0;
-
-										while(!((ir_message.control_byte ==Valid_value)&&(ir_message.ID==Command)&&(ir_message.param==0x05)))//пока не получим команду "старт"
-										{
-											rx_event = rx_event = NOT_EVENT;
-											while((rxCount==0)&&(rx_event != RX_MESSAGE_COMPLITE))//пока нет никаких команд пульта
-											{
-												WOUND_LED_INVERT;
-												USART_PutChar('1');
-												timer2 = 0;
-												while (timer2 < 1000);
-												WOUND_LED_INVERT;
-												timer2 = 0;
-												while (timer2 < 1000);
-											}
-										
-									
-										if (rx_event == RX_MESSAGE_COMPLITE) ir_message = get_ir_message_from_buffer();//пришла команда пульта, выдергиваем значения команды из буфера ИК приемника	
-										else {
-												
-													if (rxCount>0) finde_message_in_bt_buffer();
-												
-												
-											  }	
-											
-											
-											
-												
-										}
-
-
-
-
-								/*
-										while(keypress_cntr < 20)
-										{
-											WOUND_LED_INVERT;
-											USART_PutChar('1');
-											timer2 = 0;
-											while (timer2 < 1000);
-											WOUND_LED_INVERT;
-											timer2 = 0;
-											while (timer2 < 1000);
-											switch (FIRE_KEY_IN&FIRE_KEY_PIN) //проверяем, нажат ли курок
-											{
-												case 0:  keypress_cntr++ ; break;
-												case FIRE_KEY_PIN: keypress_cntr = 0; break;
-												default: keypress_cntr = 0;	
-											}
+			else //тач мемори не записан в память
+			{//[else] 							
+				lcd_bl_off();
+				display_status();
+				rx_event = rx_event = NOT_EVENT;
+				ir_message.control_byte = 0;
+				while(!(((ir_message.control_byte ==Valid_value)&&(ir_message.ID==Command)&&(ir_message.param==0x05))||(joystick_event == key_central_pressing)))//пока не получим команду "старт"
+				{//[while]
+					rx_event = NOT_EVENT;
+					while((rxCount==0)&&(rx_event != RX_MESSAGE_COMPLITE)&&(joystick_event == no_pressing))//пока нет никаких команд пульта
+					{//[while]
+						WOUND_LED_INVERT;
+						USART_PutChar('1');
+						timer2 = 0;
+						while (timer2 < 1000);
+						WOUND_LED_INVERT;
+						timer2 = 0;
+						while (timer2 < 1000);
+					}//[while]
+					
+					if(joystick_event!=key_central_pressing)joystick_event = no_key_pressing;
+					if (rx_event == RX_MESSAGE_COMPLITE) ir_message = get_ir_message_from_buffer();//пришла команда пульта, выдергиваем значения команды из буфера ИК приемника	
+					else //[else]
+					{							
+						if (rxCount>0) finde_message_in_bt_buffer();							
+					}//[else]											
+				}//[while]
+				/*
+				while(keypress_cntr < 20)
+				{
+					WOUND_LED_INVERT;
+					USART_PutChar('1');
+					timer2 = 0;
+					while (timer2 < 1000);
+					WOUND_LED_INVERT;
+					timer2 = 0;
+					while (timer2 < 1000);
+					switch (FIRE_KEY_IN&FIRE_KEY_PIN) //проверяем, нажат ли курок
+					{
+						case 0:  keypress_cntr++ ; break;
+						case FIRE_KEY_PIN: keypress_cntr = 0; break;
+						default: keypress_cntr = 0;	
+					}
 						
-										}
-									*/
-									}	
-									//"оживаем" - начинаем новую игру
-										
-										if (simples_in_queue>1) //если звук выстрла воспроизводится
-										{
-											simples_in_queue=1;//закроем eeprom
-											while (eeprom_is_open);//дождемся, пока eerom закроется
-										}
-										init_var(); //инициализируем переменные
-													joystick_event=no_pressing; //очищаем события джойстика
-													keyboard_event=no_key_pressing;//очищаем события триггера
-													reload_key_event=no_key_pressing;//очищаем события перезарядки
-													rx_event = NOT_EVENT;   //очищаем события ИК приемника
-													display_status();//обновляем информацию на дисплее
-													
-													WOUND_LED_ON;
-													playstartsound();
-													//код обработки дополнительной команды
-                                 					WOUND_LED_OFF;
-									/*	
-										WOUND_LED_OFF;
-										init_var();//"оживаем" - начинаем новую игру
-										joystick_event=no_pressing;
-										keyboard_event=no_key_pressing;
-										tm_event=no_tm_event;
-									*/
-									//	display_status();
-									}
+				}
+				*/
+			}	//end else //тач мемори не записан в память
+			//"оживаем" - начинаем новую игру							
+			if (simples_in_queue>1) //если звук выстрла воспроизводится
+			{//[if]
+				simples_in_queue=1;//закроем eeprom
+				while (eeprom_is_open);//дождемся, пока eerom закроется
+			}//[if]
+			init_var(); //инициализируем переменные
+			joystick_event=no_pressing; //очищаем события джойстика
+			keyboard_event=no_key_pressing;//очищаем события триггера
+			reload_key_event=no_key_pressing;//очищаем события перезарядки
+			rx_event = NOT_EVENT;   //очищаем события ИК приемника
+			display_status();//обновляем информацию на дисплее
+			//			display_life(life);//отобразим уровень жизни на диодах
+			WOUND_LED_ON;
+			playstartsound();
+			//код обработки дополнительной команды
+            WOUND_LED_OFF;
+			/*	
+			WOUND_LED_OFF;
+			init_var();//"оживаем" - начинаем новую игру
+			joystick_event=no_pressing;
+			keyboard_event=no_key_pressing;
+			tm_event=no_tm_event;
+			*/
+			//	display_status();
+		}//[else]
 								
-								display_life(life);//отобразим уровень жизни на диодах
+		display_life(life);//отобразим уровень жизни на диодах
 //								display_life_update();//отобразим уровень жизни на ЖКИ
-								lcd_bl_off();
-								display_status();
-								}
+		lcd_bl_off();
+		display_status();
+	}//[if]
 
 
 
@@ -4603,8 +4629,10 @@ void test_bt_data()
 				{
 					bt_rx_packet = get_bt_packet_value();
 					hit_processing(bt_rx_packet);
+
 					USART_FlushRxBuf();
 					bt_header_received=false;
+
 				}
 
 			}
@@ -4640,6 +4668,32 @@ void test_bt_data()
 								 		//код для добавления патронов
                                  		break;
                               		}
+									case Change_color:
+									{
+										//код для смены цвета
+										if((ir_message.param>=0)&&(ir_message.param<=3))
+										{
+											eeprom_write_byte(&eeprom_team_id,ir_message.param );
+											set_team_color(team_id());	//Устанавливаем идентификатор (цвет) команды
+											for (uint8_t i=0; i <ir_message.param; i++ )
+											{
+												beep(1000, 2, 128);
+												timer2 = 0;
+												while (timer2 < 1000);
+											}
+											beep(1000, 2, 128);
+											}
+										else
+										{
+											//ошибка смены цвета
+		
+											beep(1000, 3, 128);
+											beep(500, 3, 128); //Воспроизводим звук (частота, длительность, громкость)
+											beep(1000, 3, 128);
+											beep(500, 3, 128); //Воспроизводим звук (частота, длительность, громкость)
+										}
+										break;
+									}
 
                               		case Command://какая то дополнительноя команда
                               		{

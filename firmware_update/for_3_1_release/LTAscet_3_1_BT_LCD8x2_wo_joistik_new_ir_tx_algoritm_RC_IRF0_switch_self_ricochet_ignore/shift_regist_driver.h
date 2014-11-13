@@ -1,3 +1,4 @@
+
 #define SHIFT_REGISTER_DS_PORT PORTB //порт, к которуму подключен вход DS (данные) сдвигового регистра
 #define SHIFT_REGISTER_SH_CP_PORT PORTB //порт, к которуму подключен вход SH_CP (тактовые импульсы) сдвигового регистра
 #define SHIFT_REGISTER_ST_CP_PORT PORTB //порт, к которуму подключен вход ST_CP ("защлка" данных) сдвигового регистра
@@ -59,7 +60,7 @@ for (int i=0; i<8; i++)
 	SHIFT_REGISTER_ST_CP_ON;
 }
 
-
 void shift_register_clean(void){
 shift_register_set_data(0);
 }
+

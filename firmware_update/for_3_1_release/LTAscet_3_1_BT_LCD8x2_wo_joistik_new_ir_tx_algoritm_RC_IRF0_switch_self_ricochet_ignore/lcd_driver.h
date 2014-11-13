@@ -209,8 +209,13 @@ const unsigned char Decode2Rus[255-192+1] PROGMEM = {
 
 #define lcd_e_delay()   __asm__ __volatile__( "rjmp 1f\n 1:" );   //#define lcd_e_delay() __asm__ __volatile__( "rjmp 1f\n 1: rjmp 2f\n 2:" );
 
+//Декларируем функции, чтобы компилятор не ругался
 
-
+void lcd_function_set(uint8_t);
+void lcd_command(uint8_t);
+void lcd_generate_additional_symbols(void);
+void lcd_generate_batt_symbols(void);
+inline void lcd_newline(uint8_t);
 /*************************************************************************
  delay loop for small accurate delays: 16-bit counter, 4 cycles/loop
 *************************************************************************/
@@ -322,7 +327,7 @@ void lcd_clrscr(void)
 
 static void lcd_write(uint8_t data,uint8_t rs) 
 {
-    unsigned char dataBits ;
+//    unsigned char dataBits ;
 
 //	lcd_buffer=0; //очищаем буффер
     if (rs) {   /* write data        (RS=1, RW=0) */

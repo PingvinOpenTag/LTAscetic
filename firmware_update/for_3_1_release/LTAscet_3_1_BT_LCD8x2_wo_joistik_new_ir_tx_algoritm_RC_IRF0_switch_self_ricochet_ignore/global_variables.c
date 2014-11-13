@@ -105,7 +105,7 @@ volatile EEMEM ttm_serial_num eeprom_tm_serial_num;
 
 volatile uint8_t clips;//кол-во оставшихся обойм
 
-volatile life_in_percent;// остаток "жизни" в процетах
+volatile uint8_t life_in_percent;// остаток "жизни" в процетах
 
 volatile uint16_t chit_detected_counter; // счётчик длительности отключения повязки
 
@@ -182,7 +182,7 @@ volatile EEMEM uint16_t sound_9_adress;//адрес в eeprom звука выстрела
 volatile EEMEM uint16_t sound_9_size;//длина в байтах звука выстрела
 volatile EEMEM uint16_t sound_10_adress;//адрес в eeprom звука выстрела
 volatile EEMEM uint16_t sound_10_size;//длина в байтах звука выстрела
-
+volatile EEMEM uint8_t life_after_start; //Количество "жизни" после запуска новой игры
 
 
 
@@ -201,3 +201,7 @@ volatile tir_message ir_message;//структура для хранения принятого по ИК сообщен
 volatile tmiles_protocol miles_protocol;//структура для хранения данных протокола
 
 volatile uint16_t ir_error_ignore;//если не равно 0, игнорируем "пролетевшие мимо пули"
+
+volatile TRELOAD_STATUS reload_state; //состояние перезарядки (ничего не делать, ожидать окончание обратного отсчета, перезарядить немедленно)
+
+volatile uint16_t reload_countdown; //обратный счетчик длительности перезарядки

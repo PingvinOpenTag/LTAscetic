@@ -148,7 +148,7 @@ extern volatile EEMEM uint8_t eeprom_bullets_in_clip; // количество патронов в о
 extern volatile EEMEM uint8_t eeprom_clips; // количество обойм
 extern volatile EEMEM uint8_t eeprom_reload_duration; // длительность перезарядки (в секундах)
 extern volatile uint8_t clips;//кол-во оставшихся обойм
-extern volatile life_in_percent;// остаток "жизни" в процетах
+extern volatile uint8_t life_in_percent;// остаток "жизни" в процетах
 extern volatile uint16_t chit_detected_counter; // счётчик длительности отключения повязки
 extern volatile bool chit_detected; // флаг, имеющий значение true, если зафиксировано отключение повязки
 extern volatile bool tm_connect; //флаг, имеющий значение true, если зафиксировано поднесение ключа тачмемори к считывателю
@@ -203,7 +203,7 @@ extern volatile EEMEM uint16_t sound_9_adress;//адрес в eeprom звука выстрела
 extern volatile EEMEM uint16_t sound_9_size;//длина в байтах звука выстрела
 extern volatile EEMEM uint16_t sound_10_adress;//адрес в eeprom звука выстрела
 extern volatile EEMEM uint16_t sound_10_size;//длина в байтах звука выстрела
-
+extern volatile EEMEM uint8_t life_after_start; //Количество "жизни" после запуска новой игры
 
 
 extern volatile EEMEM bool friendly_fire_enable; //флаг, указывающий, фиксировать (true) или нет (false) "дружественный" огонь
@@ -223,3 +223,5 @@ extern volatile tir_message ir_message;//структура для хранения принятого по ИК 
 extern volatile tmiles_protocol miles_protocol;//структура для хранения данных протокола
 
 extern volatile uint16_t ir_error_ignore;//если не равно 0, игнорируем "пролетевшие мимо пули"
+extern volatile TRELOAD_STATUS reload_state; //состояние перезарядки (ничего не делать, ожидать окончание обратного отсчета, перезарядить немедленно)
+extern volatile uint16_t reload_countdown; //обратный счетчик длительности перезарядки
