@@ -18,3 +18,15 @@ http://www.lancos.com/prog.html
 PC software to use bootloader
 
 http://download.chip45.com/chip45boot2_GUI_V1.13.zip
+
+
+
+Part list for de.mouser (Use at your own Risk and please check !)
+
+
+LTA Motherboard (3.1)
+http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=8740157a16
+
+LTA Ir Sensor (3.1)
+
+http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=37c73c7856 
