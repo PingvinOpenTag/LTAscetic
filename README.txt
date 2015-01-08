@@ -7,7 +7,7 @@ Open the file "X:/LTAsceric_Atmega32/LTAscetic_Atmega32.aps" in the program "AVR
 
 !!!DO NOT USE 4.19 VERSION!!!
 
-Just need to install the compiler WinAVR.
+Just need to install the compiller WinAVR.
 
 
 Program to configure the "Ascetic" and upload sounds.
