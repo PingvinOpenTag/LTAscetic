@@ -34,5 +34,5 @@ You can also adjust the rate when shooting in auto mode.
 Firmware understands the IR RC command "Start Game" and "kill the player" and commands to change the colors of the team.
 You can use the remote control "ascet-pult".
 http://github.com/PingvinOpenTag/LTAscetic/tree/master/Ascet_pult_3_1
-But before you start using it you need to initialize it. 
+But before using it must be initialized after the firmware download.
 Command to initialize on the menu.
