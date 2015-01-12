@@ -14,6 +14,7 @@ and correct it so
 
 if ((! (TSOP_IN & TSOP_PIN)) / * && (! (BT_STATE_IN & BT_STATE_PIN)) * /) // if the input INT0 low level
 
+Rebuild the project. 
 The new firmware file with the extension .hex will be in a subdirectory "defalt" of the project directory.
 
 
