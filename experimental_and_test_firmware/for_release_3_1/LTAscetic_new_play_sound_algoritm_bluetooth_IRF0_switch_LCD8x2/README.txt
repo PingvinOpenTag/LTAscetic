@@ -31,7 +31,7 @@ In the settings now made and the carrier frequency of the IR signal - 36 or 56 k
 
 You can also adjust the rate when shooting in auto mode.
 
-Firmware understands the IR RC command "Start Game" and "kill the player," and commands to change the colors of the team.
+Firmware understands the IR RC command "Start Game" and "kill the player" and commands to change the colors of the team.
 You can use the remote control "ascet-pult".
 http://github.com/PingvinOpenTag/LTAscetic/tree/master/Ascet_pult_3_1
 
