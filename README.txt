@@ -20,7 +20,7 @@ NEW!!!
 http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/Qt5_version/02_10_2014/Configurator_and_libs_10_sounds.zip/download
 
 Android port (Qt version)
-https://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/Qt5_Android_version/
+http://sourceforge.net/projects/ascetconfigurat/files/Ascet-configurator/Qt5_Android_version/
 
 
 
