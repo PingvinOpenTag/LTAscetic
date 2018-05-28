@@ -117,4 +117,5 @@ uint8_t data [8];
 #define Change_color 0xA9//сообщение сменить цвет команды 
 #define Command 0x83 //сообщение-команда
 #define Valid_value 0xE8 //корректное значение контрольного байта сообщения
-
+#define Set_life 0xA3 //установить хх жизней
+#define Set_damage 0xA8 //установить хх урон
