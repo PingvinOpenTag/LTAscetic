@@ -17,7 +17,7 @@
 #define EN 0
 #define RU 1
 
-#define LANGUAGE EN
+//#define LANGUAGE EN
 //#define LANGUAGE RU
 
 //Декларируем наши функции
@@ -108,6 +108,8 @@ void finde_message_in_bt_buffer(void);//ищем сообщение в приемном буфере блютус
 
 void set_cyclic_deley_counter(); //настраиваем время задержки до следующего выстрела
 								// при автоматической стрельбк и время отсечки звука
+void new_game(void);//старт новой игры
+
 
 extern volatile uint16_t timer1; 
 extern volatile uint16_t timer2; 
