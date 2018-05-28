@@ -324,16 +324,24 @@ switch(reload_key_event)
 						
 						case RX_ERROR:		//ошибка приема
 						{
+							if((reload_state!=nothing_to_do)||(simples_in_queue!=0))
+							{
+								rx_event = NOT_EVENT;
+								break;
+							}
+
+
                             if((!ir_error_ignore)&&(!eeprom_is_open))//если не надо игнорировать ошибку и звук не воспроизводиться уже
                             {
 						//	cli();
-							BULLETS_OUT_LED_ON;
+						//	BULLETS_OUT_LED_ON;
+							
+							playback_sound(flying_bullet_sound);
 							/*
 							timer2=0;
 							while(timer2 < 4000);
 							*/
-							play_sound_8();
-							BULLETS_OUT_LED_OFF;
+							//BULLETS_OUT_LED_OFF;
                             }
                             rx_event = NOT_EVENT;
 						//	sei();
@@ -4053,13 +4061,28 @@ void test_bt_data()
 			break;
 			case RX_ERROR:		//ошибка приема
 			{
-				    if((!ir_error_ignore)&&(!eeprom_is_open))	
-					{
-						play_sound_8();
-						keyboard_event=no_key_pressing; 
-					}
+				if((reload_state!=nothing_to_do)||(simples_in_queue!=0))
+				{
+					rx_event = NOT_EVENT;
+					break;
+				}
+
+
+                if((!ir_error_ignore)&&(!eeprom_is_open))//если не надо игнорировать ошибку и звук не воспроизводиться уже
+                {
+					//	BULLETS_OUT_LED_ON;
+							
+					playback_sound(flying_bullet_sound);
+					/*
+					timer2=0;
+					while(timer2 < 4000);
+					*/
+					//BULLETS_OUT_LED_OFF;
+                }
+                rx_event = NOT_EVENT;
+				break;
 			}
-			break;
+
 			case RX_MESSAGE_COMPLITE://принято сообщение
 						{
 					//		rx_event = NOT_EVENT;							
@@ -4292,7 +4315,7 @@ switch (sound_role)
 		break;
 		
 		//звук "пролетающей пули"
-		case flying_bullet_sound: simples_in_queue = eeprom_read_word(&sound_8_size);
+		case flying_bullet_sound:
 		{
 			curr_sound.role = sound_role;
 			curr_sound.adress = eeprom_read_word(&sound_8_adress);
