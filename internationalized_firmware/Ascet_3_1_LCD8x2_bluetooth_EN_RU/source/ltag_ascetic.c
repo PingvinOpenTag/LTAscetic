@@ -277,31 +277,31 @@ switch(reload_key_event)
 																				
 										break;
 									}
-									  
+									case Set_life:// установить хх жизней
+									{
+										life_in_percent = ir_message.param;
+										life = (life_in_percent*10)/125;
+										if ((life==0)&&(life_in_percent>0)) life=1;
+										status_need_update = true;
+										eeprom_write_byte(&life_after_start,ir_message.param);
+										beep(1000, 2, 128);
+										break;
+									}
+									case Set_damage://установить хх урон
+									{
+										eeprom_write_byte(&eeprom_damage,ir_message.param);
+										set_gun_damage(gun_damage());
+										beep(1000, 2, 128);
+										break;
+									}
+																				  
 									  
 									case Command://кака€ то дополнительно€ команда
                               		{
                                     	
 										switch(ir_message.param)//вы€сним, кака€ это командв
 										{
-											case Set_life:// установить хх жизней
-											{
-												life_in_percent = ir_message.param;
-												life = (life_in_percent*10)/125;
-												if ((life==0)&&(life_in_percent>0)) life=1;
-												status_need_update = true;
-												eeprom_write_byte(&life_after_start,ir_message.param);
-												beep(1000, 2, 128);
-												break;
-											}
-											case Set_damage://установить хх урон
-											{
-												eeprom_write_byte(&eeprom_damage,ir_message.param);
-												set_gun_damage(gun_damage());
-												beep(1000, 2, 128);
-												break;
-											}
-											
+
 											
 											
 											case 0x05://начать новую игру немедленно
@@ -4125,6 +4125,23 @@ void test_bt_data()
 								 		//код дл€ добавлени€ патронов
                                  		break;
                               		}
+									case Set_life:// установить хх жизней
+									{
+										life_in_percent = ir_message.param;
+										life = (life_in_percent*10)/125;
+										if ((life==0)&&(life_in_percent>0)) life=1;
+										status_need_update = true;
+										eeprom_write_byte(&life_after_start,ir_message.param);
+										beep(1000, 2, 128);
+										break;
+									}
+									case Set_damage://установить хх урон
+									{
+										eeprom_write_byte(&eeprom_damage,ir_message.param);
+										set_gun_damage(gun_damage());
+										beep(1000, 2, 128);
+										break;
+									}									  
 									case Change_color:
 									{
 										//код дл€ смены цвета
